@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "3D Vision Lab - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "3D Vision Lab -- Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -49,11 +49,8 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
-
 
 ## Full List
-
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
