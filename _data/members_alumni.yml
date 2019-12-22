@@ -1,0 +1,17 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Kyungjin Lee
+  photo: kyungjin_lee.jpg
+  info: Masters, 2020
+  email: kjlee@mwnl.snu.ac.kr
+  educations:
+    - M.S. Electrical and Computer Engineering, Seoul National University
+    - B.S. Electrical and Computer Engineering, Seoul National University

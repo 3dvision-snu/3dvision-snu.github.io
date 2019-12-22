@@ -1,0 +1,13 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  page:
+#  educations:
+
+- name: Jeonghwan Kim
+  photo: jeonghwan_kim.jpg
+  info: B.S. expected 2020
+  email: whitealex95@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University

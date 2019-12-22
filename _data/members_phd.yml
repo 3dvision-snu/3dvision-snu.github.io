@@ -1,0 +1,15 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  page:
+#  educations:
+
+
+- name: Cheolhui Min
+  photo: cheolhui_min.jpg
+  info: Ph.D, starts 2020
+  email: minch5048@gmail.com
+  educations:
+    - M.S. Mechanical Engineering, Korea University
+    - B.S. Mechanical Engineering, Korea University

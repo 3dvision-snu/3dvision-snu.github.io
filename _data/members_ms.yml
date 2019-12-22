@@ -1,0 +1,43 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  page:
+#  educations:
+
+- name: Hyeontae Sohn
+  photo: hyeontae_sohn.jpg
+  info: Masters, started Sep 2019
+  email: sonhyuntae@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University
+
+- name: Juhyeon Kim
+  photo: juhyeon_kim.jpg
+  info: Masters, started Sep 2019
+  email: cjdeka3123@naver.com
+  educations:
+    - B.S. College of Liberal Studies, Seoul National University
+
+- name: Jinseok Bae
+  photo: jinseok_bae.jpg
+  info: Masters, starts Mar 2020
+  email: capoo4938@gmail.com
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University
+    - B.S. Biosystems Engineering, Seoul National University
+
+- name: Junho Kim
+  photo: junho_kim.jpg
+  info: Masters, starts Mar 2020
+  email: 82magnolia@naver.com
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University
+
+- name: Dongsu Zhang
+  photo: dongsu_zhang.jpg
+  info: Masters, starts Mar 2020
+  email: 96lives@snu.ac.kr
+  page: http://dszhang.me
+  educations:
+    - B.S. Computer Science and Engineering, Seoul National University

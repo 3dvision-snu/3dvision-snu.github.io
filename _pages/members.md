@@ -23,41 +23,13 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
+  {% for educ in member.educations %}
+  <li> {{ educ }} </li>
+  {% endfor %}
   </ul>
 </div>
 
@@ -74,9 +46,9 @@ permalink: /members/
 </div>
 {% endif %}
 
-## Students
+## Ph.D Students
 {% assign number_printed = 0 %}
-{% for member in site.data.members_student %}
+{% for member in site.data.members_phd %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -85,41 +57,13 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
+  {% for educ in member.educations %}
+  <li> {{ educ }} </li>
+  {% endfor %}
   </ul>
 </div>
 
@@ -137,10 +81,9 @@ permalink: /members/
 {% endif %}
 
 
-
-## Master and Bachelor Students
+## Masters Students
 {% assign number_printed = 0 %}
-{% for member in site.data.member_students %}
+{% for member in site.data.members_ms %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -149,32 +92,48 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <a rel="canonical" href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
+  {% for educ in member.educations %}
+  <li> {{ educ }} </li>
+  {% endfor %}
+  </ul>
+</div>
 
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
+{% assign number_printed = number_printed | plus: 1 %}
 
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
+{% endfor %}
 
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
+
+## B.S. Students
+{% assign number_printed = 0 %}
+{% for member in site.data.members_bs %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <ul style="overflow: hidden">
+  {% for educ in member.educations %}
+  <li> {{ educ }} </li>
+  {% endfor %}
   </ul>
 </div>
 
@@ -193,9 +152,8 @@ permalink: /members/
 
 
 ## Alumni
-
 {% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
+{% for member in site.data.members_alumni %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -204,11 +162,13 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
-
+  {% for educ in member.educations %}
+  <li> {{ educ }} </li>
+  {% endfor %}
   </ul>
 </div>
 
@@ -225,16 +185,15 @@ permalink: /members/
 </div>
 {% endif %}
 
-<!-- 
-<div class="col-sm-4 clearfix">
+<!-- <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}
-</div> -->
-
 </div>
 
+</div> -->
 
+<!-- 
 ## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
+<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->
