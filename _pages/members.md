@@ -20,7 +20,7 @@ permalink: /members/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-10 clearfix">
+<div class="col-sm-8 clearfix">
   {% if member.page == nil %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% else %}
