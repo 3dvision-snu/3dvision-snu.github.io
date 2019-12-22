@@ -65,7 +65,11 @@ permalink: /members/
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  
+  <i>
+    <strong> email: </strong> <{{ member.email }}> <br>
+    <strong> research interests: </strong> {{member.research_interests}}
+  </i>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
@@ -104,7 +108,11 @@ permalink: /members/
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  
+  <i>
+    <strong> email: </strong> <{{ member.email }}> <br>
+    <strong> research interests: </strong> {{member.research_interests}}
+  </i>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
@@ -143,7 +151,10 @@ permalink: /members/
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>
+    <strong> email: </strong> <{{ member.email }}> <br>
+    <strong> research interests: </strong> {{member.research_interests}}
+  </i>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>

@@ -7,7 +7,8 @@
 
 - name: Jeonghwan Kim
   photo: jeonghwan_kim.jpg
-  info: B.S. expected 2020
+  research_interests: robotics
+  # info: B.S. expected 2020
   email: whitealex95@snu.ac.kr
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)

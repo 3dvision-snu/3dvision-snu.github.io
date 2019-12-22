@@ -7,37 +7,42 @@
 
 - name: Hyeontae Sohn
   photo: hyeontae_sohn.jpg
-  info: Masters, started Sep 2019
+  research_interests: 3D reconstruction
+  # info: Masters, started Sep 2019
   email: sonhyuntae@snu.ac.kr
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2019
 
 - name: Juhyeon Kim
   photo: juhyeon_kim.jpg
-  info: Masters, started Sep 2019
+  research_interests:
+  # info: Masters, started Sep 2019
   email: cjdeka3123@naver.com
   educations:
-    - B.S. College of Liberal Studies, Seoul National University
+    - B.S. College of Liberal Studies, Seoul National University, 2019
 
 - name: Jinseok Bae
   photo: jinseok_bae.jpg
-  info: Masters, starts Mar 2020
+  research_interests:
+  # info: Masters, starts Mar 2020
   email: capoo4938@gmail.com
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University
-    - B.S. Biosystems Engineering, Seoul National University
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
+    - B.S. Biosystems Engineering, Seoul National University, 2020 (expected)
 
 - name: Junho Kim
   photo: junho_kim.jpg
-  info: Masters, starts Mar 2020
+  research_interests:
+  # info: Masters, starts Mar 2020
   email: 82magnolia@naver.com
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
 
 - name: Dongsu Zhang
   photo: dongsu_zhang.jpg
-  info: Masters, starts Mar 2020
+  research_interests: scene perception
+  # info: Masters, starts Mar 2020
   email: 96lives@snu.ac.kr
-  page: http://dszhang.me
+  page: http://dszhang.me/about
   educations:
-    - B.S. Computer Science and Engineering, Seoul National University
+    - B.S. Computer Science and Engineering, Seoul National University, 2020 (expected)
