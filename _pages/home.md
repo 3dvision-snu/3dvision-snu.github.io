@@ -1,16 +1,18 @@
 ---
-title: "Allan Lab - Home"
+title: "3D Vison Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
 permalink: /
 ---
+We sense, model, and understand the geometric structure around us.
+The geometric structure stems from the physical space we live in, and we utilize the information to better combine knowledge and embed technology within the relationship between objects and humans. 
+To do this, we adapt the state-of-the-art techniques from computer graphics, computer vision, machine learning, and robotics.
+The ultimate goal is to embrace the technology to seamlessly augment the limitation of time, space, or human, and make a better world.
 
-We are a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
-
-
+<!--
+Commented!!
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
-    <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -21,7 +23,6 @@ We are a dynamic research group at the [Leiden Institute of Physics](http://www.
         <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
-    <!-- Items -->
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
@@ -74,3 +75,4 @@ We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi tal
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
 </figure>
+-->
