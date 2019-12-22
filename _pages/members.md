@@ -1,12 +1,10 @@
 ---
-title: "Allan Lab - Members"
+title: "3D vision lab - Members"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "3D vision lab: Team members"
 sitemap: false
 permalink: /members/
 ---
-
-# Group Members
 
  <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
@@ -22,7 +20,7 @@ permalink: /members/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-10 clearfix">
   {% if member.page == nil %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% else %}
@@ -89,7 +87,7 @@ permalink: /members/
 {% endif %}
 
 
-## Masters Students
+## M.S Students
 {% assign number_printed = 0 %}
 {% for member in site.data.members_ms %}
 
@@ -128,7 +126,7 @@ permalink: /members/
 {% endif %}
 
 
-## B.S. Students
+## B.S Students
 {% assign number_printed = 0 %}
 {% for member in site.data.members_bs %}
 
