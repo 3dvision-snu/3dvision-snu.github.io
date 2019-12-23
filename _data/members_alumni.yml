@@ -8,10 +8,4 @@
 #  education3:
 #  education4:
 
-- name: Kyungjin Lee
-  photo: kyungjin_lee.jpg
-  # info: Masters, 2020
-  email: kjlee@mwnl.snu.ac.kr
-  educations:
-    - M.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2018
+
