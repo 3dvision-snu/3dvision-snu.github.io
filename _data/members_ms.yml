@@ -10,23 +10,16 @@
   research_interests: 3D reconstruction
   # info: Masters, started Sep 2019
   email: sonhyuntae@snu.ac.kr
+  page: "#"
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2019
-
-- name: Kyungjin Lee
-  photo: kyungjin_lee.jpg
-  research_interests: edge computing, mobile 3D multimedia streaming
-  # info: Masters, 2020
-  email: kjlee@mwnl.snu.ac.kr
-  educations:
-    - M.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2018
 
 - name: Juhyeon Kim
   photo: juhyeon_kim.jpg
   research_interests: computer graphics, reinforcement learning
   # info: Masters, started Sep 2019
   email: cjdeka3123@snu.ac.kr
+  page: "#"
   educations:
     - B.S. College of Liberal Studies, Seoul National University, 2019
 
@@ -35,6 +28,7 @@
   research_interests: scene understanding, human object interaction
   # info: Masters, starts Mar 2020
   email: capoo4938@gmail.com
+  page: "#"
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
     - B.S. Biosystems Engineering, Seoul National University, 2020 (expected)
@@ -44,6 +38,7 @@
   research_interests: 3D computer vision
   # info: Masters, starts Mar 2020
   email: 82magnolia@naver.com
+  page: "#"
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
 

@@ -8,18 +8,57 @@ permalink: /research/
 
 # Research
 
-Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
+We strive to the emerging field of 3D vision where we understand the 3D world around us. We not only sense, acquire and perceive the 3D models, but also visualize and extract semantic information to develop various applications, namely VR/AR, robotics, human augmentation, and ambient intelligence to name a few. The ultimate goal is the bridge between human and intelligent agent to benefit human.
 
-Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? 
- 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/layers_real.jpg){: style="width: 300px; float: right; border: 10px"}
+### Research projects include: <br>
+**1) 3D acquisition and modeling:**{: style="font-size: 110%" } With the help of various acquisition devices, we can capture and build a 3D model of objects, scenes, and human bodies. The research assist robots or human users to acquire the 3D models of interest. We also ease the everyday use of acquired models in everyday life by updating the 3D models with light-weight acquisition devices, or send the stream of 3D video over mobile network.
 
-Currently, our instrument of choice  is SI-STM.  State-of-the-art SI-STM measures an array of tunneling spectra on a given sample, registered to the atomic sites with picometer precision. Each is proportional to the local density of states at a given location. Ideally, the recorded spectra are so tightly packed that the measurement yields a three-dimensional mapping of the local density of states as a function of locations and energy. This is shown on the image on the right-hand side (10x10 nm2), and its Fourier transform, below.
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image001.png){: style="width: 300px; border: 10px"}<br>
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image002.png){: style="width: 300px; border: 10px"}<br>
 
-The quantum materials which we will investigate encapsulate some of the great unsolved mysteries of physics. They include high-temperature superconductors, quantum-critical compounds, graphene, and topological electronic matter that can be used for error-resistant quantum computing.
+**Light-Weight Update of Large- Scale 3D Scenes**<br>
+<U>Research objective</U>: Given off-line 3D scan and online 360 photo, quickly update the 3D model of the scene.<br>
+<U>Approach</U>: Hybrid feature matching of different data modality for localization, the change detection of 360 images with respect to the large- scale 3D model.<br>
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/layers_fft.jpg){: style="width: 300px; float: left; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image003.png){: style="width: 300px; border: 10px"}<br>
 
-A main goal is to use modern technology to build the new instrumentation needed to understand these quantum materials. I learned my trade in [Seamus Davis’ SI-STM lab](http://davisgroup.lassp.cornell.edu/) and with [Felix Baumberger](http://dpmc.unige.ch/gr_baumberger/index.html), and later moved as an [ETH fellow](http://www.ethfellows.ethz.ch/) to [Andreas Wallraff’s qudev lab](http://www.qudev.ethz.ch/) where we investigated coupled cavity arrays in circuit QED. This allowed me to learn new techniques such as high frequency measurements, low temperature noise-free amplification, and quantum-limited measurements. The goal is to combine these with SI-STM.
+**Real-Time 3D Video Streaming System**<br>
+<U>Research objective</U>: Streaming volumetric video at video frame rate via mobile devices<br>
+<U>Research scope</U>: Efficient storing and processing with dynamic octree structure, adaptive rendering resolution and view-point prediction<br><br>
 
-This will enable the instrumental capabilities to visualize the different quantum mechanical degrees of freedom needed to understand next-generation quantum materials. STM will be the main method, but we use different spectroscopic-imaging techniques to visualize not only the topography, but also the density of states, spins, and other degrees of freedom hidden below the surface.
+**2) Using 3D models for visualization:**{: style="font-size: 110%" } 3D models are crucial for seamless AR/VR applications and realistic rendering. The key technical components include localization, pose estimation, texture acquisition, and lighting estimation.<br>
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image004.jpg){: style="width: 300px; border: 10px"}<br>
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image005.png){: style="width: 300px; border: 10px"}<br>
+
+**Novel View Synthesis**<br>
+<U>Research objective</U>: Synthesize a target view from a given source view and its camera pose without a 3D model, Extend the latent space representation into multi-object 3D scenes<br>
+<U>Approach</U>: Neural rending with end-to-end trainable framework<br><br>
+
+**3) Using 3D data for perception:**{: style="font-size: 110%" } 3D information is widely used for perception, and recent trends on 3D perception utilize the state-of-the-art techniques from computer vision and machine learning. We utilize neural networks of generative models, metric learning, and/or reinforcement learning to boost the performance.<br>
+
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image006.jpg){: style="width: 300px; border: 10px"}<br>
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image007.png){: style="width: 300px; border: 10px"}<br>
+
+**Shape Completion Preserving Details**<br>
+<U>Motivation</U>: Existing 3D data suffer from occlusion and noise of sensors. Current shape completion pipeline acts as object recognition<br>
+<U>Approach</U>: Train GAN in local and global shape and use graph-based convolutional network to preserve details<br>
+
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image008.png){: style="width: 300px; border: 10px"}<br>
+
+**Point Cloud Instance Segmentation**<br>
+<U>Research objective</U>: Direct segmentation of individual objects on the raw 3D measurements<br>
+<U>Approach</U>: Deep metric learning on point cloud feature extracted via sparse convolutional neural network<br><br>
+
+**4) Using 3D information for interaction**:  The real-world 3D models are utilized for manipulation, navigation, or other robotic applications. Our focus is to build algorithms to control robot in un-constrained set-up and robust to small changes.
+
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image009.png){: style="width: 300px; border: 10px"}<br>
+
+**Visuomotor Policy via Scene Understanding**<br>
+<U>Research objective</U>: Given complex visual scene, make robot disentangle raw observation into latent full state, and learn generalized policy.<br>
+<U>Research scope</U>: Robot manipulation in non-stationary environment based on 2D/3D raw observation<br>
+
+![]({{ site.url }}{{ site.baseurl }}/images/respic/image010.png){: style="width: 300px; border: 10px"}<br>
+
+**Occlusion-Aware Navigation**<br>
+<U>Research objective</U>: Given an approximate map of changing environment, infer the navigation path allowing online modification<br>
+<U>Research scope</U>: Scene understanding from partial observation, joint inference of human-object interaction and scene reconstruction<br><br>

@@ -178,7 +178,7 @@ permalink: /members/
 </div>
 {% endif %}
 
-<!--
+
 ## Alumni
 {% assign number_printed = 0 %}
 {% for member in site.data.members_alumni %}
@@ -218,7 +218,7 @@ permalink: /members/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
- -->
+
 
 <!-- <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
