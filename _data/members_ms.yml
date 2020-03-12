@@ -10,7 +10,7 @@
   research_interests: 3D reconstruction
   # info: Masters, started Sep 2019
   email: sonhyuntae@snu.ac.kr
-  page: "#"
+  # page: "#"
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2019
 
@@ -19,7 +19,7 @@
   research_interests: computer graphics, reinforcement learning
   # info: Masters, started Sep 2019
   email: cjdeka3123@snu.ac.kr
-  page: "#"
+  # page: "#"
   educations:
     - B.S. College of Liberal Studies, Seoul National University, 2019
 
@@ -28,25 +28,23 @@
   research_interests: scene understanding, human object interaction
   # info: Masters, starts Mar 2020
   email: capoo4938@gmail.com
-  page: "#"
+  # page: "#"
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
-    - B.S. Biosystems Engineering, Seoul National University, 2020 (expected)
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+    - B.S. Biosystems Engineering, Seoul National University, 2020
 
 - name: Junho Kim
   photo: junho_kim.jpg
   research_interests: 3D computer vision
-  # info: Masters, starts Mar 2020
   email: 82magnolia@naver.com
-  page: "#"
+  # page: "#"
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020 (expected)
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
 
 - name: Dongsu Zhang
   photo: dongsu_zhang.jpg
   research_interests: spatial perception
-  # info: Masters, starts Mar 2020
   email: 96lives@snu.ac.kr
   page: http://dszhang.me/about
   educations:
-    - B.S. Computer Science and Engineering, Seoul National University, 2020 (expected)
+    - B.S. Computer Science and Engineering, Seoul National University, 2020
