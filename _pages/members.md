@@ -29,6 +29,7 @@ permalink: /members/
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
+  <div style="display: flow-root;">
   <i>
     <strong> {{ member.info }}<br></strong>
     <strong>Email: </strong><{{ member.email }}>
@@ -38,6 +39,7 @@ permalink: /members/
   <li> {{ educ }} </li>
   {% endfor %}
   </ul>
+</div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -68,24 +70,23 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <div style="display: inline-block; margin-bottom: 11px;">
   {% if member.page == nil %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% else %}
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
-  
+  <div style="display: flow-root;">
   <i>
     <strong> Email: </strong> <{{ member.email }}> <br>
-    <strong> Research Interests: </strong> {{member.research_interests}}
+    <strong> Research interests: </strong> {{member.research_interests}}<br>
   </i>
-  </div>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
   </ul>
+</div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -116,24 +117,23 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <div style="display: inline-block; margin-bottom: 11px;">
   {% if member.page == nil %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% else %}
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
-  
+  <div style="display: flow-root;">
   <i>
     <strong> Email: </strong> <{{ member.email }}> <br>
-    <strong> Research Interests: </strong> {{member.research_interests}}
+    <strong> Research interests: </strong> {{member.research_interests}}
   </i>
-  </div>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
   </ul>
+</div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -164,23 +164,23 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <div style="display: inline-block; margin-bottom: 11px;">
   {% if member.page == nil %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% else %}
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
+  <div style="display: flow-root;">
   <i>
     <strong> Email: </strong> <{{ member.email }}> <br>
-    <strong> Research Interests: </strong> {{member.research_interests}}
+    <strong> Research interests: </strong> {{member.research_interests}}
   </i>
-  </div>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
   </ul>
+</div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -211,24 +211,23 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <div style="display: inline-block; margin-bottom: 11px;">
   {% if member.page == nil %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% else %}
   <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
+  <div style="display: flow-root;">
   <i>
     <strong> Email: </strong> <{{ member.email }}>
   </i>
-  </div>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
   </ul>
 </div>
-
+</div>
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
