@@ -1,7 +1,7 @@
 ---
-title: "3D vision lab - Members"
+title: "3D Vision lab - Members"
 layout: gridlay
-excerpt: "3D vision lab: Team members"
+excerpt: "3D Vision lab: Team members"
 sitemap: false
 permalink: /members/
 ---

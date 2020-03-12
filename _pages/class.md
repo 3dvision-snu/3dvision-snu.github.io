@@ -7,20 +7,28 @@ permalink: /class/
 ---
 
 
-### Current Classes
+## Current Classes
 {% for class in site.data.classes_current %}
 <!-- <div class="row"> -->
 <div class="col-sm-12 clearfix">
-  <h4><a href="{{class.page}}">{{ class.name }}</a>{: style="color:black; text-decoration:underline"}</h4>
+  {% if class.page == nil %}
+  <h4>{{class.semester}}: {{ class.name }}</h4>
+  {% else %}
+  <h4>{{class.semester}}: <a href="{{class.page}}">{{ class.name }}</a></h4>
+  {% endif %}
 </div>
 {% endfor %}
 
 
-### Past Classes
+## Past Classes
 {% assign classes = (site.data.classes_past | sort: 'semester') | reverse %}
 {% for class in classes %}
 <!-- <div class="row"> -->
 <div class="col-sm-12 clearfix">
-  <h4><a href="{{class.page}}">{{ class.name }} ({{class.semester}})</a>{: style="color:black; text-decoration:underline"}</h4>
+  {% if class.page == nil %}
+  <h4>{{class.semester}}: {{ class.name }}</h4>
+  {% else %}
+  <h4>{{class.semester}}: <a href="{{class.page}}">{{ class.name }}</a></h4>
+  {% endif %}
 </div>
 {% endfor %}

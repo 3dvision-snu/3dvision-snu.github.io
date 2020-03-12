@@ -3,10 +3,8 @@
 #  educations:
 
 
-- name: Graphics
-  page: '#'
+- name: Computer Graphics
   semester: 2020-1
 
 - name: Signals and Systems
-  page: '#'
   semester: 2020-1

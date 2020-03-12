@@ -1,16 +1,16 @@
 
 - title: 'PotSAC: A Robust Axis Estimator for Axially Symmetric Pot Fragments'
-  image:
+  image: PotSAC.png
   description:
   authors: Je Hyeong Hong, Young Min Kim, Koang-Chul Wi and Jinwook Kim
   link:
-    url:
+    url: http://openaccess.thecvf.com/content_ICCVW_2019/papers/EH/Hong_PotSAC_A_Robust_Axis_Estimator_for_Axially_Symmetric_Pot_Fragments_ICCVW_2019_paper.pdf
     display: Workshop on e-Heritage at IEEE International Conference on Computer Vision (ICCV)  2019
   highlight: 0
   news2:
 
 - title: Primitive-Based Automatic 3D Scanning for Reverse Engineering of Mechanical Parts
-  image:
+  image: Primitive.jpg
   description:
   authors: Inhwan Lee, Ji Hyun Seo, Young Min Kim, Jonghyun Choi, Soonghung Han, Byounghyun Yoo
   link:
@@ -20,7 +20,7 @@
   news2:
 
 - title: 'RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for Real-Time Point Cloud Shape Completion'
-  image:
+  image: RL-GAN-Net.png
   description:
   authors: Muhammad Sarmad, Hyunjoo Jenny Lee, and Young Min Kim
   link:
@@ -30,7 +30,7 @@
   news2:
 
 - title: Planar Abstraction and Inverse Rendering of 3D Indoor Environment
-  image:
+  image: Planar Abstraction.png
   description:
   authors: Young Min Kim, Sangwoo Ryu, Ig-Jae Kim
   link:
@@ -40,7 +40,7 @@
   news2:
 
 - title: 3D Modeling from Photos Given Topological Information
-  image:
+  image: 3D Modeling.png
   description:
   authors: Young Min Kim, Junghyun Cho, Sang Chul Ahn
   link:
@@ -50,7 +50,7 @@
   news2:
 
 - title: Guided Real-Time Scanning of Indoor Objects
-  image:
+  image: Guided Real-Time.png
   description:
   authors: Young Min Kim, Niloy J. Mitra, Qixing Huang, Leonidas Guibas
   link:
@@ -60,7 +60,7 @@
   news2:
 
 - title: Acquiring 3D Indoor Environments with Variability and Repetition
-  image:
+  image: Acquiring 3D.png
   description:
   authors: Young Min Kim, Niloy J. Mitra, Dongming Yan, Leonidas Guibas
   link:
@@ -70,7 +70,7 @@
   news2:
 
 - title: Interactive Acquisition of Residential Floor Plans
-  image:
+  image: Interactive Acquisition.png
   description:
   authors: Young Min Kim, Jen Dolson, Mike Sokolsky, Vladlen Koltun, Sebastian Thrun
   link:
@@ -80,7 +80,7 @@
   news2:
 
 - title: Multi-view Image and ToF Sensor Fusion for Dense 3D Reconstruction
-  image:
+  image: Multi-view Image.png
   description:
   authors: Y.M. Kim, C. Theobalt, J. Diebel, J. Kosecka, B. Micusik, S. Thrun
   link:
@@ -90,7 +90,7 @@
   news2:
 
 - title: Design and Calibration of Multi-View TOF Sensor Fusion System
-  image:
+  image: Design and Calibration.png
   description:
   authors: Y.M. Kim, D. Chan, C. Theobalt, S. Thrun
   link:

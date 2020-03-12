@@ -6,8 +6,8 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research
-
+## Research
+<br>
 We strive to the emerging field of 3D vision where we understand the 3D world around us. We not only sense, acquire and perceive the 3D models, but also visualize and extract semantic information to develop various applications, namely VR/AR, robotics, human augmentation, and ambient intelligence to name a few. The ultimate goal is the bridge between human and intelligent agent to benefit human.
 
 ### Research projects include: <br>
