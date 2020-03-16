@@ -79,7 +79,7 @@ permalink: /members/
   <div style="display: flow-root;">
   <i>
     <strong> Email: </strong> <{{ member.email }}> <br>
-    <strong> Research interests: </strong> {{member.research_interests}}<br>
+    <strong> Research Interests: </strong> {{member.research_interests}}<br>
   </i>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
@@ -126,7 +126,7 @@ permalink: /members/
   <div style="display: flow-root;">
   <i>
     <strong> Email: </strong> <{{ member.email }}> <br>
-    <strong> Research interests: </strong> {{member.research_interests}}
+    <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
@@ -173,7 +173,7 @@ permalink: /members/
   <div style="display: flow-root;">
   <i>
     <strong> Email: </strong> <{{ member.email }}> <br>
-    <strong> Research interests: </strong> {{member.research_interests}}
+    <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
