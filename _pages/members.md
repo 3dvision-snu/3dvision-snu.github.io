@@ -154,7 +154,7 @@ permalink: /members/
 ## Interns
 
 {% assign number_printed = 0 %}
-{% for member in site.data.members_bs %}
+{% for member in site.data.members_intern %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
