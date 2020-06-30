@@ -48,3 +48,19 @@
   page: http://dszhang.me/about
   educations:
     - B.S. Computer Science and Engineering, Seoul National University, 2020
+
+- name: Changwoon Choi
+  photo: changwoon_choi.jpg
+  research_interests: 3D computer vision
+  # info: B.S. expected 2020
+  email: zzzmaster@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+
+- name: Junho Lee
+  photo: junho_lee.jpg
+  research_interests: vision-based reinforcement learning, few-shot learning
+  # info: B.S. expected 2020
+  email: twjhlee@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020

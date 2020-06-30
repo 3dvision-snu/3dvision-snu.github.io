@@ -12,14 +12,6 @@
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020
 
-- name: Changwoon Choi
-  photo: changwoon_choi.jpg
-  research_interests: 3D computer vision
-  # info: B.S. expected 2020
-  email: zzzmaster@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020(expected)
-
 - name: Jiyoung Yun
   photo: jiyoung_yun.jpg
   research_interests: 3d computer graphics
@@ -27,11 +19,3 @@
   email: jyyun423@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
-
-- name: Junho Lee
-  photo: junho_lee.jpg
-  research_interests: vision-based reinforcement learning, few-shot learning
-  # info: B.S. expected 2020
-  email: twjhlee@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020(expected)
