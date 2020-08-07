@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 .memo
 vendor
+*.DS_Store
