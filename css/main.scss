@@ -105,3 +105,51 @@ firstp {
     margin-left: 30px;
     margin-right: 30px;
 }
+
+/* Instructor for class info */
+.instructor-section {
+	display: inline-block;
+	margin-right: 32px;
+  }
+  
+.instructor {
+	display: inline-block;
+	text-align: center;
+	margin-right: 24px;
+  }
+
+.instructor img {
+	height: 136px;
+	border-radius: 68px;
+	vertical-align: middle;
+  }
+
+.ta {
+	display: inline-block;
+	text-align: center;
+	margin-right: 24px;
+  }
+
+  .ta img {
+	height: 136px;
+	border-radius: 68px;
+	vertical-align: middle;
+}
+
+.class_student {
+	display: inline-block;
+	text-align: center;
+	margin-right: 24px;
+  }
+
+.class_student img {
+	height: 300px;
+	vertical-align: middle;
+}
+
+.section {
+	margin-bottom: 48px;
+  }
+
+
+  

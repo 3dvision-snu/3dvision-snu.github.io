@@ -1,5 +1,5 @@
 ---
-title: "3D Vison Lab - Home"
+title: "3D Vision Lab - Home"
 layout: homelay
 excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false

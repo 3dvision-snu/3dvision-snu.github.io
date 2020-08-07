@@ -1,0 +1,110 @@
+#- class_name:
+#  class_page:
+#  educations:
+
+- name: Graphics Programming (2020 Spring)
+  semester: 2020-1
+  CourseDescription: "In this class, we will learn a broad topics related to computer graphics: geometry, rendering, animation, imaging. We will focus on actually implementing fundamental data structure and algorithm repeatedly used over time, and students should be able to write their own graphics program. The class will also cover the state-of-the-art techniques in computer graphics related to shader, VR/AR devices, mobile GPU, modern ray tracing, and deep learning."
+  instructor: 
+      name: Young Min Kim
+      photo: youngmin_kim.jpg
+  TAs:
+    - name: Juhyeon Kim
+      photo: juhyeon_kim.jpg
+
+    - name: Hyeontae Son
+      photo: hyeontae_sohn.jpg
+  Syllabus:
+      ClassTime: Mondays and Wednesdays, 5:00pm - 6:15pm
+      Location:  Building 301, Room 202
+      Topics:
+        - OpenGL for 2D
+        - OpenGL for 3D
+        - Geometry processing
+        - Matrials and lighting
+        - Color science and image processing
+        - Animation
+        - VR/AR
+        - Mobile GPU
+        - Modern ray tracing
+        - Deep learning for graphics pipeline
+      Textbooks: Fundamentals of Computer Graphics- Steve Marschner, Peter Shirley-A K Peters/CRC Press-2015
+      Prerequisites:
+        - Engineering Mathematics
+        - Linear Algebra
+        - Programming Methodology
+        - Signals and Systems
+        - Data Structures and Algorithms
+      GradingPolicy:
+        - name: Attendance
+          ratio: 5
+          contents: 3 Lab-Assignments
+
+        - name: Homeworks
+          ratio: 65
+          contents: 5 Assignments
+
+        - name: Final Project
+          ratio: 30
+          contents: free topic
+      FinalProject:
+        youtubeVideoLink: "https://www.youtube.com/watch?v=I2UlWovOfis&list=PLdNc_p2YXm2Gfua3hc-VnyUHMRhD3iVHv"
+        Videos:
+          - studentName: 김미정
+            youtubeLinkId: I2UlWovOfis
+          
+          - studentName: 정천기
+            youtubeLinkId: ycg01FGIgT8
+
+          - studentName: 최진영
+            youtubeLinkId: QuOZLtvdbWY
+
+          - studentName: 오창석
+            youtubeLinkId: qUC76b8PdtA
+
+          - studentName: 장필식
+            youtubeLinkId: 8iBhhZ0dTKI
+
+          - studentName: 정민규
+            youtubeLinkId: ldIKO6jxU7c
+
+          - studentName: 김하람
+            youtubeLinkId: cafy_6WDhqo
+
+          - studentName: 장동수
+            youtubeLinkId: MhmuZ7i9nWQ
+
+          - studentName: 김준호
+            youtubeLinkId: itMb6YILkGo
+
+          - studentName: 배진석
+            youtubeLinkId: kmpDAuMfTnc
+
+          - studentName: 민철희
+            youtubeLinkId: 0uWjWHQOBGo
+
+          - studentName: 이재린
+            youtubeLinkId: c8XH5t6okxA
+
+          - studentName: 배준형
+            youtubeLinkId: WGG9Mjb1Gqc
+
+          - studentName: 이영로
+            youtubeLinkId: QICkFo0Er9M
+
+          - studentName: 이채은
+            youtubeLinkId: Mcxk9nq9Mk4
+
+        Images:
+          - studentName: 박성현
+            photo: 
+              - park_1.png
+              - park_2.png
+
+          - studentName: 함유경
+            photo:
+              - PlaneCollision.gif
+              - SphereCollision.gif
+
+
+

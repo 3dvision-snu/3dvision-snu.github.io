@@ -1,11 +1,10 @@
 ---
-title: "3D Vison Lab - Class"
+title: "3D Vision Lab - Class"
 layout: textlay
 excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
 permalink: /class/
 ---
-
 
 ## Current Classes
 {% for class in site.data.classes_current %}
@@ -18,6 +17,7 @@ permalink: /class/
   {% endif %}
 </div>
 {% endfor %}
+&nbsp;
 
 
 ## Past Classes
