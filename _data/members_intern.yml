@@ -19,3 +19,19 @@
   email: jyyun423@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
+
+- name: Cheongi Jeong
+  photo: cheongi_jeong.jpg
+  research_interests: computer graphics, representation learning
+  # info: B.S. expected 2021
+  email: jcg0508@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
+
+- name: Mingi Lee
+  photo: mingi_lee.jpg
+  research_interests: vision-based reinforcement learning
+  # info: B.S. expected 2021
+  email: mingi1019@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
