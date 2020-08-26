@@ -1,4 +1,25 @@
 
+- title: Novel View Synthesis with Skip Connections
+  image: Novel-View-Synthesis.png
+  description:
+  authors: Ju Hyeon Kim, Young Min Kim
+  link:
+    url:
+    display: IEEE International Conference on Image Processing (ICIP) 2020
+    code : https://github.com/juhyeonkim95/NovelViewSynthesis
+  highlight: 0
+  news2:
+
+- title: 'GROOT: A Real-time Streaming System of High-Fidelity Volumetric Videos'
+  image: GROOT.jpg
+  description:
+  authors: Kyungjin Lee, Juheon Yi, Youngki Lee, Sunghyun Choi, Young Min Kim
+  link:
+    url:
+    display: ACM International Conference on Mobile Computing and Networking (MobiCom) 2020
+  highlight: 0
+  news2:
+
 - title: 'PotSAC: A Robust Axis Estimator for Axially Symmetric Pot Fragments'
   image: PotSAC.png
   description:
@@ -9,13 +30,13 @@
   highlight: 0
   news2:
 
-- title: Primitive-Based Automatic 3D Scanning for Reverse Engineering of Mechanical Parts
+- title: Automatic Pose Generation for Robotic 3-D Scanning of Mechanical Parts
   image: Primitive.jpg
   description:
   authors: Inhwan Lee, Ji Hyun Seo, Young Min Kim, Jonghyun Choi, Soonghung Han, Byounghyun Yoo
   link:
-    url:
-    display: (Conditionally accepted to  IEEE Transactions on Robotics)
+    url: https://ieeexplore.ieee.org/document/9089042
+    display: IEEE Transactions on Robotics 2020
   highlight: 0
   news2:
 
@@ -25,7 +46,7 @@
   authors: Muhammad Sarmad, Hyunjoo Jenny Lee, and Young Min Kim
   link:
     display: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019
-    url:
+    url: https://openaccess.thecvf.com/content_CVPR_2019/papers/Sarmad_RL-GAN-Net_A_Reinforcement_Learning_Agent_Controlled_GAN_Network_for_Real-Time_CVPR_2019_paper.pdf
   highlight: 0
   news2:
 
@@ -35,7 +56,7 @@
   authors: Young Min Kim, Sangwoo Ryu, Ig-Jae Kim
   link:
     display: Eurographics short paper 2019
-    url:
+    url: https://ieeexplore.ieee.org/document/8936883
   highlight: 0
   news2:
 
@@ -45,7 +66,7 @@
   authors: Young Min Kim, Junghyun Cho, Sang Chul Ahn
   link:
     display: IEEE Transactions on Visualization and Computer Graphics 2016
-    url:
+    url: https://ieeexplore.ieee.org/document/7346503
   highlight: 0
   news2:
 
@@ -55,7 +76,7 @@
   authors: Young Min Kim, Niloy J. Mitra, Qixing Huang, Leonidas Guibas
   link:
     display: Pacific Graphics (Computer Graphics Forum) 2013
-    url:
+    url: https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12225
   highlight: 0
   news2:
 
@@ -65,7 +86,7 @@
   authors: Young Min Kim, Niloy J. Mitra, Dongming Yan, Leonidas Guibas
   link:
     display: SIGGRAPH ASIA (Transactions on Graphics) 2012
-    url:
+    url: https://dl.acm.org/doi/10.1145/2366145.2366157
   highlight: 0
   news2:
 
@@ -75,7 +96,7 @@
   authors: Young Min Kim, Jen Dolson, Mike Sokolsky, Vladlen Koltun, Sebastian Thrun
   link:
     display: IEEE International Conference on Robotics and Animation (ICRA) 2012
-    url:
+    url: https://ieeexplore.ieee.org/document/6224595
   highlight:
   news2:
 
@@ -85,7 +106,7 @@
   authors: Y.M. Kim, C. Theobalt, J. Diebel, J. Kosecka, B. Micusik, S. Thrun
   link:
     display: IEEE Workshop on 3-D Digital Imaging and Modeling (3DIM) at the International Conference on Computer Vision (ICCV) 2009
-    url:
+    url: https://ieeexplore.ieee.org/document/5457430
   highlight:
   news2:
 
@@ -95,7 +116,7 @@
   authors: Y.M. Kim, D. Chan, C. Theobalt, S. Thrun
   link:
     display: IEEE Workshop on Time-of-flight Computer Vision at Conference on Computer Vision and Pattern Recognition (CVPR) 2008
-    url:
+    url: https://ieeexplore.ieee.org/document/4563160
   highlight:
   news2:
 

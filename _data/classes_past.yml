@@ -2,9 +2,16 @@
 #  class_page:
 #  educations:
 
+- name: Graphics Programming
+  semester: 2020-1
+  page: /class/graphics20
+
+- name: Signals and Systems
+  semester: 2020-1
 
 - name: Machine learning and optimization for 3D data
   semester: 2019-2
 
 - name: Signals and Systems
   semester: 2019-1
+

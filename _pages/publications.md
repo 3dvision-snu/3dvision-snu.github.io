@@ -15,9 +15,12 @@ permalink: /publications/
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
+  {% if publi.link.code %}
   <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
-
+  <strong><a href="{{ publi.link.code }}">[code]</a></strong>
+  {% else %}
+  <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
+  {% endif %}
 </div>
-
 {% endfor %}
 
