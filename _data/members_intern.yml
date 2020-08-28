@@ -12,22 +12,6 @@
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020
 
-- name: Jiyoung Yun
-  photo: jiyoung_yun.jpg
-  research_interests: 3D computer graphics
-  # info: B.S. expected 2021
-  email: jyyun423@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
-
-- name: Jaehyeok Bae
-  photo: jaehyeok_bae.jpg
-  research_interests: event-based computer vision
-  # info: B.S. expected 2022
-  email: wogur110@gmail.com
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022(expected)
-
 - name: Mingi Lee
   photo: mingi_lee.jpg
   research_interests: vision-based reinforcement learning
@@ -43,3 +27,13 @@
   email: j12040208@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
+
+- name: Jaehyeok Bae
+  photo: jaehyeok_bae.jpg
+  research_interests: event-based computer vision
+  # info: B.S. expected 2022
+  email: wogur110@gmail.com
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022(expected)
+
+
