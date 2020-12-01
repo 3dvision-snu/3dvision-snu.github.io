@@ -28,6 +28,14 @@
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
 
+- name: Cheongi Jeong
+  photo: cheongi_jeong.jpg
+  research_interests: neural rendering
+  # info: B.S. expected 2021
+  email: cbda1100@gmail.com
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
+
 - name: Jaehyeok Bae
   photo: jaehyeok_bae.jpg
   research_interests: event-based computer vision
