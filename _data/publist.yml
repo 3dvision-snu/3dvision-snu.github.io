@@ -1,3 +1,13 @@
+- title: 'SAUM: Symmetry-Aware Upsampling Module for Consistent Point Cloud Completion'
+  image: SAUM.png
+  description:
+  authors: Hyeontae Son, Young Min Kim
+  link:
+    url: https://openaccess.thecvf.com/content/ACCV2020/papers/Son_SAUM_Symmetry-Aware_Upsampling_Module_for_Consistent_Point_Cloud_Completion_ACCV_2020_paper.pdf
+    display: Asian Conference on Computer Vision (ACCV) 2020
+    code : https://github.com/countywest/SAUM
+  highlight: 0
+  news2:
 
 - title: Novel View Synthesis with Skip Connections
   image: Novel-View-Synthesis.png
@@ -20,15 +30,6 @@
   highlight: 0
   news2:
 
-- title: 'PotSAC: A Robust Axis Estimator for Axially Symmetric Pot Fragments'
-  image: PotSAC.png
-  description:
-  authors: Je Hyeong Hong, Young Min Kim, Koang-Chul Wi and Jinwook Kim
-  link:
-    url: http://openaccess.thecvf.com/content_ICCVW_2019/papers/EH/Hong_PotSAC_A_Robust_Axis_Estimator_for_Axially_Symmetric_Pot_Fragments_ICCVW_2019_paper.pdf
-    display: Workshop on e-Heritage at IEEE International Conference on Computer Vision (ICCV)  2019
-  highlight: 0
-  news2:
 
 - title: Automatic Pose Generation for Robotic 3-D Scanning of Mechanical Parts
   image: Primitive.jpg
@@ -37,6 +38,16 @@
   link:
     url: https://ieeexplore.ieee.org/document/9089042
     display: IEEE Transactions on Robotics 2020
+  highlight: 0
+  news2:
+
+- title: 'PotSAC: A Robust Axis Estimator for Axially Symmetric Pot Fragments'
+  image: PotSAC.png
+  description:
+  authors: Je Hyeong Hong, Young Min Kim, Koang-Chul Wi and Jinwook Kim
+  link:
+    url: http://openaccess.thecvf.com/content_ICCVW_2019/papers/EH/Hong_PotSAC_A_Robust_Axis_Estimator_for_Axially_Symmetric_Pot_Fragments_ICCVW_2019_paper.pdf
+    display: Workshop on e-Heritage at IEEE International Conference on Computer Vision (ICCV)  2019
   highlight: 0
   news2:
 
