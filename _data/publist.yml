@@ -1,4 +1,15 @@
-- title: 'SAUM: Symmetry-Aware Upsampling Module for Consistent Point Cloud Completion'
+-- title: 'Learning to generate 3D shapes with Generative Cellular Automata'
+  image: gca.gif
+  description:
+  authors: Dongsu Zhang, Changwoon Choi, Jeonghwan Kim, Young Min Kim
+  link:
+    url: https://openreview.net/forum?id=rABUmU3ulQh
+    display: International Conference on Learning Representations (ICLR) 2021
+    code : https://github.com/96lives/gca
+  highlight: 0
+  news2:
+
+ title: 'SAUM: Symmetry-Aware Upsampling Module for Consistent Point Cloud Completion'
   image: SAUM.png
   description:
   authors: Hyeontae Son, Young Min Kim
