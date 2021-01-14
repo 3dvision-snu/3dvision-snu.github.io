@@ -1,4 +1,4 @@
--- title: 'Learning to generate 3D shapes with Generative Cellular Automata'
+- title: 'Learning to generate 3D shapes with Generative Cellular Automata'
   image: gca.gif
   description:
   authors: Dongsu Zhang, Changwoon Choi, Jeonghwan Kim, Young Min Kim
@@ -9,7 +9,7 @@
   highlight: 0
   news2:
 
- title: 'SAUM: Symmetry-Aware Upsampling Module for Consistent Point Cloud Completion'
+- title: 'SAUM: Symmetry-Aware Upsampling Module for Consistent Point Cloud Completion'
   image: SAUM.png
   description:
   authors: Hyeontae Son, Young Min Kim
