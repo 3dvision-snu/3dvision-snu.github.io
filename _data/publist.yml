@@ -1,5 +1,15 @@
+- title: '3D Pots Configuration System by Optimizing Over Geometric Constraints'
+  image: 3Dpots.png
+  description:
+  authors: Jae Eun Kim, Muhammad Zeeshan Arshad, Seong Jong Yoo, Je Hyeong Hong, Jinwook Kim, Young Min Kim
+  link:
+    url: https://ailb-web.ing.unimore.it/icpr/author/4161
+    display: International Conference on Pattern Recognition (ICPR) 2021
+  highlight: 0
+  news2:
+
 - title: 'Learning to generate 3D shapes with Generative Cellular Automata'
-  image: gca_main.png
+  image: gca.gif
   description:
   authors: Dongsu Zhang, Changwoon Choi, Jeonghwan Kim, Young Min Kim
   link:
