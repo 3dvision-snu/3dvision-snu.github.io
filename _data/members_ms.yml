@@ -35,7 +35,7 @@
 
 - name: Junho Kim
   photo: junho_kim.jpg
-  research_interests: event-based computer vision
+  research_interests: visual localization, event-based computer vision
   email: 82magnolia@naver.com
   page: https://sites.google.com/view/jhk1997/home
   # page: "#"
@@ -65,3 +65,27 @@
   email: twjhlee@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+
+- name: Mingi Lee
+  photo: mingi_lee.jpg
+  research_interests: vision-based reinforcement learning
+  # info: B.S. expected 2021
+  email: mingi1019@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2021
+
+- name: Hojun Jang
+  photo: hojun_jang.jpg
+  research_interests: 3D computer vision
+  # info: B.S. expected 2021
+  email: j12040208@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2021
+
+- name: Cheongi Jeong
+  photo: cheongi_jeong.jpg
+  research_interests: neural rendering
+  # info: B.S. expected 2021
+  email: cbda1100@gmail.com
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2021

@@ -5,43 +5,20 @@
 #  page:
 #  educations:
 
-- name: Jeonghwan Kim
-  photo: jeonghwan_kim.jpg
-  research_interests: 3D scene understanding, human-object interaction, robotics
-  email: whitealex95@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
-
-- name: Mingi Lee
-  photo: mingi_lee.jpg
-  research_interests: vision-based reinforcement learning
-  # info: B.S. expected 2021
-  email: mingi1019@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
-
-- name: Hojun Jang
-  photo: hojun_jang.jpg
-  research_interests: 3D computer vision
-  # info: B.S. expected 2021
-  email: j12040208@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
-
-- name: Cheongi Jeong
-  photo: cheongi_jeong.jpg
-  research_interests: neural rendering
-  # info: B.S. expected 2021
-  email: cbda1100@gmail.com
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2021(expected)
-
 - name: Jaehyeok Bae
   photo: jaehyeok_bae.jpg
   research_interests: event-based computer vision
   # info: B.S. expected 2022
   email: wogur110@gmail.com
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022(expected)
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
+
+- name: Gangin Park
+  photo: gangin_park.png
+  research_interests: event-based computer vision
+  # info: B.S. expected 2022
+  email: ssonpull519@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
 
 
