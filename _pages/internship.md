@@ -5,7 +5,8 @@ excerpt: "3D Vision lab: Openings"
 sitemap: false
 permalink: /openings/
 ---
-## Current Opening
+## No Current Openings
+<!--
 {% assign number_printed = 0 %}
 {% for internship in site.data.openings %}
 
@@ -57,3 +58,4 @@ Please contact Prof. Young Min Kim (<{{ internship.contact }}>) with your CV, tr
 
 </div>
 {% endif %}
+-->
