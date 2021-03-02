@@ -27,6 +27,15 @@
   # info: B.S. expected 2022
   email: wrk9224@snu.ac.kr
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
+    - B.S. College of Liberal Studies, Seoul National University, 2022 (expected)
+
+- name: Inbum Park
+  photo: inbum_park.jpg
+  research_interests: 3D computer vision
+  # info: B.S. expected 2022
+  email: inbum0215@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
+
 
 

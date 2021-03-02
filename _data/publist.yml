@@ -1,3 +1,13 @@
+- title: 'GATSBI: Generative Agent-centric Spatio-temporal Object Interaction'
+  image: gatsbi.gif
+  description:
+  authors: Cheol-Hui Min, Jinseok Bae, Junho Lee, Young Min Kim
+  link:
+    url:
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2021
+  highlight: 0
+  news2:
+
 - title: 'Learning to generate 3D shapes with Generative Cellular Automata'
   image: gca.gif
   description:
@@ -78,7 +88,7 @@
   description:
   authors: Muhammad Sarmad, Hyunjoo Jenny Lee<sup>&#134;</sup>, Young Min Kim<sup>&#134;</sup>
   link:
-    display: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019
     url: https://openaccess.thecvf.com/content_CVPR_2019/papers/Sarmad_RL-GAN-Net_A_Reinforcement_Learning_Agent_Controlled_GAN_Network_for_Real-Time_CVPR_2019_paper.pdf
   highlight: 0
   news2:
