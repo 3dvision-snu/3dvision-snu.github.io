@@ -1,3 +1,14 @@
+- title: 'Auto-rigging 3D Bipedal Characters in Arbitrarily Poses'
+  image: autorigging.gif
+  description:
+  authors: Jeonghwan Kim, Hyeontae Son, Jinseok Bae, Young Min Kim
+  link:
+    url:
+    display: European Association for Computer Graphics (Eurographics) short paper 2021
+    code: https://github.com/whitealex95/autorigging-bipedal
+  highlight: 0
+  news2:
+
 - title: 'GATSBI: Generative Agent-centric Spatio-temporal Object Interaction'
   image: gatsbi.gif
   description:
