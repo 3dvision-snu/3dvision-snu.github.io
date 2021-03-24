@@ -1,0 +1,33 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+
+- name: Jeonghwan Kim
+  photo: jeonghwan_kim.jpg
+  research_interests: 3D scene understanding, human-object interaction, robotics
+  email: whitealex95@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+  status:
+    - M.S. student, Georgia Institute of Technology
+  end:
+    - 2021.02
+
+- name: Jaehyeok Bae
+  photo: jaehyeok_bae.jpg
+  research_interests: event-based computer vision
+  # info: B.S. expected 2022
+  email: wogur110@gmail.com
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
+  status:
+    - B.S. student, Seoul National University
+  end:
+    - 2021.03

@@ -200,8 +200,9 @@ permalink: /members/
 
 ## Alumni
 
+#### Graduate Students
 {% assign number_printed = 0 %}
-{% for member in site.data.members_alumni %}
+{% for member in site.data.members_alumni_graduate %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -210,23 +211,10 @@ permalink: /members/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  {% if member.page == nil %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  {% else %}
-  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
-  {% endif %}
-  <h4>{{ member.name }}</h4>
-  <div style="display: flow-root;">
-  <i>
-    <strong> Email: </strong> <{{ member.email }}>
-  </i>
-  <ul style="overflow: hidden">
-  {% for educ in member.educations %}
-  <li> {{ educ }} </li>
-  {% endfor %}
-  </ul>
-</div>
+<div class="col-xs-12 clearfix">
+
+**{{ member.name }}** (~{{member.end}}, {{member.final_edu}}) <span style="color:grey">Now {{member.status}}</span>
+
 </div>
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -242,6 +230,50 @@ permalink: /members/
 
 </div>
 {% endif %}
+
+#### Undergraduate Students
+{% assign number_printed = 0 %}
+{% for member in site.data.members_alumni_under_graduate %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+
+<div class="row">
+{% endif %}
+
+<div class="col-xs-12 clearfix">
+
+[comment]: <> (<h4>{{ member.name }}  <sub>{{member.status}}<sub></h4> )
+
+[comment]: <> (<h4>{{ member.name }} <span style="color:black">&#40;~{{member.end}}&#41;</span></h4>)
+
+
+**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+
+[comment]: <> (<h4>{{ member.name }} &#40;~{{member.end}}&#41;</h4>)
+
+[comment]: <> (<h5> **Current affiliation :** {{member.status}}</h5>)
+
+
+
+</div>
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
+
+
 
 <!-- <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>

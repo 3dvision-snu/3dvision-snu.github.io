@@ -5,14 +5,6 @@
 #  page:
 #  educations:
 
-- name: Jaehyeok Bae
-  photo: jaehyeok_bae.jpg
-  research_interests: event-based computer vision
-  # info: B.S. expected 2022
-  email: wogur110@gmail.com
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
-
 - name: Gangin Park
   photo: gangin_park.png
   research_interests: event-based computer vision
