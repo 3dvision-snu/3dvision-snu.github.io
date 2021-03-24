@@ -198,9 +198,10 @@ permalink: /members/
 </div>
 {% endif %}
 
+<br>
 ## Alumni
 
-#### Graduate Students
+#### **Graduate Students**
 {% assign number_printed = 0 %}
 {% for member in site.data.members_alumni_graduate %}
 
@@ -231,7 +232,7 @@ permalink: /members/
 </div>
 {% endif %}
 
-#### Undergraduate Students
+#### **Undergraduate Students**
 {% assign number_printed = 0 %}
 {% for member in site.data.members_alumni_under_graduate %}
 
