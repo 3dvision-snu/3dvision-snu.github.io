@@ -1,0 +1,29 @@
+- title: 'PotSAC: A Robust Axis Estimator for Axially Symmetric Pot Fragments'
+  image: PotSAC.png
+  description:
+  authors: Je Hyeong Hong, Young Min Kim, Koang-Chul Wi, Jinwook Kim
+  link:
+    url: http://openaccess.thecvf.com/content_ICCVW_2019/papers/EH/Hong_PotSAC_A_Robust_Axis_Estimator_for_Axially_Symmetric_Pot_Fragments_ICCVW_2019_paper.pdf
+    display: Workshop on e-Heritage at IEEE International Conference on Computer Vision (ICCV)  2019
+  highlight: 0
+  news2:
+
+- title: 'RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for Real-Time Point Cloud Shape Completion'
+  image: RL-GAN-Net.png
+  description:
+  authors: Muhammad Sarmad, Hyunjoo Jenny Lee<sup>&#134;</sup>, Young Min Kim<sup>&#134;</sup>
+  link:
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019
+    url: https://openaccess.thecvf.com/content_CVPR_2019/papers/Sarmad_RL-GAN-Net_A_Reinforcement_Learning_Agent_Controlled_GAN_Network_for_Real-Time_CVPR_2019_paper.pdf
+  highlight: 0
+  news2:
+
+- title: Planar Abstraction and Inverse Rendering of 3D Indoor Environment
+  image: Planar Abstraction.png
+  description:
+  authors: Young Min Kim, Sangwoo Ryu, Ig-Jae Kim
+  link:
+    display: Eurographics short paper 2019 <br> IEEE Transactions on Visualization and Computer Graphics (To appear)
+    url: https://ieeexplore.ieee.org/document/8936883
+  highlight: 0
+  news2:

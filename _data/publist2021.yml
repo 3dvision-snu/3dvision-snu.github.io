@@ -1,0 +1,42 @@
+- title: 'IMAT: The Iterative Medial Axis Transform'
+  image: imat.png
+  description:
+  authors: Yonghyeon Lee, Jonghyuk Baek, Young Min Kim, Frank Chongwoo Park
+  link:
+    url: https://onlinelibrary.wiley.com/doi/10.1111/cgf.14266
+    display: Computer Graphics Forum 2021
+    code:
+  highlight: 0
+  news2:
+
+- title: 'Auto-rigging 3D Bipedal Characters in Arbitrarily Poses'
+  image: autorigging.gif
+  description:
+  authors: Jeonghwan Kim, Hyeontae Son, Jinseok Bae, Young Min Kim
+  link:
+    url:
+    display: European Association for Computer Graphics (Eurographics) short paper 2021
+    code: https://github.com/whitealex95/autorigging-bipedal
+  highlight: 0
+  news2:
+
+- title: 'GATSBI: Generative Agent-centric Spatio-temporal Object Interaction'
+  image: gatsbi.gif
+  description:
+  authors: Cheol-Hui Min, Jinseok Bae, Junho Lee, Young Min Kim
+  link:
+    url:
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2021, Oral
+  highlight: 0
+  news2:
+
+- title: 'Learning to generate 3D shapes with Generative Cellular Automata'
+  image: gca.gif
+  description:
+  authors: Dongsu Zhang, Changwoon Choi, Jeonghwan Kim, Young Min Kim
+  link:
+    url: https://openreview.net/forum?id=rABUmU3ulQh
+    display: International Conference on Learning Representations (ICLR) 2021
+    code : https://github.com/96lives/gca
+  highlight: 0
+  news2:

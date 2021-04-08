@@ -1,0 +1,19 @@
+- title: Acquiring 3D Indoor Environments with Variability and Repetition
+  image: Acquiring 3D.png
+  description:
+  authors: Young Min Kim, Niloy J. Mitra, Dongming Yan, Leonidas Guibas
+  link:
+    display: SIGGRAPH ASIA (Transactions on Graphics) 2012
+    url: https://dl.acm.org/doi/10.1145/2366145.2366157
+  highlight: 0
+  news2:
+
+- title: Interactive Acquisition of Residential Floor Plans
+  image: Interactive Acquisition.png
+  description:
+  authors: Young Min Kim, Jen Dolson, Mike Sokolsky, Vladlen Koltun, Sebastian Thrun
+  link:
+    display: IEEE International Conference on Robotics and Animation (ICRA) 2012
+    url: https://ieeexplore.ieee.org/document/6224595
+  highlight:
+  news2:
