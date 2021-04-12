@@ -25,8 +25,9 @@
   description:
   authors: Cheol-Hui Min, Jinseok Bae, Junho Lee, Young Min Kim
   link:
-    url:
+    url: https://arxiv.org/abs/2104.04275
     display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2021, Oral
+    code: https://github.com/mch5048/gatsbi
   highlight: 0
   news2:
 
