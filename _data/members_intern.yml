@@ -4,15 +4,6 @@
 #  email:
 #  page:
 #  educations:
-
-- name: Gangin Park
-  photo: gangin_park.png
-  research_interests: event-based computer vision
-  # info: B.S. expected 2022
-  email: ssonpull519@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
-
 - name: Wonryeol Kwak
   photo: wonryeol_kwak.jpg
   research_interests: vision-based reinforcement learning
@@ -20,7 +11,6 @@
   email: wrk9224@snu.ac.kr
   educations:
     - B.S. College of Liberal Studies, Seoul National University, 2022 (expected)
-
 - name: Inbum Park
   photo: inbum_park.jpg
   research_interests: 3D computer vision
@@ -28,6 +18,17 @@
   email: inbum0215@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
-
-
-
+- name: Taegyun Lee
+  photo: taegyun_lee.jpg
+  research_interests: computer graphics, 3D computer vision
+  # info: B.S. expected 2022
+  email: chris2tg@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
+- name: Inwoo Hwang
+  photo: inwoo_hwang.jpg
+  research_interests: event-based computer vision
+  # info: B.S. expected 2022
+  email: inusu0818@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
