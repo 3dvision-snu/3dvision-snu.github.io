@@ -1,12 +1,64 @@
 
 
-- name : probabilistic 3D shape completion
-  description : 3D Vision Lab works on the exciting intersection of computer graphics, computer vision and robotics. We are currently recruiting students to conduct research in 
+#- name : probabilistic 3D shape completion
+#  description : 3D Vision Lab works on the exciting intersection of computer graphics, computer vision and robotics. We are currently recruiting students to conduct research in
+#  qualifications:
+#    - Ability and enthusiasm to actively identify and conduct self-directed research on machine learning and computer vision (required)
+#    - Basic knowledge regarding linear algebra, statistics, and machine learning (required)
+#    - Familiarity in python programming (required)
+#    - Development experience based on machine learning frameworks, such as Tensorflow, PyTorch, etc. (encouraged, but not required)
+#    - We expect interns to spend at least 5 hours a day when the spring semester begins. Please send us the list of courses you will take when the semester begins (required)
+#  contact:
+#    - youngmin.kim@snu.ac.kr
+
+- name : Reconstruction of Neural Scene from 2D Image with Estimating Flow of Sparse Volumetric Primitives
+  date : 2021.07.05
+#  description : 3D Vision Lab works on the exciting intersection of computer graphics, computer vision and robotics. We are currently recruiting students to conduct research in
   qualifications:
-    - Ability and enthusiasm to actively identify and conduct self-directed research on machine learning and computer vision (required)
-    - Basic knowledge regarding linear algebra, statistics, and machine learning (required)
-    - Familiarity in python programming (required)
-    - Development experience based on machine learning frameworks, such as Tensorflow, PyTorch, etc. (encouraged, but not required)
-    - We expect interns to spend at least 5 hours a day when the spring semester begins. Please send us the list of courses you will take when the semester begins (required)
+    - Ability and enthusiasm to actively identify and conduct self-directed research. (most important)
+    - Familiarity with Linux programming environment
+    - Proficiency in python programming
+  related_works:
+    - https://openaccess.thecvf.com/content/CVPR2021/html/Li_Neural_Scene_Flow_Fields_for_Space-Time_View_Synthesis_of_Dynamic_CVPR_2021_paper.html
+    - https://arxiv.org/pdf/2103.01954.pdf
+  experiences:
+    - Basic experience with version control systems such as Git
+    - Development capabilities based on open source frameworks, such as Tensorflow, PyTorch, etc.
+    - Implementing deep learning papers from scratch
+    - Or any other large scale projects (does not necessarily need to be related to deep learning)
+  classes:
+    - Deep Learning
+    - Machine Learning
+    - Computer Vision
+    - Robotics
+    - Computer Graphics
+  working_hours:
+    - We expect interns to work full time during the summer break, and part-time when the fall semester begins.
+  contact:
+    - youngmin.kim@snu.ac.kr
+
+- name : Unsupervised Learning of motion from Volumetric Videos
+  date : 2021.07.05
+#  description : 3D Vision Lab works on the exciting intersection of computer graphics, computer vision and robotics. We are currently recruiting students to conduct research in
+  qualifications:
+    - Ability and enthusiasm to actively identify and conduct self-directed research. (most important)
+    - Understanding on PyTorch
+    - Familiarity with Linux programming environment
+    - Proficiency in python programming
+  related_works:
+    - http://matthias.minderer.net/video_structure/
+    - https://openaccess.thecvf.com/content/CVPR2021/papers/Bozic_Neural_Deformation_Graphs_for_Globally-Consistent_Non-Rigid_Reconstruction_CVPR_2021_paper.pdf
+  experiences:
+    - Basic experience with version control systems such as Git
+    - Implementing deep learning papers from scratch
+    - Modification of released deep learning projects
+  classes:
+    - Deep Learning
+    - Machine Learning
+    - Computer Vision
+    - Robotics
+    - Computer Graphics
+  working_hours:
+    - We expect interns to work full time during the summer break.
   contact:
     - youngmin.kim@snu.ac.kr
