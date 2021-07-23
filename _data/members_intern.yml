@@ -4,13 +4,6 @@
 #  email:
 #  page:
 #  educations:
-- name: Wonryeol Kwak
-  photo: wonryeol_kwak.jpg
-  research_interests: vision-based reinforcement learning
-  # info: B.S. expected 2022
-  email: wrk9224@snu.ac.kr
-  educations:
-    - B.S. College of Liberal Studies, Seoul National University, 2022 (expected)
 - name: Inbum Park
   photo: inbum_park.jpg
   research_interests: 3D computer vision
@@ -32,3 +25,11 @@
   email: inusu0818@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
+
+- name: Wonseo Choi
+  photo: wonseo_choi.jpg
+  research_interests: vision-based reinforcement learning
+  # info: B.S. expected 2022
+  email: 1201won@naver.com
+  educations:
+    - B.S. Electric Engineering, Hanyang University, 2022 (expected)

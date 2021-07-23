@@ -22,3 +22,18 @@
     - M.S.
   end:
     - 2020.02
+
+- name: Hyeontae Son
+  photo: hyeontae_sohn.jpg
+  research_interests: 3D reconstruction
+  # info: Masters, started Sep 2019
+  email: sonhyuntae@snu.ac.kr
+  # page: "#"
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2019
+  status:
+    - Naver Labs
+  final_edu:
+    - M.S.
+  end:
+    - 2021.08

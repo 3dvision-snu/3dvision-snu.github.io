@@ -39,3 +39,14 @@
     - B.S. student, Seoul National University
   end:
     - 2021.04
+- name: Wonryeol Kwak
+  photo: wonryeol_kwak.jpg
+  research_interests: vision-based reinforcement learning
+  # info: B.S. expected 2022
+  email: wrk9224@snu.ac.kr
+  educations:
+    - B.S. College of Liberal Studies, Seoul National University, 2024 (expected)
+  status:
+    - B.S. student, Seoul National University
+  end:
+    - 2021.06

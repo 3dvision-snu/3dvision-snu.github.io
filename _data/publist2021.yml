@@ -1,3 +1,36 @@
+- title: 'PICCOLO: Point Cloud-Centric Omnidirectional Localization'
+  image: piccolo.png
+  description:
+  authors: Junho Kim, Changwoon Choi, Hojun Jang, Young Min Kim
+  link:
+    url:
+    display: International Conference on Computer Vision (ICCV) 2021
+    code:
+  highlight: 0
+  news2:
+
+- title: 'N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras'
+  image: n-imagenet.png
+  description:
+  authors: Junho Kim, Jaehyeok Bae\*, Gangin Park\*, Dongsu Zhang, Young Min Kim
+  link:
+    url:
+    display: International Conference on Computer Vision (ICCV) 2021
+    code:
+  highlight: 0
+  news2:
+
+- title: 'Structure-from-Sherds: Incremental 3D Reassembly of Axially Symmetric Pots from Unordered and Mixed Fragment Collections'
+  image: s-f-shreds.png
+  description:
+  authors: Je Hyeong Hong, Seong Jong Yoo, Muhammad Zeeshan Arshad, Young Min Kim, Jinwook Kim
+  link:
+    url:
+    display: International Conference on Computer Vision (ICCV) 2021
+    code:
+  highlight: 0
+  news2:
+
 - title: 'IMAT: The Iterative Medial Axis Transform'
   image: imat.png
   description:
