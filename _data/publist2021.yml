@@ -50,6 +50,7 @@
     url:
     display: European Association for Computer Graphics (Eurographics) short paper 2021
     code: https://github.com/whitealex95/autorigging-bipedal
+    video: https://youtu.be/1UVNbxYLkE8
   highlight: 0
   news2:
 
@@ -61,6 +62,7 @@
     url: https://arxiv.org/abs/2104.04275
     display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2021, Oral
     code: https://github.com/mch5048/gatsbi
+    video: https://youtu.be/nAf87_0T5CE
   highlight: 0
   news2:
 
@@ -72,5 +74,6 @@
     url: https://openreview.net/forum?id=rABUmU3ulQh
     display: International Conference on Learning Representations (ICLR) 2021
     code : https://github.com/96lives/gca
+    video: https://youtu.be/TKrtiWHfH4Y
   highlight: 0
   news2:
