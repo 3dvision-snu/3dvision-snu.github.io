@@ -12,7 +12,7 @@
 - title: 'N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras'
   image: n-imagenet.png
   description:
-  authors: Junho Kim, Jaehyeok Bae\*, Gangin Park\*, Dongsu Zhang, Young Min Kim
+  authors: Junho Kim, Jaehyeok Bae, Gangin Park, Dongsu Zhang, Young Min Kim
   link:
     url:
     display: International Conference on Computer Vision (ICCV) 2021
