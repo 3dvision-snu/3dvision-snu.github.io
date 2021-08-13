@@ -5,6 +5,7 @@
   link:
     url: https://ailb-web.ing.unimore.it/icpr/author/4161
     display: International Conference on Pattern Recognition (ICPR) 2020
+    video: https://youtu.be/tdaltLFGFJE
   highlight: 0
   news2:
 
@@ -17,6 +18,7 @@
     url: https://openaccess.thecvf.com/content/ACCV2020/papers/Son_SAUM_Symmetry-Aware_Upsampling_Module_for_Consistent_Point_Cloud_Completion_ACCV_2020_paper.pdf
     display: Asian Conference on Computer Vision (ACCV) 2020
     code : https://github.com/countywest/SAUM
+    video: https://youtu.be/KhXq75RVowU
   highlight: 0
   news2:
 
@@ -28,6 +30,7 @@
     url:
     display: IEEE International Conference on Image Processing (ICIP) 2020
     code : https://github.com/juhyeonkim95/NovelViewSynthesis
+    video: https://youtu.be/szqo3W6K2j8
   highlight: 0
   news2:
 
