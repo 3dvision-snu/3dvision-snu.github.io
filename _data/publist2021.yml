@@ -1,3 +1,14 @@
+- title: 'Fast and Lightweight Path Guiding Algorithm on GPU'
+  image: path_guiding.gif
+  description:
+  authors: Juhyeon Kim, Young Min Kim
+  link:
+    url:
+    display: Pacific Graphics short paper 2021
+    code:
+  highlight: 0
+  news2:
+
 - title: 'PICCOLO: Point Cloud-Centric Omnidirectional Localization'
   image: piccolo.png
   description:
