@@ -39,6 +39,7 @@
     - B.S. student, Seoul National University
   end:
     - 2021.04
+
 - name: Wonryeol Kwak
   photo: wonryeol_kwak.jpg
   research_interests: vision-based reinforcement learning
@@ -50,3 +51,27 @@
     - B.S. student, Seoul National University
   end:
     - 2021.06
+
+- name: Wonseo Choi
+  photo: wonseo_choi.jpg
+  research_interests: vision-based reinforcement learning
+  # info: B.S. expected 2022
+  email: 1201won@naver.com
+  educations:
+    - B.S. Electric Engineering, Hanyang University, 2022 (expected)
+  status:
+    - B.S. student, Hanyang University
+  end:
+    - 2021.08
+
+- name: Inbum Park
+  photo: inbum_park.jpg
+  research_interests: 3D computer vision
+  # info: B.S. expected 2022
+  email: inbum0215@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
+  status:
+    - B.S. student, Seoul National University
+  end:
+    - 2021.09
