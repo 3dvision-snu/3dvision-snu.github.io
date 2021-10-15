@@ -9,7 +9,7 @@ permalink: /
 
 [comment]: <> (<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/2020fall_main.jpg" width="100%"/>)
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/2021spring_main1.jpg" onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/mainpic/2021spring_main2.jpg'" onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/mainpic/2021spring_main1.jpg'"  width="100%" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/2021autumn_main.png" onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/mainpic/2021spring_main2.jpg'" onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/mainpic/2021spring_main1.jpg'"  width="100%" />
 
 <br>
 <br>
