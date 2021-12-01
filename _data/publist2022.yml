@@ -1,3 +1,14 @@
+- title: 'Neural Marionette: Unsupervised Learning of Motion Skeleton and Latent Dynamics from Volumetric Video'
+  image: marionette.gif
+  description:
+  authors: Jinseok Bae, Hojun Jang, Cheol-Hui Min, Hyungun Choi, Young Min Kim
+  link:
+    url:
+    display: AAAI Conference on Artificial Intelligence 2022
+    code:
+  highlight: 0
+  news2:
+
 - title: 'Self-Supervised Domain Adaptation for Visual Navigation with Global Map Consistency'
   image: domain_adapt_vis_nav.png
   description:
