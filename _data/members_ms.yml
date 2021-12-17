@@ -14,25 +14,6 @@
   educations:
     - B.S. College of Liberal Studies, Seoul National University, 2019
 
-- name: Jinseok Bae
-  photo: jinseok_bae.jpg
-  research_interests: 3D motion
-  # info: Masters, starts Mar 2020
-  email: capoo4938@gmail.com
-  # page: "#"
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
-    - B.S. Biosystems Engineering, Seoul National University, 2020
-
-- name: Junho Kim
-  photo: junho_kim.jpg
-  research_interests: visual localization, event-based computer vision
-  email: 82magnolia@naver.com
-  page: https://sites.google.com/view/jhk1997/home
-  # page: "#"
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
-
 - name: Dongsu Zhang
   photo: dongsu_zhang.jpg
   research_interests: spatial perception

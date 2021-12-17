@@ -37,3 +37,20 @@
     - M.S.
   end:
     - 2021.08
+
+
+- name: Jinseok Bae
+  photo: jinseok_bae.jpg
+  research_interests: 3D motion
+  # info: Masters, starts Mar 2020
+  email: capoo4938@gmail.com
+  # page: "#"
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+    - B.S. Biosystems Engineering, Seoul National University, 2020
+  status:
+    - LG AI Research
+  final_edu:
+    - M.S.
+  end:
+    - 2022.02

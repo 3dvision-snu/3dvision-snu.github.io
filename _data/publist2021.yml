@@ -28,7 +28,7 @@
   link:
     url: https://openaccess.thecvf.com/content/ICCV2021/html/Kim_PICCOLO_Point_Cloud-Centric_Omnidirectional_Localization_ICCV_2021_paper.html
     display: International Conference on Computer Vision (ICCV) 2021
-    code:
+    code: https://github.com/82magnolia/piccolo
     video: https://youtu.be/E-_lEsChfoE
   highlight: 0
   news2:
@@ -40,7 +40,7 @@
   link:
     url: https://openaccess.thecvf.com/content/ICCV2021/html/Kim_N-ImageNet_Towards_Robust_Fine-Grained_Object_Recognition_With_Event_Cameras_ICCV_2021_paper.html
     display: International Conference on Computer Vision (ICCV) 2021
-    code:
+    code: https://github.com/82magnolia/n_imagenet
     video: https://youtu.be/7mWPYGRfk-I
   highlight: 0
   news2:

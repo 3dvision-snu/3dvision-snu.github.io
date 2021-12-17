@@ -25,3 +25,13 @@
   educations:
     - M.S. Electrical and Computer Engineering, University of California-Los Angeles, 2018
     - B.S. Electrical and Computer Engineering, University of Virginia, 2015
+
+
+- name: Junho Kim
+  photo: junho_kim.jpg
+  research_interests: visual localization, event-based computer vision
+  email: 82magnolia@naver.com
+  page: https://sites.google.com/view/jhk1997/home
+  # page: "#"
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
