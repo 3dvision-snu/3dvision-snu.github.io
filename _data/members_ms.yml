@@ -40,7 +40,7 @@
 
 - name: Mingi Lee
   photo: mingi_lee.jpg
-  research_interests: vision-based reinforcement learning
+  research_interests: 3D scene understanding
   # info: B.S. expected 2021
   email: mingi1019@snu.ac.kr
   educations:
@@ -56,7 +56,7 @@
 
 - name: Cheongi Jeong
   photo: cheongi_jeong.jpg
-  research_interests: neural rendering
+  research_interests: human scene interaction
   # info: B.S. expected 2021
   email: cbda1100@gmail.com
   educations:
