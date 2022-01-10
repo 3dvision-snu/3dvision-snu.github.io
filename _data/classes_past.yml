@@ -2,10 +2,13 @@
 #  class_page:
 #  educations:
 
-- name: Machine Learning and Optimization for 3D data
+- name: Linear Algebra for Electrical Systems
+  semester: 2021-2
+
+- name: Machine Learning and optimization for 3D data
   semester: 2021-1
 
-- name: Signals and Systems
+- name: Signal and Systems
   semester: 2021-1
 
 - name: Linear Algebra for Electrical Systems
@@ -15,12 +18,12 @@
   semester: 2020-1
   page: /class/graphics20
 
-- name: Signals and Systems
+- name: Signal and Systems
   semester: 2020-1
 
 - name: Machine learning and optimization for 3D data
   semester: 2019-2
 
-- name: Signals and Systems
+- name: Signal and Systems
   semester: 2019-1
 

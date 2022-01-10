@@ -5,13 +5,6 @@
 #  page:
 #  educations:
 
-- name: Taegyun Lee
-  photo: taegyun_lee.jpg
-  research_interests: computer graphics, 3D computer vision
-  # info: B.S. expected 2022
-  email: chris2tg@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
 - name: Inwoo Hwang
   photo: inwoo_hwang.jpg
   research_interests: event-based computer vision
@@ -19,3 +12,19 @@
   email: inusu0818@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
+
+- name: Suhyun Jeon
+  photo: suhyun_jeon.jpg
+  research_interests: visual localization
+  # info: B.S. expected 2022
+  email: suhyun0606@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
+
+- name: Sangwon Park
+  photo: sangwon_park.jpg
+  research_interests: visual navigation
+  # info: B.S. expected 2022
+  email: paulmoguri@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)

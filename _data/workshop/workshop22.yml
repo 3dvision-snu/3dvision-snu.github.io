@@ -1,0 +1,91 @@
+#- class_name:
+#  class_page:
+#  educations:
+
+- name: TOPICS IN 3D VISION
+  sub_name: SNU GOGE-SDG workshop
+  date: Thursday, January 13th, 2022
+  time: 10:00 AM - 6:00 PM, KST
+  description: "The workshop is a fully virtual event, and open to the public. You can attend the workshop through the zoom link (or use meeting id 839 2043 8734 PW 481284) :" 
+  link: https://snu-ac-kr.zoom.us/j/83920438734?pwd=TjVBMGVSVEo5WnJRRTFLQ3NFKzVQZz09
+
+  Content:
+    - time: 10:00 AM - 10:50 AM
+      type: invited
+      speaker:
+        name: Byeongjoo Ahn (CMU)
+        photo: byeongjoo_ahn.jpg
+      title: Kaleidoscopic Imaging for Full-Surround 3D Reconstruction
+      abstract: 3D scanning of a single view of an object seldom suffices. Be it for 3D printing, augmented reality, or virtual reality, scanning of the shape of the entire object in all its complexity—what we refer to as "full-surround 3D"—is critical to have a faithful digital twin. In this talk, I will present a system for full surround 3D imaging using an imaging setup that consists of a projector, a camera, and a kaleidoscope. This system enables us to reconstruct, with high accuracy and full coverage, highly complex objects that have intricate geometric features, including concavities and self-occlusions.
+      bio: Byeongjoo Ahn is a Ph.D. Candidate majoring in Electrical and Computer Engineering at Carnegie Mellon University. His research interests are in computational imaging and computer vision, focusing on identifying visible hints offered by our physical surroundings such as interreflections, and developing imaging systems extending the visibility far beyond human ability. Ahn received his B.S. in Electrical and Computer Engineering and M.S. in Electrical Engineering and Computer Science at Seoul National University.
+
+    - time: 11:00 AM - 11:50 AM
+      type: student
+      talks:
+        - speaker: Inwoo Hwang (SNU)
+          title: Neural Radiance Field with Neuromorphic Sensor for Various Event-based Applications
+        - speaker: Junho Kim (SNU)
+          title: Robust Visual Recognition with Event Cameras using Test-Time Adaptation
+        - speaker: Juhyeon Kim (SNU)
+          title: 3D Shape Reconstruction Using Phase Shift Profilometry
+
+    - time: 12:00 PM - 1:00 PM
+      type: break
+
+    - time: 1:00 PM - 1:50 PM
+      type: invited
+      speaker:
+        name: Taesup Kim (Amazon)
+        photo: taesup_kim.jpg
+      title: Towards Computationally Efficient Neural Networks with Adaptive and Dynamic Computations
+      abstract: Over the past few years, artificial intelligence has been greatly advanced, and deep learning, where deep neural networks are used to attempt to loosely emulate the human brain, has significantly contributed to it. Deep neural networks are now able to achieve great successes based on a large amount of data and sufficient computational resources. Despite their success, their ability to quickly adapt to new concepts, tasks, and environments is quite limited or even non-existent. In this talk, Taesup will talk about how deep neural networks can become adaptive to continually changing or totally new circumstances, similarly to human intelligence, and further introduce adaptive and dynamic architectural modules or meta-learning frameworks to make it happen in computationally efficient ways. This talk will include a series of studies proposing methods to utilize adaptive and dynamic computations to tackle adaptation problems that are investigated from different perspectives such as task-level, temporal-level, and context-level adaptations.
+      bio: Taesup Kim is an applied scientist in Lablet at Amazon Web Services (AWS). Prior to AWS, he worked as a research scientist in Kakao Brain, where he joined as a founding member in 2017. He earned his PhD in computer science at Université de Montréal (Mila) under the supervision of Yoshua Bengio. During his PhD, he had opportunities to work at Microsoft Research and Element AI as a research intern. He also worked as a computer vision research engineer in Intel Korea and LG Electronics from 2011 to 2015 before his PhD. His research interests include meta-learning, representation learning, and probabilistic modeling.
+
+    - time: 2:00 PM - 2:50 PM
+      type: student
+      talks:
+        - speaker: Cheolhui Min (SNU) 
+          title: Interacting with the World by Decomposing What We See
+        - speaker: Eunsun Lee (SNU)
+          title: Self-supervised Domain Adaptation for Visual Navigation
+        - speaker: Junho Lee (SNU)
+          title: Deep Learning Based Grasping of Transparent Objects
+
+    - time: 3:00 PM - 3:50 PM
+      type: invited
+      speaker:
+        name: Jehyeong Hong (Hanyang Univ.)
+        photo: jehyeong_hong.jpg
+      title: Realizing Inspirations from Structure-from-Motion for 3D Reassembly of Axially-symmetric Pots
+      abstract: Re-assembling multiple pots accurately from numerous 3D scanned fragments remains a challenging task to this date. Previous methods extract all potential matching pairs of pot sherds and considers these matches simultaneously to search for an optimal global pot configuration. The major issue with this type of approach is that the pairwise matches may not be sufficiently accurate, leading to suboptimal reconstructions. In this talk, I will demonstrate how our team took inspirations from the field of structure-from-motion (SfM), where many pipelines have matured in reconstructing 3D scenes from multiple images. For this purpose, I will start by reviewing the SfM pipeline, drawing analogies between SfM and 3D reassembly of axially symmetric potteries, and finally describing the pipeline we came up with to account for the differences between the two problems. We hope the outcome of this work may serve as a baseline tool for generating dataset for learning-based pottery reconstruction. I wish the talk will be broad enough to be of interest to researchers working with the structure-from-motion pipeline.
+      bio: Je Hyeong Hong is an Assistant Professor at the Department of Electronic Engineering at Hanyang University, Seoul. He obtained BA and MEng in Electrical and Information Sciences from the University of Cambridge UK in 2011, and subsequently earned a PhD degree in Engineering (Computer Vision) from the same university in 2018. Before joining Hanyang university, Je Hyeong served alternative military service as post-doctoral researcher at the Center for Artificial Intelligence, KIST between 2018-2021. Je Hyeong’s current research interests lies in 3D reconstruction and localization approaches preserving privacy of users.
+
+    - time: 4:00 PM - 4:50 PM
+      type: student
+      talks:
+        - speaker: Junho Kim (SNU) 
+          title: Change-Robust Panorama to Point Cloud Localization
+        - speaker: Hojun Jang (SNU)
+          title: "Neural Marionette: Unsupervised Learning of Motion Skeleton and Latent Dynamics from Volumetric Video"
+        - speaker: Dongsu Zhang (SNU)
+          title: Scalable Probabilistic 3D Shape Generation with Generative Cellular Automata
+
+    - time: 5:00 PM - 5:50 PM
+      type: invited
+      speaker:
+        name: Angela Dai (TUM)
+        photo: angela_dai.jpg
+      title: 3D Perception for Semantic Scene Understanding
+      abstract: Remarkable progress has been made in recent years in 2D visual understanding leveraging deep neural networks. However, they largely make predictions in the 2D domain, rather than the underlying 3D structure of the world around us. In this talk, we propose to leverage geometric structural priors for 3D object perception from 2D images. We will demonstrate that learned implicit 3D priors (e.g., view-invariance) can be used to benefit both 3D and 2D perception and semantic scene-understanding tasks.
+      bio: Angela Dai is an Assistant Professor at the Technical University of Munich. Her research focuses on understanding how the 3D world around us can be modeled and semantically understood, leveraging generative deep learning towards enabling understanding and interaction with real-world 3D/4D scenes for content creation and virtual or robotic agents. Previously, she received her PhD in computer science from Stanford in 2018 and her BSE in computer science from Princeton in 2013. Her research has been recognized through a ZDB Junior Research Group Award, an ACM SIGGRAPH Outstanding Doctoral Dissertation Honorable Mention, as well as a Stanford Graduate Fellowship.
+
+  Support: "The program is generously supported by the Brain Korea program, and the Institute of New Media and Communications."
+
+  Contact:
+    - name: "Young Min Kim"
+      email: "youngmin.kim@snu.ac.kr"
+
+  Banners:
+    - photo: brainkorea.jpg
+    - photo: snuengineering.jpg
+    - photo: inmc.jpg
