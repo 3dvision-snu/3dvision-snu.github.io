@@ -3,9 +3,9 @@
   description:
   authors: Hyeontae Son, Young Min Kim
   link:
-    url:
+    url: https://bmvc2021-virtualconference.com/conference/papers/paper_0590.html
     display: British Machine Vision Conference (BMVC) 2021
-    code:
+    code: https://github.com/countywest/progressive_growing_of_points
   highlight: 0
   news2:
 
