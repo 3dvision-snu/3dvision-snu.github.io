@@ -28,7 +28,7 @@ permalink: /workshops/
   {% if article.page == nil %}
   <h4>{{article.date}}: {{ article.headline }}</h4>
   {% else %}
-  <h4>{{article.date}}: <a href="{{article.page}}">{{ class.headline }}</a></h4>
+  <h4>{{article.date}}: <a href="{{article.page}}">{{ article.headline }}</a></h4>
   {% endif %}
 </div>
 {% endfor %}
