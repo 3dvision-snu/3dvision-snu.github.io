@@ -1,3 +1,16 @@
+
+- title: 'Probabilistic Implicit Scene Completion'
+  image: cgca.png
+  description:
+  authors: Dongsu Zhang, Changwoon Choi, Inbum Park, Young Min Kim
+  link:
+    url: https://openreview.net/forum?id=BnQhMqDfcKG
+    display: International Conference on Learning Representations (ICLR) 2022, Spotlight
+    code: https://github.com/iclr2022submission4/cgca
+    video:
+  highlight: 0
+  news2:
+  
 - title: 'Neural Marionette: Unsupervised Learning of Motion Skeleton and Latent Dynamics from Volumetric Video'
   image: marionette.gif
   description:
@@ -5,7 +18,7 @@
   link:
     url:
     display: AAAI Conference on Artificial Intelligence 2022
-    code:
+    code: https://github.com/jinseokbae/neural_marionette
   highlight: 0
   news2:
 
