@@ -1,0 +1,23 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  page:
+#  educations:
+
+- name: Juhyeon Kim
+  photo: juhyeon_kim.jpg
+  research_interests: computer graphics, reinforcement learning
+  # info: Masters, started Sep 2019
+  email: cjdeka3123@snu.ac.kr
+  # page: "#"
+  educations:
+    - B.S. College of Liberal Studies, Seoul National University, 2019
+
+- name: Dongsu Zhang
+  photo: dongsu_zhang.jpg
+  research_interests: spatial perception
+  email: 96lives@snu.ac.kr
+  page: http://dszhang.me/about
+  educations:
+    - B.S. Computer Science and Engineering, Seoul National University, 2020
