@@ -1,3 +1,14 @@
+- title: 'Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition'
+  image: evtta.png
+  description:
+  authors: Junho Kim, Inwoo Hwang, and Young Min Kim
+  link:
+    url: 
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2022
+    code: 
+    video:
+  highlight: 0
+  news2:
 
 - title: 'Probabilistic Implicit Scene Completion'
   image: cgca.png
