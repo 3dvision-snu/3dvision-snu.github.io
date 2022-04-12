@@ -5,23 +5,6 @@
 #  page:
 #  educations:
 
-
-- name: Changwoon Choi
-  photo: changwoon_choi.jpg
-  research_interests: 3D computer vision
-  # info: B.S. expected 2020
-  email: changwoon.choi00@gmail.com
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
-
-- name: Junho Lee
-  photo: junho_lee.jpg
-  research_interests: sim-to-real
-  # info: B.S. expected 2020
-  email: twjhlee@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
-
 - name: Mingi Lee
   photo: mingi_lee.jpg
   research_interests: 3D scene understanding
