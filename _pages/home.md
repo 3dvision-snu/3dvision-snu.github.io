@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/2021autumn_main.png" width="100%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/2022spring_main.png" width="100%"/>
 
 <br>
 <br>
