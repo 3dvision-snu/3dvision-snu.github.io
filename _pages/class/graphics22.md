@@ -3,12 +3,12 @@ title: "3D Vision Lab - Class"
 layout: textlay
 excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
-permalink: /class/graphics20
+permalink: /class/graphics22
 ---
 
 <html>
 <body>
-{% for class in site.data.classes_graphics20 %}
+{% for class in site.data.classes_graphics22 %}
 
 <h2> {{class.name}} </h2> <br>
 
@@ -36,31 +36,6 @@ permalink: /class/graphics20
   </div>
 </div>
 
-<div class='section'>
-  <h3>Syllabus</h3><br>
-  <b>Class time</b> : {{ class.Syllabus.ClassTime }} <br>
-  <b>Location</b> : {{ class.Syllabus.Location }} <br>
-  <b>Textbooks</b> : {{ class.Syllabus.Textbooks }} <br>
-  <b>Topics</b>    
-    <ul>
-      {% for topic in class.Syllabus.Topics %}
-      <li> {{ topic }} </li>
-      {% endfor %}
-    </ul>
-  <b>Prerequisites</b>
-  <br>
-    <ul>
-      {% for course in class.Syllabus.Prerequisites %}
-      <li> {{ course }} </li>
-      {% endfor %}
-    </ul>
-  <b>Grading Policy</b>
-    <ul>
-      {% for item in class.Syllabus.GradingPolicy %}
-      <li> {{item.name}}({{item.ratio}}%) : {{item.contents}} </li>
-      {% endfor %}
-    </ul>
-</div>
 
 <div class='section'>
   <h3>Final Project</h3>
@@ -73,7 +48,7 @@ permalink: /class/graphics20
   <br><li> {{image.studentName}} </li>
     {% for img in image.photo %}
     <div class='class_student'>
-      <img src="{{ site.url }}{{ site.baseurl }}/images/classpic/graphics20/{{ img }}">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/classpic/graphics22/{{ img }}">
     </div>
     {% endfor %}
   {% endfor %}
