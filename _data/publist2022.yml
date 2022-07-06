@@ -1,3 +1,39 @@
+- title: 'MoDA: Map style transfer for self-supervised Domain Adaptation of embodied agents'
+  image: moda.jpg
+  description:
+  authors: Eun Sun Lee, Junho Kim, SangWon Park, and Young Min Kim
+  link:
+    url: 
+    display: European Conference on Computer Vision (ECCV) 2022
+    code: 
+    video: 
+  highlight: 0
+  news2:
+  
+- title: 'CPO: Change Robust Panorama to Point  Cloud Localization'
+  image: cpo.png
+  description:
+  authors: Junho Kim, Hojun Jang, Changwoon Choi, and Young Min Kim
+  link:
+    url: 
+    display: European Conference on Computer Vision (ECCV) 2022
+    code: 
+    video: 
+  highlight: 0
+  news2:
+  
+- title: 'MasKGrasp: Mask-based Grasping for Scenes with Multiple General Real-world Objects'
+  image: dummy.png
+  description:
+  authors: Junho Lee, Junhwa Hur, Inwoo Hwang, Young Min Kim
+  link:
+    url: 
+    display: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022
+    code: 
+    video:
+  highlight: 0
+  news2:
+
 - title: 'Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition'
   image: evtta.png
   description:

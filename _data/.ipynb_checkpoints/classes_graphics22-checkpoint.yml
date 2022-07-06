@@ -1,0 +1,101 @@
+#- class_name:
+#  class_page:
+#  educations:
+
+- name: Graphics Programming (2022 Spring)
+  semester: 2022-1
+  CourseDescription: "In this class, we will learn a broad topics related to computer graphics: geometry, rendering, animation, imaging. We will focus on actually implementing fundamental data structure and algorithm repeatedly used over time, and students should be able to write their own graphics program. The class will also cover the state-of-the-art techniques in computer graphics related to shader, VR/AR devices, mobile GPU, modern ray tracing, and deep learning."
+  instructor: 
+      name: Young Min Kim
+      photo: youngmin_kim.jpg
+  TAs:
+    - name: Juhyeon Kim
+      photo: juhyeon_kim.jpg
+
+    - name: Cheongi Jeong
+      photo: cheongi_jeong.jpg
+
+  Syllabus:
+      FinalProject:
+        youtubeVideoLink: "https://youtube.com/playlist?list=PL-dFLOJVJhgm6KpNSjUv2yT4jHa8E4ykl"
+        Videos:
+          - studentName: 김상민
+            youtubeLinkId: rceAh_CjpsY
+          
+          - studentName: 최병욱
+            youtubeLinkId: LBmOEr8OHxU
+
+          - studentName: 정의균
+            youtubeLinkId: efkla-NFqUQ
+
+          - studentName: 한이주
+            youtubeLinkId: S7oLT262Kq0
+
+          - studentName: 이민형
+            youtubeLinkId: EQqvdbrzBwU
+
+          - studentName: 김용혁
+            youtubeLinkId: vij63XhgBRI
+
+          - studentName: 이승렬
+            youtubeLinkId: -9YYxatqAb4
+
+          - studentName: 김태균
+            youtubeLinkId: GQeE7-x5rsg
+
+          - studentName: 이우석
+            youtubeLinkId: X5raDwwsIOo
+
+          - studentName: 정동휘
+            youtubeLinkId: zCKZaT25nQY
+
+          - studentName: Martin
+            youtubeLinkId: PbawW1wW20A
+
+          - studentName: 이영선
+            youtubeLinkId: hx6QlYVDjJE
+
+          - studentName: 유소헌
+            youtubeLinkId: 3BHg2-ZH0o0
+
+          - studentName: 남형진
+            youtubeLinkId: 4-GgmAZCVgw
+
+          - studentName: 이소망
+            youtubeLinkId: glxJX0alyaY
+            
+          - studentName: 장호준
+            youtubeLinkId: PPxX3IomEvs
+            
+          - studentName: 양승진
+            youtubeLinkId: 5zwnRj1BrCI
+            
+          - studentName: 박기범
+            youtubeLinkId: 8d85EJglhgc
+            
+          - studentName: 장연진
+            youtubeLinkId: 1ExnfsrsLW8
+            
+          - studentName: 김하연
+            youtubeLinkId: f4VMQc7XGX0
+
+        Images:
+          - studentName: 김기범
+            photo: 
+              - SSAO_Off.png
+              - SSAO_On.png
+              - SSAO_Only_Diffuse_Texture.png
+              - SSAO_Screen_Occlusion_Texture_With_Shadow.png
+              - SSAO_Screen_Occlusion_Texture.png
+              - Volumetric_Light_Off.png
+              - Volumetric_Light_On.png
+
+          - studentName: 이준영
+            photo:
+              - 1.png
+              - 2.png
+              - 3.png
+              - 4.png
+
+
+
