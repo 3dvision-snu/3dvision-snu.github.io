@@ -11,7 +11,7 @@
   news2:
   
 - title: 'CPO: Change Robust Panorama to Point  Cloud Localization'
-  image: cpo.jpg
+  image: cpo.png
   description:
   authors: Junho Kim, Hojun Jang, Changwoon Choi, and Young Min Kim
   link:
@@ -23,7 +23,7 @@
   news2:
   
 - title: 'MasKGrasp: Mask-based Grasping for Scenes with Multiple General Real-world Objects'
-  image: dummy.png
+  image: maskgrasp.gif
   description:
   authors: Junho Lee, Junhwa Hur, Inwoo Hwang, Young Min Kim
   link:
