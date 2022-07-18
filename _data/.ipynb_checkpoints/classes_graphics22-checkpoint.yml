@@ -82,20 +82,11 @@
         Images:
           - studentName: 김기범
             photo: 
-              - SSAO_Off.png
-              - SSAO_On.png
-              - SSAO_Only_Diffuse_Texture.png
-              - SSAO_Screen_Occlusion_Texture_With_Shadow.png
-              - SSAO_Screen_Occlusion_Texture.png
-              - Volumetric_Light_Off.png
-              - Volumetric_Light_On.png
+              - grph1.png
 
           - studentName: 이준영
             photo:
-              - 1.png
-              - 2.png
-              - 3.png
-              - 4.png
+              - grph2.png
 
 
 
