@@ -37,7 +37,7 @@
 - title: 'GROOT: A Real-time Streaming System of High-Fidelity Volumetric Videos'
   image: GROOT.png
   description:
-  authors: Kyungjin Lee, Juheon Yi, Sunghyun Choi, Youngki Lee <sup>&#134;</sup>, Young Min Kim<sup>&#134;</sup>
+  authors: Kyungjin Lee, Juheon Yi, Youngki Lee <sup>&#134;</sup>, Sunghyun Choi, Young Min Kim<sup>&#134;</sup>
   link:
     url: https://dl.acm.org/doi/10.1145/3372224.3419214
     display: ACM International Conference on Mobile Computing and Networking (MobiCom) 2020
