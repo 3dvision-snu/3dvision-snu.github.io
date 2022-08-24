@@ -38,9 +38,10 @@
 
 - name: Changwoon Choi
   photo: changwoon_choi.jpg
-  research_interests: 3D computer vision
+  research_interests: Implicit Neural Representation
   # info: B.S. expected 2020
   email: changwoon.choi00@gmail.com
+  page: http://changwoon.me/
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020
 
