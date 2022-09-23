@@ -5,22 +5,6 @@
 #  page:
 #  educations:
 
-- name: Mingi Lee
-  photo: mingi_lee.jpg
-  research_interests: 3D scene understanding
-  # info: B.S. expected 2021
-  email: mingi1019@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2021
-
-- name: Hojun Jang
-  photo: hojun_jang.png
-  research_interests: 3D computer vision
-  # info: B.S. expected 2021
-  email: j12040208@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2021
-
 - name: Cheongi Jeong
   photo: cheongi_jeong.jpg
   research_interests: human scene interaction

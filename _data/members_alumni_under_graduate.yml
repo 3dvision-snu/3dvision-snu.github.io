@@ -8,6 +8,7 @@
 #  education3:
 #  education4:
 - name: Jeonghwan Kim
+  page: https://juhyeonkim95.github.io/online-cv/
   photo: jeonghwan_kim.jpg
   research_interests: 3D scene understanding, human-object interaction, robotics
   email: whitealex95@snu.ac.kr
@@ -17,6 +18,7 @@
     - M.S. student, Georgia Institute of Technology
   end:
     - 2021.02
+
 - name: Jaehyeok Bae
   photo: jaehyeok_bae.jpg
   research_interests: event-based computer vision
@@ -28,62 +30,18 @@
     - B.S. student, Seoul National University
   end:
     - 2021.03
-- name: Gangin Park
-  photo: gangin_park.png
-  research_interests: event-based computer vision
-  # info: B.S. expected 2022
-  email: ssonpull519@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
-  status:
-    - B.S. student, Seoul National University
-  end:
-    - 2021.04
 
-- name: Wonryeol Kwak
-  photo: wonryeol_kwak.jpg
-  research_interests: vision-based reinforcement learning
-  # info: B.S. expected 2022
-  email: wrk9224@snu.ac.kr
+- name: Juhyeon Kim
+  page: https://juhyeonkim95.github.io/online-cv/
+  photo: juhyeon_kim.jpg
+  research_interests: computer graphics, reinforcement learning
+  # info: Masters, started Sep 2019
+  email: cjdeka3123@snu.ac.kr
+  # page: "#"
   educations:
-    - B.S. College of Liberal Studies, Seoul National University, 2024 (expected)
+    - B.S. College of Liberal Studies, Seoul National University, 2019
+    - M.S. Electrical and Computer Engineering, Seoul National University, 2022
   status:
-    - B.S. student, Seoul National University
+    - Ph.D. student, Dartmouth College
   end:
-    - 2021.06
-
-- name: Wonseo Choi
-  photo: wonseo_choi.jpg
-  research_interests: vision-based reinforcement learning
-  # info: B.S. expected 2022
-  email: 1201won@naver.com
-  educations:
-    - B.S. Electric Engineering, Hanyang University, 2022 (expected)
-  status:
-    - B.S. student, Hanyang University
-  end:
-    - 2021.08
-
-- name: Inbum Park
-  photo: inbum_park.jpg
-  research_interests: 3D computer vision
-  # info: B.S. expected 2022
-  email: inbum0215@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
-  status:
-    - B.S. student, Seoul National University
-  end:
-    - 2021.09
-
-- name: Taegyun Lee
-  photo: taegyun_lee.jpg
-  research_interests: computer graphics, 3D computer vision
-  # info: B.S. expected 2022
-  email: chris2tg@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
-  status:
-    - B.S. student, Seoul National University
-  end:
-    - 2021.12
+    - 2022.06
