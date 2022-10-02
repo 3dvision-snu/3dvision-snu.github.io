@@ -214,7 +214,11 @@ permalink: /members/
 <div class="row">
 {% for member in site.data.members_alumni_graduate %}
 <div class="col-xs-12 clearfix">
-**{{ member.name }}** (~{{member.end}}, {{member.final_edu}}) <span style="color:grey">Now {{member.status}}</span>
+{% if member.page == nil %}
+**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+{% else %}
+**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+{% endif %}
 </div>
 {% endfor %}
 </div>
