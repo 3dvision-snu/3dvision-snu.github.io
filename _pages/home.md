@@ -6,9 +6,8 @@ sitemap: false
 permalink: /
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/2022summer_main.jpg" width="100%"/>
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/2022fall_main.jpeg" width="100%"/> -->
 
-<br>
 <br>
 
   We sense, model, and understand the geometric structure around us.
