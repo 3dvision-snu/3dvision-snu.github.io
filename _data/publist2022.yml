@@ -1,15 +1,3 @@
-- title: 'Ev-NeRF : Event Based Neural Radiance Field'
-  image: evnerf.png
-  description:
-  authors: Inwoo Hwang, Junho Kim, Young Min Kim
-  link:
-    url: https://arxiv.org/abs/2206.12455
-    display: IEEE Winter Conference on Applications of Computer Vision (WACV) 2023
-    code: 
-    video: 
-  highlight: 0
-  news2:
-
 - title: 'MoDA: Map style transfer for self-supervised Domain Adaptation of embodied agents'
   image: moda.jpg
   description:
