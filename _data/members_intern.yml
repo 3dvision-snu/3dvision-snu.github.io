@@ -5,16 +5,12 @@
 #  page:
 #  educations:
 
-- name: Seungbin Jeong
-  photo: seungbin_jeong.jpg
-  research_interests: computer graphics, 3D computer vision
-  email: sb9155118@gmail.com
+- name: Jiwon Jeong
+  photo: jiwon_jeong.jpg
+  research_interests: visual localization
+  # info: Ph.D, starts 2020
+  email: liz323@snu.ac.kr
+  #email_link: https://mailhide.io/e/M9z3eUod
+  # page: "#"
   educations:
-    - B.S. Statistics, Seoul National University, 2023 (expected)
-
-- name: Sangmin Kim
-  photo: sangmin_kim.jpg
-  research_interests: 3D computer vision, implicit neural representation
-  email: tkdals9082@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (Expected)

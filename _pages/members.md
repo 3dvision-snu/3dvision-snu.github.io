@@ -24,7 +24,9 @@ permalink: /members/
   <div style="display: flow-root;">
   <i>
     <strong> {{ member.info }}<br></strong>
-    <strong>Email: </strong><{{ member.email }}>
+    <!-- <a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br> -->
+    <strong> Email : </strong>
+    <a href = "mailto: {{member.email}}"> {{member.email}} </a>
   </i>
   <ul style="overflow: hidden">
   {% for educ in member.educations %}
@@ -64,7 +66,9 @@ permalink: /members/
   {% endif %}
   <div style="display: flow-root;">
   <i>
-    <strong> Email: </strong> <{{ member.email }}> <br>
+    <!-- <a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br> -->
+    <strong> Email : </strong>
+    <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}<br>
   </i>
   <ul style="overflow: hidden">
@@ -105,7 +109,9 @@ permalink: /members/
   {% endif %}
   <div style="display: flow-root;">
   <i>
-    <strong> Email: </strong> <{{ member.email }}> <br>
+    <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
+    <strong> Email : </strong>
+    <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
   <ul style="overflow: hidden">
@@ -147,7 +153,9 @@ permalink: /members/
   {% endif %}
   <div style="display: flow-root;">
   <i>
-    <strong> Email: </strong> <{{ member.email }}> <br>
+    <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
+    <strong> Email : </strong>
+    <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
   <ul style="overflow: hidden">
@@ -189,7 +197,9 @@ permalink: /members/
   {% endif %}
   <div style="display: flow-root;">
   <i>
-    <strong> Email: </strong> <{{ member.email }}> <br>
+    <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
+    <strong> Email : </strong>
+    <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
   <ul style="overflow: hidden">

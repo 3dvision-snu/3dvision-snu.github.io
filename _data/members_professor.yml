@@ -7,8 +7,9 @@
 
 - name: Young Min Kim
   photo: youngmin_kim.jpg
-  info: Assistant Professor
+  info: Associate Professor
   email: youngmin.kim@snu.ac.kr
+  email_link: https://mailhide.io/e/MiKQdwPt
   educations:
     - 2006 B.S. Electrical Engineering, Seoul National University
     - 2008 M.S. Electrical Engineering, Stanford University
@@ -17,4 +18,5 @@
     - 2013-2015 Research Scientist, Korea Institute of Science and Technology
     - 2015-2019 Senior Research Scientist, Korea Institute of Science and Technology
     - 2016-2018 Visiting Researcher, University of Texas at Austin
-    - 2019- Assistant Professor, Seoul National University
+    - 2019-2023 Assistant Professor, Seoul National University
+    - 2023- Associate Professor, Seoul National University

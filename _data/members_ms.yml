@@ -5,19 +5,13 @@
 #  page:
 #  educations:
 
-- name: Cheongi Jeong
-  photo: cheongi_jeong.jpg
-  research_interests: human scene interaction
-  # info: B.S. expected 2021
-  email: cbda1100@gmail.com
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2021
-
 - name: Inwoo Hwang
   photo: inwoo_hwang.jpg
   research_interests: 3D stylization
   # info: B.S. expected 2022
   email: inusu0818@snu.ac.kr
+  email_link: https://mailhide.io/e/77JbuY0W
+  page: https://woo0818.github.io/
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2022
 
@@ -26,6 +20,7 @@
   research_interests: 3D computer vision
   # info: B.S. expected 2022
   email: rms2836@snu.ac.kr
+  email_link: https://mailhide.io/e/d65up2g9
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020
     
@@ -34,6 +29,31 @@
   research_interests: 3D computer vision
   # info: B.S. expected 2022
   email: tak3452@gmail.com
+  email_link: https://mailhide.io/e/4tUm8P1M
   page: https://www.gwangtakbae.info/
   educations:
     - B.S. Electrical Engineering, Korea Advanced Institute of Science and Technology, 2019
+
+- name: Hyeongjun Heo
+  photo: hyeongjun_heo.png
+  research_interests: 3D computer vision
+  email: heo0224@snu.ac.kr
+  email_link: https://mailhide.io/e/l9K2AJmz
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022
+    
+- name: Seungbin Jeong
+  photo: seungbin_jeong.jpg
+  research_interests: computer graphics, 3D computer vision
+  email: sb9155118@gmail.com
+  email_link: https://mailhide.io/e/ZP3DnHdO
+  educations:
+    - B.S. Statistics, Seoul National University, 2023
+
+- name: Sangmin Kim
+  photo: sangmin_kim.jpg
+  research_interests: 3D computer vision, implicit neural representation
+  email: tkdals9082@snu.ac.kr
+  email_link: https://mailhide.io/e/hM8v0pRG
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023

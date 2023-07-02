@@ -1,11 +1,71 @@
+- title: 'PMP: Learning to Physically Interact with Environments using Multiple Part-wise Motion Priors'
+  image: PMP.gif
+  description:
+  authors: Jinseok Bae, Jungdam Won, Donggeun Lim, Cheol-Hui Min and Young Min Kim
+  link:
+    url:
+    display: SIGGRAPH 2023
+    code: 
+    video:
+  highlight: 0
+  news2:
+
+- title: 'Text2Scene: Text-driven Indoor Scene Stylization with Part-aware Details'
+  image: text2scene.gif
+  description:
+  authors: Inwoo Hwang, Hyeonwoo Kim and Young Min Kim
+  link:
+    url: https://openaccess.thecvf.com/content/CVPR2023/papers/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2023, Highlight
+    code: 
+    video: https://youtu.be/CGIXY2kwIYM
+  highlight: 0
+  news2:
+
+- title: 'Balanced Spherical Grid for Egocentric View Synthesis'
+  image: egonerf.gif
+  description:
+  authors: Changwoon Choi, Sang Min Kim, Young Min Kim
+  link:
+    url: https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_Balanced_Spherical_Grid_for_Egocentric_View_Synthesis_CVPR_2023_paper.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2023
+    code: 
+    video: https://youtu.be/D-lsBhVP8zw
+  highlight: 0
+  news2:
+
+- title: 'Text2PointCloud: Text-Driven Stylization for Sparse PointCloud'
+  image: text2pointcloud.png
+  description:
+  authors: Inwoo Hwang, Hyeonwoo Kim, Donggeun Lim, Inbum Park and Young Min Kim
+  link:
+    url:
+    display: European Association for Computer Graphics (Eurographics) short paper 2023
+    code: 
+    video: https://youtu.be/aGDaKHKv1Xc
+  highlight: 0
+  news2:
+
+- title: 'Closed-loop optimization of nanoparticle synthesis enabled by robotics and machine learning'
+  image: clopt.jpg
+  description:
+  authors: Jungwon Park*, Young Min Kim, Seonghun Hong, Byungchan Han, Ki Tae Nam, Yousung Jung*
+  link:
+    url:
+    display: Matter 2023
+    code: 
+    video:
+  highlight: 0
+  news2:
+
 - title: 'Ev-NeRF : Event Based Neural Radiance Field'
-  image: evnerf.png
+  image: evnerf.gif
   description:
   authors: Inwoo Hwang, Junho Kim, Young Min Kim
   link:
     url: https://arxiv.org/abs/2206.12455
     display: IEEE Winter Conference on Applications of Computer Vision (WACV) 2023
     code: 
-    video: 
+    video: https://youtu.be/dU4Hqr41RUo
   highlight: 0
   news2:

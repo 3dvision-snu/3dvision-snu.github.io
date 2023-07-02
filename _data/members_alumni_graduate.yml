@@ -53,3 +53,16 @@
     - Ph.D. student, Dartmouth College
   end:
     - 2022.06
+
+
+- name: Cheongi Jeong
+  photo: cheongi_jeong.jpg
+  research_interests: human scene interaction
+  # info: B.S. expected 2021
+  email: cbda1100@gmail.com
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2021
+  status:
+    - Samsung Research
+  end:
+    - 2023.02
