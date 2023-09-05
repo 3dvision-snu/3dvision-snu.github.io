@@ -61,11 +61,11 @@
 
 - name: Jinseok Bae
   photo: jinseok_bae.jpg
-  research_interests: 3D motion
+  research_interests: computer animation, robotics
   # info: Masters, starts Mar 2020
   email: capoo4938@gmail.com
   email_link: https://mailhide.io/e/nTxUkeYw
-  # page: "#"
+  page: https://jinseokbae.github.io/
   educations:
     - M.S. Electrical and Computer Engineering, Seoul National University, 2022
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020
@@ -97,3 +97,31 @@
   email_link: https://mailhide.io/e/5xFrMJNp
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2021
+
+- name: Inwoo Hwang
+  photo: inwoo_hwang.jpg
+  research_interests: 3D stylization
+  # info: B.S. expected 2022
+  email: inusu0818@snu.ac.kr
+  email_link: https://mailhide.io/e/77JbuY0W
+  page: https://woo0818.github.io/
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022
+
+- name: Donggeun Lim
+  photo: donggeun_lim.jpg
+  research_interests: 3D computer vision
+  # info: B.S. expected 2022
+  email: rms2836@snu.ac.kr
+  email_link: https://mailhide.io/e/d65up2g9
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+ 
+- name: Hyeongjun Heo
+  photo: hyeongjun_heo.png
+  research_interests: 3D computer vision
+  email: heo0224@snu.ac.kr
+  email_link: https://mailhide.io/e/l9K2AJmz
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022
+    

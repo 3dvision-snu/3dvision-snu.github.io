@@ -1,12 +1,49 @@
+- title: 'Dynamic Mesh Recovery from Partial Point Cloud Sequence'
+  image: DynaMesh.gif
+  description:
+  authors: Hojun Jang, Minkwan Kim, Jinseok Bae, Young Min Kim
+  link:
+    url: 
+    display: International Conference on Computer Vision (ICCV) 2023
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'Calibrating Panoramic Depth Estimation for Practical Localization and Mapping'
+  image: Calibrating.gif
+  description:
+  authors: Junho Kim, Eun Sun Lee, Young Min Kim
+  link:
+    url: 
+    display: International Conference on Computer Vision (ICCV) 2023
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'LDL: Line Distance Functions for Panoramic Localization'
+  image: LDL.gif
+  description:
+  authors: Junho Kim, Changwoon Choi, Hojun Jang, Young Min Kim
+  link:
+    url: 
+    display: International Conference on Computer Vision (ICCV) 2023
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+
 - title: 'PMP: Learning to Physically Interact with Environments using Multiple Part-wise Motion Priors'
   image: PMP.gif
   description:
   authors: Jinseok Bae, Jungdam Won, Donggeun Lim, Cheol-Hui Min and Young Min Kim
   link:
-    url:
+    url: https://dl.acm.org/doi/fullHtml/10.1145/3588432.3591487
     display: SIGGRAPH 2023
     code: 
-    video:
+    video: https://www.youtube.com/watch?v=WdLGvKdNG-0
   highlight: 0
   news2:
 
