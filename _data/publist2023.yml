@@ -1,3 +1,39 @@
+- title: 'Robust Novel View Synthesis with Color Transform Module'
+  image: ctm.gif
+  description: 
+  authors: Sang Min Kim, Changwoon Choi, Hyeongjun Heo, Young Min Kim
+  link:
+    url: 
+    display: Computer Graphics Forum (Pacific Graphics 2023)
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'IBL-NeRF: Image-Based Lighting Formulation of Neural Radiance Fields'
+  image: ibl-nerf.png
+  description: 
+  authors: Changwoon Choi*, Juhyeon Kim*, Young Min Kim
+  link:
+    url: 
+    display: Computer Graphics Forum (Pacific Graphics 2023)
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'MAMMOS: MApping Multiple human MOtion with Scene understanding and natural interactions'
+  image: mammos.gif
+  description:
+  authors: Donggeun Lim, Cheongi Jeong, Young Min Kim
+  link:
+    url: 
+    display: Workshop on International Conference on Computer Vision (ICCV) 2023
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'Dynamic Mesh Recovery from Partial Point Cloud Sequence'
   image: DynaMesh.gif
   description:
