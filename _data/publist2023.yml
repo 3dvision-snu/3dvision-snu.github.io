@@ -13,7 +13,7 @@
 - title: 'IBL-NeRF: Image-Based Lighting Formulation of Neural Radiance Fields'
   image: ibl-nerf.png
   description: 
-  authors: Changwoon Choi*, Juhyeon Kim*, Young Min Kim
+  authors: Changwoon Choi<sup>*</sup>, Juhyeon Kim<sup>*</sup>, Young Min Kim
   link:
     url: 
     display: Computer Graphics Forum (Pacific Graphics) 2023
