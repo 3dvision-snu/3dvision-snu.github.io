@@ -7,6 +7,19 @@
 #  education2:
 #  education3:
 #  education4:
+- name: Jiwon Jeong
+  photo: jiwon_jeong.jpg
+  research_interests: visual localization
+  # info: Ph.D, starts 2020
+  email: liz323@snu.ac.kr
+  #email_link: https://mailhide.io/e/M9z3eUod
+  # page: "#"
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (Expected)
+  status:
+    -  
+  end:
+    - 2023.08
 
 - name: Gangin Park
   photo: gangin_park.png

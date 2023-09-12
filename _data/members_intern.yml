@@ -5,12 +5,25 @@
 #  page:
 #  educations:
 
-- name: Jiwon Jeong
-  photo: jiwon_jeong.jpg
-  research_interests: visual localization
-  # info: Ph.D, starts 2020
-  email: liz323@snu.ac.kr
-  #email_link: https://mailhide.io/e/M9z3eUod
-  # page: "#"
+- name: Jaeah Lee
+  photo: jaeah_lee.jpg
+  research_interests: Implicit neural representation, 3D stylization
+  email: hayanz@snu.ac.kr
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (Expected)
+    - B.S. Chemistry Education, Seoul National University, 2024 (Expected)
+    - B.S. Computer Science and Engineering, Seoul National University, 2024 (Expected)
+
+- name: Sungbin Mun
+  photo: sungbin_mun.jpg
+  research_interests: Vision-based reinforcement learning, 3D computer vision
+  email: brian0429@korea.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Korea University, 2024 (Expected)
+    - B.S. Artificial Intelligence, Korea University, 2024 (Expected)
+
+- name: Wonjae Ho
+  photo: wonjae_ho.jpg
+  research_interests: 3D motion
+  email: teddy_bear@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2025 (Expected)
