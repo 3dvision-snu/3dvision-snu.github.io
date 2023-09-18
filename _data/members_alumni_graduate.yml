@@ -40,7 +40,7 @@
 
 
 - name: Juhyeon Kim
-  page: https://juhyeonkim95.github.io/online-cv/
+  page: https://juhyeonkim.netlify.app/
   photo: juhyeon_kim.jpg
   research_interests: computer graphics, reinforcement learning
   # info: Masters, started Sep 2019
