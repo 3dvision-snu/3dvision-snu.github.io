@@ -3,9 +3,9 @@
   description: 
   authors: Sang Min Kim, Changwoon Choi, Hyeongjun Heo, Young Min Kim
   link:
-    url: 
+    url: ../papers/ColorTransformNeRF.pdf
     display: Computer Graphics Forum (Pacific Graphics) 2023
-    code: 
+    code: https://github.com/sangminkim-99/ColorTransformModule
     video: 
   highlight: 0
   news2:
