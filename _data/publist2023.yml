@@ -30,7 +30,7 @@
     url: 
     display: Computer Vision for Metaverse Workshop on International Conference on Computer Vision (ICCV) 2023
     code: 
-    video: 
+    video: https://youtu.be/Uc6b5ejiyns
   highlight: 0
   news2:
 
@@ -112,7 +112,7 @@
   description:
   authors: Inwoo Hwang, Hyeonwoo Kim, Donggeun Lim, Inbum Park and Young Min Kim
   link:
-    url:
+    url: https://diglib.eg.org/handle/10.2312/egs20231007
     display: European Association for Computer Graphics (Eurographics) short paper 2023
     code: 
     video: https://youtu.be/aGDaKHKv1Xc
@@ -124,7 +124,7 @@
   description:
   authors: Jungwon Park*, Young Min Kim, Seonghun Hong, Byungchan Han, Ki Tae Nam, Yousung Jung*
   link:
-    url:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S2590238523000449
     display: Matter 2023
     code: 
     video:
