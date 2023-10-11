@@ -27,7 +27,7 @@
   description:
   authors: Donggeun Lim, Cheongi Jeong, Young Min Kim
   link:
-    url: 
+    url: https://openaccess.thecvf.com/content/ICCV2023W/CV4Metaverse/html/Lim_MAMMOS_MApping_Multiple_Human_MOtion_with_Scene_Understanding_and_Natural_ICCVW_2023_paper.html
     display: Computer Vision for Metaverse Workshop on International Conference on Computer Vision (ICCV) 2023
     code: 
     video: https://youtu.be/Uc6b5ejiyns
@@ -39,7 +39,7 @@
   description:
   authors: Hojun Jang, Minkwan Kim, Jinseok Bae, Young Min Kim
   link:
-    url: 
+    url: https://openaccess.thecvf.com/content/ICCV2023/html/Jang_Dynamic_Mesh_Recovery_from_Partial_Point_Cloud_Sequence_ICCV_2023_paper.html
     display: International Conference on Computer Vision (ICCV) 2023
     code: 
     video: https://youtu.be/OgineYrkgRE
@@ -51,7 +51,7 @@
   description:
   authors: Junho Kim, Eun Sun Lee, Young Min Kim
   link:
-    url: 
+    url: https://openaccess.thecvf.com/content/ICCV2023/html/Kim_Calibrating_Panoramic_Depth_Estimation_for_Practical_Localization_and_Mapping_ICCV_2023_paper.html
     display: International Conference on Computer Vision (ICCV) 2023
     code: 
     video: https://youtu.be/KXz8IwrtJWg
@@ -63,9 +63,9 @@
   description:
   authors: Junho Kim, Changwoon Choi, Hojun Jang, Young Min Kim
   link:
-    url: 
+    url: https://openaccess.thecvf.com/content/ICCV2023/html/Kim_LDL_Line_Distance_Functions_for_Panoramic_Localization_ICCV_2023_paper.html
     display: International Conference on Computer Vision (ICCV) 2023
-    code: 
+    code: https://github.com/82magnolia/panoramic-localization/
     video: https://youtu.be/cQ5l4rauNY0
   highlight: 0
   news2:
