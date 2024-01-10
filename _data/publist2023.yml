@@ -1,3 +1,15 @@
+- title: 'NFL: Normal Field Learning for 6-DoF Grasping of Transparent Objects'
+  image: nfl.png
+  description: 
+  authors: Junho Lee, Sang Min Kim, Yonghyeon Lee, Young Min Kim
+  link:
+    url: https://ieeexplore.ieee.org/document/10328050
+    display: IEEE Robotics and Automation Letters 2023
+    code: 
+    video: https://youtu.be/b92CTDKeEk8
+  highlight: 0
+  news2:
+
 - title: 'Robust Novel View Synthesis with Color Transform Module'
   image: ctm.gif
   description: 

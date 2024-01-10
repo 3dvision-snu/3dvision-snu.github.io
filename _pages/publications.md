@@ -73,7 +73,38 @@ permalink: /publications/
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
+  {% if publi.link.page %}
+
   {% if publi.link.code %}
+
+  {% if publi.link.video %}
+  <strong><a href="{{ publi.link.page }}">[project page]</a></strong>
+  <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
+  <strong><a href="{{ publi.link.video }}">[video]</a></strong>
+  <strong><a href="{{ publi.link.code }}">[code]</a></strong>
+  {% else %}
+  <strong><a href="{{ publi.link.page }}">[project page]</a></strong>
+  <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
+  <strong><a href="{{ publi.link.code }}">[code]</a></strong>
+  {% endif %}
+
+  {% else %}
+
+  {% if publi.link.video %}
+  <strong><a href="{{ publi.link.page }}">[project page]</a></strong>
+  <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
+  <strong><a href="{{ publi.link.video }}">[video]</a></strong>
+  {% else %}
+  <strong><a href="{{ publi.link.page }}">[project page]</a></strong>
+  <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
+  {% endif %}
+
+  {% endif %}
+
+  {% else %}
+
+  {% if publi.link.code %}
+
   {% if publi.link.video %}
   <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
   <strong><a href="{{ publi.link.video }}">[video]</a></strong>
@@ -82,14 +113,21 @@ permalink: /publications/
   <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
   <strong><a href="{{ publi.link.code }}">[code]</a></strong>
   {% endif %}
+
   {% else %}
+
   {% if publi.link.video %}
   <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
   <strong><a href="{{ publi.link.video }}">[video]</a></strong>
   {% else %}
   <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
   {% endif %}
+
   {% endif %}
+
+  {% endif %}
+
+
 </div>
 {% endfor %}
 
