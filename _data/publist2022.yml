@@ -3,6 +3,7 @@
   description:
   authors: Eun Sun Lee, Junho Kim, SangWon Park, and Young Min Kim
   link:
+    page: ./MoDA
     url: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990332.pdf
     display: European Conference on Computer Vision (ECCV) 2022
     code: 
@@ -15,9 +16,10 @@
   description:
   authors: Junho Kim, Hojun Jang, Changwoon Choi, and Young Min Kim
   link:
+    page: ./CPO
     url: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690173.pdf
     display: European Conference on Computer Vision (ECCV) 2022
-    code: https://github.com/82magnolia/cpo
+    code: https://github.com/82magnolia/panoramic-localization
     video: https://youtu.be/V6XjHL5q0_Y
   highlight: 0
   news2:
@@ -76,6 +78,7 @@
   description:
   authors: Eun Sun Lee, Junho Kim, Young Min Kim
   link:
+    page: ./SSDA
     url: https://arxiv.org/abs/2110.07184
     display: IEEE Winter Conference on Applications of Computer Vision (WACV) 2022
     code:

@@ -5,14 +5,6 @@
 #  page:
 #  educations:
 
-- name: Jaeah Lee
-  photo: jaeah_lee.jpg
-  research_interests: Implicit neural representation, 3D stylization
-  email: hayanz@snu.ac.kr
-  educations:
-    - B.S. Chemistry Education, Seoul National University, 2024 (Expected)
-    - B.S. Computer Science and Engineering, Seoul National University, 2024 (Expected)
-
 - name: Sungbin Mun
   photo: sungbin_mun.jpg
   research_interests: Vision-based reinforcement learning, 3D computer vision
@@ -21,9 +13,3 @@
     - B.S. Mechanical Engineering, Korea University, 2024 (Expected)
     - B.S. Artificial Intelligence, Korea University, 2024 (Expected)
 
-- name: Wonjae Ho
-  photo: wonjae_ho.jpg
-  research_interests: 3D motion
-  email: teddy_bear@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2025 (Expected)

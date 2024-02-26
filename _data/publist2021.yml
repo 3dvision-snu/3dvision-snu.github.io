@@ -26,9 +26,10 @@
   description:
   authors: Junho Kim, Changwoon Choi, Hojun Jang, Young Min Kim
   link:
+    page: ./PICCOLO
     url: https://openaccess.thecvf.com/content/ICCV2021/html/Kim_PICCOLO_Point_Cloud-Centric_Omnidirectional_Localization_ICCV_2021_paper.html
     display: International Conference on Computer Vision (ICCV) 2021
-    code: https://github.com/82magnolia/piccolo
+    code: https://github.com/82magnolia/panoramic-localization
     video: https://youtu.be/E-_lEsChfoE
   highlight: 0
   news2:
