@@ -3,14 +3,14 @@ title: "3D Vision Lab"
 layout: projects
 excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
-permalink: /publications/CPO
+permalink: /publications/EvTTA
 ---
 
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CPO: Change Robust Panorama to Point Cloud Localization</title>
+    <title>Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -48,8 +48,9 @@ permalink: /publications/CPO
         <div class="container is-max-widescreen has-text-centered">
           <!-- title -->
           <h1 class="title is-size-1 is-size-2-mobile publication-title">
-            <span style="color: #4287f5">CPO</span>: <span style="color: #4287f5">C</span>hange Robust <span style="color: #4287f5">P</span>anorama to <br>Point Cloud L<span style="color: #4287f5">o</span>calization
+            Ev-TTA: Test-Time Adaptation <br>for Event-Based Object Recognition
           </h1>
+
           <!-- authors -->
           <div class="container is-max-desktop has-text-centered">
             <div class="columns is-mobile is-centered is-gapless">
@@ -57,10 +58,7 @@ permalink: /publications/CPO
                 <a class="author-blocks" href="https://www.junhokim.xyz">Junho Kim</a>
               </div>
               <div class="column is-2-tablet is-size-5-tablet publication-authors">
-                <a class="author-blocks" href="https://hojunjang17.github.io">Hojun Jang</a>
-              </div>
-              <div class="column is-2-tablet is-size-5-tablet publication-authors">
-                <a class="author-blocks" href="https://www.changwoon.info">Changwoon Choi</a>
+                <a class="author-blocks" href="https://inwoohwang.me">Inwoo Hwang</a>
               </div>
               <div class="column is-2-tablet is-size-5-tablet publication-authors">
                 <a class="author-blocks" href="http://3d.snu.ac.kr/members">Young Min Kim</a>
@@ -74,25 +72,25 @@ permalink: /publications/CPO
 
           <!-- icons -->
           <div class="is-size-5 link-blocks">
-            <a class="button link-button is-rounded" href="{{ site.url }}{{ site.baseurl }}/assets/CPO/paper.pdf">
+            <a class="button link-button is-rounded" href="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/paper.pdf">
               <span class="icon">
                 <i class="fa-solid fa-file"></i>
               </span>
               <span>Paper</span>
             </a>
-            <a class="button link-button is-rounded" href="https://arxiv.org/abs/2207.05317">
+            <a class="button link-button is-rounded" href="https://arxiv.org/abs/2203.12247">
               <span class="icon">
                 <i class="ai ai-arxiv"></i>
               </span>
               <span>arXiv</span>
             </a>
-            <a class="button link-button is-rounded" href="https://www.youtube.com/watch?v=V6XjHL5q0_Y">
+            <a class="button link-button is-rounded" href="https://www.youtube.com/watch?v=H4D7gDHn7oI">
               <span class="icon">
                 <i class="fa-brands fa-youtube"></i>
               </span>
               <span>Video</span>
             </a>
-            <a class="button link-button is-rounded" href="https://github.com/82magnolia/panoramic-localization">
+            <a class="button link-button is-rounded" href="https://github.com/82magnolia/ev_tta">
               <span class="icon">
                 <i class="fab fa-github"></i>
               </span>
@@ -107,9 +105,9 @@ permalink: /publications/CPO
     <section class="hero">
       <div class="container is-max-desktop">
         <div class="hero-body">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/qual_results.png" width="100%" style="display: block; margin: auto" />
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/overview.png" width="90%" style="display: block; margin: auto" />
           <h2 class="subtitle has-text-centered">
-            CPO is a localization algorithm that operates by <b>matching color distributions</b> in 2D and 3D.
+            Ev-TTA is a simple, effective <b>test-time adaptation method</b> for event-based object recognition.
           </h2>
         </div>
       </div>
@@ -125,13 +123,21 @@ permalink: /publications/CPO
           </div>
           <div class="column has-text-justified">
             <p class="content">
-              We present CPO, a fast and robust algorithm that localizes a 2D panorama with respect to a 3D point cloud of a scene possibly containing changes. 
-              To robustly handle scene changes, our approach deviates from conventional feature point matching, and focuses on the spatial context provided from panorama images.
-              Specifically, we propose efficient color histogram generation and subsequent robust localization using score maps. 
-              By utilizing the unique equivariance of spherical projections, we propose very fast color histogram generation for a large number of camera poses without explicitly rendering images for all candidate poses. 
-              We accumulate the regional consistency of the panorama and point cloud as 2D/3D score maps, and use them to weigh the input color values to further increase robustness.
-              The weighted color distribution quickly finds good initial poses and achieves stable convergence for gradient-based optimization. 
-              CPO is lightweight and achieves effective localization in all tested scenarios, showing stable performance despite scene changes, repetitive structures, or featureless regions, which are typical challenges for visual localization with perspective cameras.
+              We introduce Ev-TTA, a simple, effective test-time adaptation algorithm for event-based object recognition. While
+              event cameras are proposed to provide measurements of
+              scenes with fast motions or drastic illumination changes,
+              many existing event-based recognition algorithms suffer
+              from performance deterioration under extreme conditions
+              due to significant domain shifts. Ev-TTA mitigates the
+              severe domain gaps by fine-tuning the pre-trained classifiers during the test phase using loss functions inspired
+              by the spatio-temporal characteristics of events. Since the
+              event data is a temporal stream of measurements, our loss
+              function enforces similar predictions for adjacent events to
+              quickly adapt to the changed environment online. Also,
+              we utilize the spatial correlations between two polarities of
+              events to handle noise under extreme illumination, where
+              different polarities of events exhibit distinctive noise distributions. Ev-TTA demonstrates a large amount of performance gain on a wide range of event-based object recognition tasks without extensive additional training. Our formulation can be successfully applied regardless of input representations and further extended into regression tasks. We
+              expect Ev-TTA to provide the key technique to deploy eventbased vision algorithms in challenging real-world applications where significant domain shift is inevitable.
             </p>
           </div>
         </div>
@@ -144,7 +150,7 @@ permalink: /publications/CPO
           <div class="column">
             <div class="publication-video">
               <iframe
-                src="https://www.youtube.com/embed/V6XjHL5q0_Y?si=mkS9IrG3UbSSaBKe"
+                src="https://www.youtube.com/embed/H4D7gDHn7oI?si=fUusZaCw8NDqlCUn"
                 allow="autoplay; encrypted-media"
                 allowfullscreen="true"
               ></iframe>
@@ -160,16 +166,17 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Challenges in Panoramic Localization
+              What Are Event Cameras?
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/motivation.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/events.gif" width="90%" style="display: block; margin: auto" />
             <p class="content">
-              CPO is a localization algorithm that takes a panorama image and colored point cloud as input and finds the camera pose.
-              Panorama images are beneficial for localization as the full 360-degree view provides the holistic scene context with less ambiguity.
-              However, drastic scene changes can make localization challenging, as illustrated in the right.
-              The goal of CPO is to perform robust localization amidst such scene changes.
+              Event cameras are neuromorphic sensors that encode visual information as a sequence of events. In contrast
+              to conventional frame-based cameras that output absolute brightness intensities, event cameras respond to
+              brightness changes. The following figure shows a visual description of how event cameras function compared
+              to conventional cameras. Notice how brightness changes are encoded as 'streams' in the spatio-temporal
+              domain.
             </p>
           </div>
         </div>
@@ -181,101 +188,14 @@ permalink: /publications/CPO
       <div class="container is-max-desktop">
         <div class="columns">
           <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">Method Overview</h2>
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">Problem Setup (Sensing-Perception Gap)</h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/overview.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/sensing_perception_gap.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              Given a query image and point cloud, CPO first creates 2D, 3D score maps that reflect regional color consistencies and attenuate regions that possibly contain scene changes.
-              Using the score maps, CPO first selects promising candidate poses which are further refined with gradient descent optimization.              
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              2D Score Map Generation
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/2d_score_map.png" width="100%" style="display: block; margin: auto" />
-            <p class="content">
-              2D score maps assign higher scores to <b>image regions that are consistent with the point cloud color</b>.
-              To create 2D score maps, synthetic views are first rendered at various locations in the point cloud.
-              Then, intersections are computed between the patch-wise color histograms of the synthetic views and the query image.
-              Finally, for each patch in the 2D score map, the maximum histogram intersection is stored.              
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              3D Score Map Generation
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/3d_score_map.png" width="100%" style="display: block; margin: auto" />
-            <p class="content">
-              3D score maps assign higher scores to <b>point cloud regions that have consistent colors with the query image</b>.
-              To build 3D score maps, we re-use the patch-wise histogram intersections computed between the query image and synthetic views.
-              For each synthetic view, we back-project the histogram intersection values to the point cloud, and average the back-projected histogram intersections.              
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Localization Step 1: Candidate Pose Selection
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/candidate_pose_selection.png" width="100%" style="display: block; margin: auto" />
-            <p class="content">
-              CPO leverages the 2D score map for candidate pose selection.
-              Given a pool of translations and rotations, CPO renders a synthetic view for each pose and computes the patch-wise color histograms.
-              The histograms are compared against the query image through histogram intersection weighted with 2D score maps.
-              Finally, the top-k poses with the largest intersection values are selected for refinement.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Localization Step 2: Pose Refinement
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/pose_refinement.png" width="90%" style="display: block; margin: auto" />
-            <p class="content">
-              CPO uses the 3D score map with sampling loss minimization for pose refinement.
-              Sampling loss is defined as the color difference between each 3D point’s color and its projected location’s sampled color.
-              Here, the 3D score map is applied to weigh the color difference of each point.
-              On the right, we show the optimization trajectories of the candidate poses.
-              The candidate pose with the smallest sampling loss is chosen after optimization.              
+              Event cameras can provide measurements in extreme conditions due to the hardware-level benefits such as high dynamic range and temporal resolution.
+              However, the classifiers trained on event captures from normal conditions do not generalize well in such challenging scenarios.
+              Thus a <b>sensing-perception gap</b> exists, where the visual sensor can provide robust measurements while the entailing perception algorithms cannot properly handle the domain gaps.
             </p>
           </div>
         </div>
@@ -288,15 +208,99 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              2D and 3D Score Map Visualization
+              Method Overview
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/score_map_vis.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/method.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              Here we show visualizations of 2D, 3D score maps.
-              On the left, new furniture and a moving person are introduced since the 3D scan, which are all attenuated by the 2D score map.
-              On the right, we display the 3D score map, where the map places smaller values on regions near chairs and the blue carpet which are not present in the query image.              
+              Ev-TTA mitigates the domain gaps from extreme measurement conditions by fine-tuning the classifier during test phase.
+              Consider a model trained with ground truth labels on the source domain as seen on the left which will make low quality predictions in novel, unseen environments.
+              Ev-TTA adapts this model to new conditions <b>without using ground truth labels in an online manner</b>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content section with left-side subtitle -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+              Training Objectives (Prediction Similarity Loss)
+            </h2>
+          </div>
+          <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/prediction_simlarity.png" width="100%" style="display: block; margin: auto" />
+            <p class="content">
+              Ev-TTA exploits two loss functions for adaptation.
+              <b>Prediction similarity loss</b> enforces the predictions made on various regions in the event stream to follow the prediction on the anchor event which is shown as the red box.
+              The loss is a symmetric KL divergence which penalizes deviations between the anchor event prediction and the rest.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content section with left-side subtitle -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+              Training Objectives (Selective Entropy Loss)
+            </h2>
+          </div>
+          <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/selective_entropy.png" width="100%" style="display: block; margin: auto" />
+            <p class="content">
+              <b>Selective entropy loss</b> enhances the quality of the anchor prediction.
+              The loss minimizes the prediction entropy of the anchor event if its prediction is consistent with predictions made on the neighboring events.
+              Here the consistency is determined by comparing the class prediction of the anchor event against the majority vote made from the neighboring events.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content section with left-side subtitle -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+              Denoising for Low Light Conditions
+            </h2>
+          </div>
+          <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/denoising.png" width="70%" style="display: block; margin: auto" />
+            <p class="content">
+              In low light conditions, Ev-TTA additionally performs denoising using spatial consistency.
+              Large amounts of noise on a single event polarity often occur in low light conditions, which can be observed on the negative polarity in the figure.
+              For each event on the polarity where noise occurred, we examine its neighbors in the opposite polarity and if the event lacks any neighbors, we label it as noise and remove it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content section with left-side subtitle -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+              Adaptation Performance Analysis
+            </h2>
+          </div>
+          <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/EvTTA/qual_results.png" width="80%" style="display: block; margin: auto" />
+            <p class="content">
+              The curves above show the classification accuracy of Ev-TTA measured in N-ImageNet, a large-scale benchmark for event-based object recognition.
+              The dataset contains evaluation splits with events obtained under <b>brightness changes</b> (e.g., low light) and <b>camera trajectory changes</b> (e.g., fast motion).
+              Compared to <i>no adaptation</i>, large amounts of accuracy improvements exist, and the accuracy approaches results from <i>ground-truth training</i> when given more test-time training data.
             </p>
           </div>
         </div>
@@ -311,13 +315,13 @@ permalink: /publications/CPO
         </div>
         <div class="box bibtex-box">
           <pre>
-@InProceedings{Kim_2022_ECCV,
-    author    = {Kim, Junho and Jang, Hojun and Choi, Changwoon and Kim, Young Min},
-    title     = {CPO: Change Robust Panorama to Point Cloud Localization},
-    booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
-    month     = {October},
-    year      = {2022},
-    pages     = {176-192},
+@InProceedings{Kim_2022_CVPR,
+  author    = {Kim, Junho and Hwang, Inwoo and Kim, Young Min},
+  title     = {Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2022},
+  pages     = {17745-17754}
 }
           </pre>
         </div>
@@ -353,8 +357,8 @@ permalink: /publications/CPO
               <a class="navbar-item" href="https://82magnolia.github.io/event_localization/">
                 Event-Based Visual Localization
               </a>
-              <a class="navbar-item" href="https://3d.snu.ac.kr/publications/PICCOLO">
-                PICCOLO: Point Cloud-Centric Omnidirectional Localization
+              <a class="navbar-item" href="https://github.com/82magnolia/ev_tta">
+                Test-Time Adaptation for Event Cameras
               </a>
               <a
                 class="navbar-item"

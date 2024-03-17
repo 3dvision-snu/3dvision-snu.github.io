@@ -1,0 +1,35 @@
+- title: 'Interpreting Chiral Morphogenesis of Gold Using Generative Cellular Automata'
+  image: material_gca.png
+  description: 
+  authors: Sang Won Im<sup>*</sup>, Dongsu Zhang<sup>*</sup>, Jeong Hyun Han, Ryeong Myeong Kim, Changwoon Choi, Young Min Kim<sup>*</sup><sup>*</sup>, Ki Tae Nam<sup>*</sup><sup>*</sup>
+  link:
+    url: 
+    display: Nature Materials 2024
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata'
+  image: outdoor_hgca.png
+  description: 
+  authors: Dongsu Zhang, Francis Williams, Zan Gojcic, Karsten Kreis, Sanja Fidler, Young Min Kim, Amlan Kar
+  link:
+    url: 
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'Fully Geometric Panoramic Localization'
+  image: FGPL.png
+  description: 
+  authors: Junho Kim, Jiwon Jeong, Young Min Kim
+  link:
+    url: 
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+    code: 
+    video: 
+  highlight: 0
+  news2:

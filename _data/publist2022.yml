@@ -41,6 +41,7 @@
   description:
   authors: Junho Kim, Inwoo Hwang, and Young Min Kim
   link:
+    page: ./EvTTA
     url: https://openaccess.thecvf.com/content/CVPR2022/html/Kim_Ev-TTA_Test-Time_Adaptation_for_Event-Based_Object_Recognition_CVPR_2022_paper.html
     display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2022
     code: 

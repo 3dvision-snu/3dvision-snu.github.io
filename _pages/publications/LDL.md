@@ -3,14 +3,14 @@ title: "3D Vision Lab"
 layout: projects
 excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
-permalink: /publications/CPO
+permalink: /publications/LDL
 ---
 
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CPO: Change Robust Panorama to Point Cloud Localization</title>
+    <title>LDL: Line Distance Functions for Panoramic Localization</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -48,8 +48,9 @@ permalink: /publications/CPO
         <div class="container is-max-widescreen has-text-centered">
           <!-- title -->
           <h1 class="title is-size-1 is-size-2-mobile publication-title">
-            <span style="color: #4287f5">CPO</span>: <span style="color: #4287f5">C</span>hange Robust <span style="color: #4287f5">P</span>anorama to <br>Point Cloud L<span style="color: #4287f5">o</span>calization
+            <span style="color: #4287f5">LDL</span>: <span style="color: #4287f5">L</span>ine <span style="color: #4287f5">D</span>istance Functions <br/>for Panoramic <span style="color: #4287f5">L</span>ocalization
           </h1>
+
           <!-- authors -->
           <div class="container is-max-desktop has-text-centered">
             <div class="columns is-mobile is-centered is-gapless">
@@ -57,10 +58,10 @@ permalink: /publications/CPO
                 <a class="author-blocks" href="https://www.junhokim.xyz">Junho Kim</a>
               </div>
               <div class="column is-2-tablet is-size-5-tablet publication-authors">
-                <a class="author-blocks" href="https://hojunjang17.github.io">Hojun Jang</a>
+                <a class="author-blocks" href="http://3d.snu.ac.kr/members">Changwoon Choi</a>
               </div>
               <div class="column is-2-tablet is-size-5-tablet publication-authors">
-                <a class="author-blocks" href="https://www.changwoon.info">Changwoon Choi</a>
+                <a class="author-blocks" href="http://3d.snu.ac.kr/members">Hojun Jang</a>
               </div>
               <div class="column is-2-tablet is-size-5-tablet publication-authors">
                 <a class="author-blocks" href="http://3d.snu.ac.kr/members">Young Min Kim</a>
@@ -74,19 +75,19 @@ permalink: /publications/CPO
 
           <!-- icons -->
           <div class="is-size-5 link-blocks">
-            <a class="button link-button is-rounded" href="{{ site.url }}{{ site.baseurl }}/assets/CPO/paper.pdf">
+            <a class="button link-button is-rounded" href="{{ site.url }}{{ site.baseurl }}/assets/LDL/paper.pdf">
               <span class="icon">
                 <i class="fa-solid fa-file"></i>
               </span>
               <span>Paper</span>
             </a>
-            <a class="button link-button is-rounded" href="https://arxiv.org/abs/2207.05317">
+            <a class="button link-button is-rounded" href="https://arxiv.org/abs/2308.13989">
               <span class="icon">
                 <i class="ai ai-arxiv"></i>
               </span>
               <span>arXiv</span>
             </a>
-            <a class="button link-button is-rounded" href="https://www.youtube.com/watch?v=V6XjHL5q0_Y">
+            <a class="button link-button is-rounded" href="https://www.youtube.com/watch?v=cQ5l4rauNY0">
               <span class="icon">
                 <i class="fa-brands fa-youtube"></i>
               </span>
@@ -107,9 +108,9 @@ permalink: /publications/CPO
     <section class="hero">
       <div class="container is-max-desktop">
         <div class="hero-body">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/qual_results.png" width="100%" style="display: block; margin: auto" />
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/thumbnail.gif" width="100%" style="display: block; margin: auto" />
           <h2 class="subtitle has-text-centered">
-            CPO is a localization algorithm that operates by <b>matching color distributions</b> in 2D and 3D.
+            LDL performs quick & robust localization by <b>matching the distribution of lines in 2D and 3D</b>.
           </h2>
         </div>
       </div>
@@ -125,13 +126,24 @@ permalink: /publications/CPO
           </div>
           <div class="column has-text-justified">
             <p class="content">
-              We present CPO, a fast and robust algorithm that localizes a 2D panorama with respect to a 3D point cloud of a scene possibly containing changes. 
-              To robustly handle scene changes, our approach deviates from conventional feature point matching, and focuses on the spatial context provided from panorama images.
-              Specifically, we propose efficient color histogram generation and subsequent robust localization using score maps. 
-              By utilizing the unique equivariance of spherical projections, we propose very fast color histogram generation for a large number of camera poses without explicitly rendering images for all candidate poses. 
-              We accumulate the regional consistency of the panorama and point cloud as 2D/3D score maps, and use them to weigh the input color values to further increase robustness.
-              The weighted color distribution quickly finds good initial poses and achieves stable convergence for gradient-based optimization. 
-              CPO is lightweight and achieves effective localization in all tested scenarios, showing stable performance despite scene changes, repetitive structures, or featureless regions, which are typical challenges for visual localization with perspective cameras.
+              We introduce LDL, a fast and robust algorithm that
+              localizes a panorama to a 3D map using line segments.
+              LDL focuses on the sparse structural information of lines
+              in the scene, which is robust to illumination changes and
+              can potentially enable efficient computation. While previous line-based localization approaches tend to sacrifice
+              accuracy or computation time, our method effectively observes the holistic distribution of lines within panoramic
+              images and 3D maps. Specifically, LDL matches the distribution of lines with 2D and 3D line distance functions,
+              which are further decomposed along principal directions of
+              lines to increase the expressiveness. The distance functions
+              provide coarse pose estimates by comparing the distributional information, where the poses are further optimized
+              using conventional local feature matching. As our pipeline
+              solely leverages line geometry and local features, it does not
+              require costly additional training of line-specific features
+              or correspondence matching. Nevertheless, our method
+              demonstrates robust performance on challenging scenarios including object layout changes, illumination shifts, and
+              large-scale scenes, while exhibiting fast pose search terminating within a matter of milliseconds. We thus expect our
+              method to serve as a practical solution for line-based localization, and complement the well-established point-based
+              paradigm. The code for LDL is available through the following link: <a href="https://github.com/82magnolia/panoramic-localization">https://github.com/82magnolia/panoramic-localization</a>.
             </p>
           </div>
         </div>
@@ -144,7 +156,7 @@ permalink: /publications/CPO
           <div class="column">
             <div class="publication-video">
               <iframe
-                src="https://www.youtube.com/embed/V6XjHL5q0_Y?si=mkS9IrG3UbSSaBKe"
+                src="https://www.youtube.com/embed/cQ5l4rauNY0?si=KexQ7mQW2VMcqOub"
                 allow="autoplay; encrypted-media"
                 allowfullscreen="true"
               ></iframe>
@@ -160,16 +172,15 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Challenges in Panoramic Localization
+              Task Overview
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/motivation.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/overview.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              CPO is a localization algorithm that takes a panorama image and colored point cloud as input and finds the camera pose.
-              Panorama images are beneficial for localization as the full 360-degree view provides the holistic scene context with less ambiguity.
-              However, drastic scene changes can make localization challenging, as illustrated in the right.
-              The goal of CPO is to perform robust localization amidst such scene changes.
+              LDL is a localization algorithm that takes a panorama image as input and finds the camera pose with respect to a 3D point cloud map. 
+              LDL <b>exploits line information during localization</b> to further reduce the map size and attain robustness against 2D-3D domain gaps or illumination changes.
+              This is in contrast to many prior methods that use photometric cues, which are susceptible to the aforementioned issues.              
             </p>
           </div>
         </div>
@@ -184,98 +195,12 @@ permalink: /publications/CPO
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">Method Overview</h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/overview.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/method.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              Given a query image and point cloud, CPO first creates 2D, 3D score maps that reflect regional color consistencies and attenuate regions that possibly contain scene changes.
-              Using the score maps, CPO first selects promising candidate poses which are further refined with gradient descent optimization.              
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              2D Score Map Generation
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/2d_score_map.png" width="100%" style="display: block; margin: auto" />
-            <p class="content">
-              2D score maps assign higher scores to <b>image regions that are consistent with the point cloud color</b>.
-              To create 2D score maps, synthetic views are first rendered at various locations in the point cloud.
-              Then, intersections are computed between the patch-wise color histograms of the synthetic views and the query image.
-              Finally, for each patch in the 2D score map, the maximum histogram intersection is stored.              
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              3D Score Map Generation
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/3d_score_map.png" width="100%" style="display: block; margin: auto" />
-            <p class="content">
-              3D score maps assign higher scores to <b>point cloud regions that have consistent colors with the query image</b>.
-              To build 3D score maps, we re-use the patch-wise histogram intersections computed between the query image and synthetic views.
-              For each synthetic view, we back-project the histogram intersection values to the point cloud, and average the back-projected histogram intersections.              
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Localization Step 1: Candidate Pose Selection
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/candidate_pose_selection.png" width="100%" style="display: block; margin: auto" />
-            <p class="content">
-              CPO leverages the 2D score map for candidate pose selection.
-              Given a pool of translations and rotations, CPO renders a synthetic view for each pose and computes the patch-wise color histograms.
-              The histograms are compared against the query image through histogram intersection weighted with 2D score maps.
-              Finally, the top-k poses with the largest intersection values are selected for refinement.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Localization Step 2: Pose Refinement
-            </h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/pose_refinement.png" width="90%" style="display: block; margin: auto" />
-            <p class="content">
-              CPO uses the 3D score map with sampling loss minimization for pose refinement.
-              Sampling loss is defined as the color difference between each 3D point’s color and its projected location’s sampled color.
-              Here, the 3D score map is applied to weigh the color difference of each point.
-              On the right, we show the optimization trajectories of the candidate poses.
-              The candidate pose with the smallest sampling loss is chosen after optimization.              
+              LDL performs localization through a three step process.
+              First, LDL extracts lines, principal directions, and local feature descriptors from the panorama and point cloud.
+              Then, LDL performs coarse pose search using novel line descriptors called line distance functions.
+              As the final step, LDL applies local feature matching between the panorama and selected poses within the map to obtain the refined pose.              
             </p>
           </div>
         </div>
@@ -288,19 +213,90 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              2D and 3D Score Map Visualization
+              Line Distance Functions Overview
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/score_map_vis.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/line_distance_function.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              Here we show visualizations of 2D, 3D score maps.
-              On the left, new furniture and a moving person are introduced since the 3D scan, which are all attenuated by the 2D score map.
-              On the right, we display the 3D score map, where the map places smaller values on regions near chairs and the blue carpet which are not present in the query image.              
+              During coarse pose search, we exploit <b>line distance functions in 2D and 3D</b>.
+              The distance functions are designed to capture the holistic distribution of lines.
+              First, 2D line distance functions are defined as the spherical distance to the nearest line segment.
+              3D line distance functions are similarly defined for pool of poses within the map.
+              Specifically, for each pose we first project the 3D line segments onto the sphere and compute the line distance function values.                
             </p>
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- Content section with left-side subtitle -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+              Line Distance Function Decomposition
+            </h2>
+          </div>
+          <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/decomposition.png" width="100%" style="display: block; margin: auto" />
+            <p class="content">
+              We further <b>decompose line distance functions using principal directions</b>.
+              Instead of defining a single distance function using all visible lines, we define three line distance functions for each set of lines parallel to the principal directions.
+              The decomposed line distance functions are finally compared using a robust cost function.
+              Here the cost function is defined for each rotation and translation within the map, and compares the decomposed distance function values for uniformly sampled points on the sphere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+        <div class="columns">
+            <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+                Localization Performance Analysis
+            </h2>
+            </div>
+            <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/eval_samples.png" width="100%" style="display: block; margin: auto" />
+            We evaluate LDL on Stanford2D-3D-S and OmniScenes, which are common datasets used for evaluating panoramic localization.
+            As shown above, numerous scenes in these datasets contain repetitive structures and noisy lines.
+
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/exp_results.png" width="80%" style="display: block; margin: auto" />
+
+            The figure on the left shows the translation and rotation recall curves for LDL and a conventional learning-based pose search method called NetVLAD.
+            LDL shows performance on a par with the learning-based method, while maintaining an order-of-magnitude shorter time.            
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns">
+        <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+            Potential for Privacy Protection
+            </h2>
+        </div>
+        <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/privacy_line.png" width="80%" style="display: block; margin: auto" />
+
+            We find that a small modification our method can offer light-weight privacy protection in client-server localization scenarios.
+            By changing LDL to only exploit local features near lines during refinement, we can prevent privacy breaches such as feature inversion attacks which aim to reveal the original image content from local feature information.
+
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/LDL/privacy_curve.png" width="80%" style="display: block; margin: auto" />
+
+            Here we plot the image error metrics of feature inversion attacks against the original image along with the localization accuracy using various line-based filtering threshold values.
+            While the discrepancy values increase largely, the localization accuracy remains relatively constant.
+
+        </div>
+        </div>
+    </div>
     </section>
 
     <!-- BibTex sectoion -->
@@ -311,15 +307,15 @@ permalink: /publications/CPO
         </div>
         <div class="box bibtex-box">
           <pre>
-@InProceedings{Kim_2022_ECCV,
-    author    = {Kim, Junho and Jang, Hojun and Choi, Changwoon and Kim, Young Min},
-    title     = {CPO: Change Robust Panorama to Point Cloud Localization},
-    booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
-    month     = {October},
-    year      = {2022},
-    pages     = {176-192},
-}
-          </pre>
+@InProceedings{Kim_2023_ICCV,
+  author    = {Kim, Junho and Choi, Changwoon and Jang, Hojun and Kim, Young Min},
+  title     = {LDL: Line Distance Functions for Panoramic Localization},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  month     = {October},
+  year      = {2023},
+  pages     = {17882-17892}
+}          
+        </pre>
         </div>
       </div>
     </section>
@@ -350,11 +346,14 @@ permalink: /publications/CPO
             <a class="navbar-link">More Research</a>
 
             <div class="navbar-dropdown is-right">
+              <a class="navbar-item" href="https://82magnolia.github.io/piccolo/">
+                PICCOLO: Point Cloud-Centric Omnidirectional Localization
+              </a>
+              <a class="navbar-item" href="https://82magnolia.github.io/cpo/">
+                CPO: Change Robust Panorama to Point Cloud Localization
+              </a>
               <a class="navbar-item" href="https://82magnolia.github.io/event_localization/">
                 Event-Based Visual Localization
-              </a>
-              <a class="navbar-item" href="https://3d.snu.ac.kr/publications/PICCOLO">
-                PICCOLO: Point Cloud-Centric Omnidirectional Localization
               </a>
               <a
                 class="navbar-item"

@@ -3,14 +3,14 @@ title: "3D Vision Lab"
 layout: projects
 excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
-permalink: /publications/CPO
+permalink: /publications/pano_depth
 ---
 
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CPO: Change Robust Panorama to Point Cloud Localization</title>
+    <title>Calibrating Panoramic Depth Estimation for Practical Localization and Mapping</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -48,8 +48,9 @@ permalink: /publications/CPO
         <div class="container is-max-widescreen has-text-centered">
           <!-- title -->
           <h1 class="title is-size-1 is-size-2-mobile publication-title">
-            <span style="color: #4287f5">CPO</span>: <span style="color: #4287f5">C</span>hange Robust <span style="color: #4287f5">P</span>anorama to <br>Point Cloud L<span style="color: #4287f5">o</span>calization
+            Calibrating Panoramic Depth Estimation for Practical Localization and Mapping
           </h1>
+
           <!-- authors -->
           <div class="container is-max-desktop has-text-centered">
             <div class="columns is-mobile is-centered is-gapless">
@@ -57,10 +58,7 @@ permalink: /publications/CPO
                 <a class="author-blocks" href="https://www.junhokim.xyz">Junho Kim</a>
               </div>
               <div class="column is-2-tablet is-size-5-tablet publication-authors">
-                <a class="author-blocks" href="https://hojunjang17.github.io">Hojun Jang</a>
-              </div>
-              <div class="column is-2-tablet is-size-5-tablet publication-authors">
-                <a class="author-blocks" href="https://www.changwoon.info">Changwoon Choi</a>
+                <a class="author-blocks" href="https://sites.google.com/view/eunsunlee">Eunsun Lee</a>
               </div>
               <div class="column is-2-tablet is-size-5-tablet publication-authors">
                 <a class="author-blocks" href="http://3d.snu.ac.kr/members">Young Min Kim</a>
@@ -74,25 +72,25 @@ permalink: /publications/CPO
 
           <!-- icons -->
           <div class="is-size-5 link-blocks">
-            <a class="button link-button is-rounded" href="{{ site.url }}{{ site.baseurl }}/assets/CPO/paper.pdf">
+            <a class="button link-button is-rounded" href="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/paper.pdf">
               <span class="icon">
                 <i class="fa-solid fa-file"></i>
               </span>
               <span>Paper</span>
             </a>
-            <a class="button link-button is-rounded" href="https://arxiv.org/abs/2207.05317">
+            <a class="button link-button is-rounded" href="https://arxiv.org/abs/2308.14005">
               <span class="icon">
                 <i class="ai ai-arxiv"></i>
               </span>
               <span>arXiv</span>
             </a>
-            <a class="button link-button is-rounded" href="https://www.youtube.com/watch?v=V6XjHL5q0_Y">
+            <a class="button link-button is-rounded" href="https://www.youtube.com/watch?v=KXz8IwrtJWg">
               <span class="icon">
                 <i class="fa-brands fa-youtube"></i>
               </span>
               <span>Video</span>
             </a>
-            <a class="button link-button is-rounded" href="https://github.com/82magnolia/panoramic-localization">
+            <a class="button link-button is-rounded" href="https://github.com/82magnolia/panoramic-depth-calibration">
               <span class="icon">
                 <i class="fab fa-github"></i>
               </span>
@@ -107,9 +105,9 @@ permalink: /publications/CPO
     <section class="hero">
       <div class="container is-max-desktop">
         <div class="hero-body">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/qual_results.png" width="100%" style="display: block; margin: auto" />
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/overview.png" width="85%" style="display: block; margin: auto" />
           <h2 class="subtitle has-text-centered">
-            CPO is a localization algorithm that operates by <b>matching color distributions</b> in 2D and 3D.
+            We propose a <b>calibration scheme</b> that adapts a pre-trained panoramic depth estimation network to new, unseen environments using light-weight training objectives.
           </h2>
         </div>
       </div>
@@ -125,13 +123,27 @@ permalink: /publications/CPO
           </div>
           <div class="column has-text-justified">
             <p class="content">
-              We present CPO, a fast and robust algorithm that localizes a 2D panorama with respect to a 3D point cloud of a scene possibly containing changes. 
-              To robustly handle scene changes, our approach deviates from conventional feature point matching, and focuses on the spatial context provided from panorama images.
-              Specifically, we propose efficient color histogram generation and subsequent robust localization using score maps. 
-              By utilizing the unique equivariance of spherical projections, we propose very fast color histogram generation for a large number of camera poses without explicitly rendering images for all candidate poses. 
-              We accumulate the regional consistency of the panorama and point cloud as 2D/3D score maps, and use them to weigh the input color values to further increase robustness.
-              The weighted color distribution quickly finds good initial poses and achieves stable convergence for gradient-based optimization. 
-              CPO is lightweight and achieves effective localization in all tested scenarios, showing stable performance despite scene changes, repetitive structures, or featureless regions, which are typical challenges for visual localization with perspective cameras.
+              The absolute depth values of surrounding environments
+              provide crucial cues for various assistive technologies, such
+              as localization, navigation, and 3D structure estimation.
+              We propose that accurate depth estimated from panoramic
+              images can serve as a powerful and light-weight input for a
+              wide range of downstream tasks requiring 3D information.
+              While panoramic images can easily capture the surrounding context from commodity devices, the estimated depth
+              shares the limitations of conventional image-based depth
+              estimation; the performance deteriorates under large domain shifts and the absolute values are still ambiguous to
+              infer from 2D observations. By taking advantage of the
+              holistic view, we mitigate such effects in a self-supervised
+              way and fine-tune the network with geometric consistency
+              during the test phase. Specifically, we construct a 3D
+              point cloud from the current depth prediction and project
+              the point cloud at various viewpoints or apply stretches on
+              the current input image to generate synthetic panoramas.
+              Then we minimize the discrepancy of the 3D structure estimated from synthetic images without collecting additional
+              data. We empirically evaluate our method in robot navigation and map-free localization where our method shows
+              large performance enhancements. Our calibration method
+              can therefore widen the applicability under various external conditions, serving as a key component for practical
+              panorama-based machine vision systems.
             </p>
           </div>
         </div>
@@ -144,7 +156,7 @@ permalink: /publications/CPO
           <div class="column">
             <div class="publication-video">
               <iframe
-                src="https://www.youtube.com/embed/V6XjHL5q0_Y?si=mkS9IrG3UbSSaBKe"
+                src="https://www.youtube.com/embed/KXz8IwrtJWg?si=Um-XmVtWWjdMmYNT"
                 allow="autoplay; encrypted-media"
                 allowfullscreen="true"
               ></iframe>
@@ -160,34 +172,14 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Challenges in Panoramic Localization
+              Why Panoramic Depth Estimation?
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/motivation.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/why_pano.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              CPO is a localization algorithm that takes a panorama image and colored point cloud as input and finds the camera pose.
-              Panorama images are beneficial for localization as the full 360-degree view provides the holistic scene context with less ambiguity.
-              However, drastic scene changes can make localization challenging, as illustrated in the right.
-              The goal of CPO is to perform robust localization amidst such scene changes.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Content section with left-side subtitle -->
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns">
-          <div class="column is-one-fifth">
-            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">Method Overview</h2>
-          </div>
-          <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/overview.png" width="100%" style="display: block; margin: auto" />
-            <p class="content">
-              Given a query image and point cloud, CPO first creates 2D, 3D score maps that reflect regional color consistencies and attenuate regions that possibly contain scene changes.
-              Using the score maps, CPO first selects promising candidate poses which are further refined with gradient descent optimization.              
+              Given a single panorama image, panoramic depth estimation outputs a dense depth map from pre-trained neural networks.
+              Since a full-surround 3D map is obtainable from a single neural network inference, panoramic depth estimation can enable light-weight 3D map creation.              
             </p>
           </div>
         </div>
@@ -200,16 +192,14 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              2D Score Map Generation
+              Challenges in Panoramic Depth Estimation
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/2d_score_map.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/pano_challenge.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              2D score maps assign higher scores to <b>image regions that are consistent with the point cloud color</b>.
-              To create 2D score maps, synthetic views are first rendered at various locations in the point cloud.
-              Then, intersections are computed between the patch-wise color histograms of the synthetic views and the query image.
-              Finally, for each patch in the 2D score map, the maximum histogram intersection is stored.              
+              One of the key challenges in panoramic depth estimation is the <b>small size of depth-annotated panoramic datasets</b> compared to the regular field-of-view counterparts.
+              As a result, existing panoramic depth estimation methods fail to generalize in domain shifts that occur during deployment.              
             </p>
           </div>
         </div>
@@ -222,15 +212,15 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              3D Score Map Generation
+              Panoramic Depth Calibration Overview
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/3d_score_map.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/calibration_overview.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              3D score maps assign higher scores to <b>point cloud regions that have consistent colors with the query image</b>.
-              To build 3D score maps, we re-use the patch-wise histogram intersections computed between the query image and synthetic views.
-              For each synthetic view, we back-project the histogram intersection values to the point cloud, and average the back-projected histogram intersections.              
+              Given a network pre-trained on large number of panorama images, our calibration scheme aims to enhance its performance in new, unseen environments by training the network on a small number of test samples.              
+              Note the training does not leverage any ground-truth annotations.
+              The calibrated network can produce more accurate 3D maps, which will be beneficial for downstream applications such as navigation.
             </p>
           </div>
         </div>
@@ -243,16 +233,17 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Localization Step 1: Candidate Pose Selection
+              Training Objectives (Normal and Chamfer Loss)
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/candidate_pose_selection.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/multi_view_loss.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              CPO leverages the 2D score map for candidate pose selection.
-              Given a pool of translations and rotations, CPO renders a synthetic view for each pose and computes the patch-wise color histograms.
-              The histograms are compared against the query image through histogram intersection weighted with 2D score maps.
-              Finally, the top-k poses with the largest intersection values are selected for refinement.
+              Our calibration scheme utilizes three loss functions.
+              The <b>multi-view loss functions (normal & chamfer)</b> operate by synthesizing panoramas at random pose perturbations.
+              Given the synthesized panoramas and their depth predictions,
+              chamfer loss enforces the point cloud coordinates produced from the two depth maps to be similar,
+              and normal loss additionally enforces the point cloud normals to be similar.              
             </p>
           </div>
         </div>
@@ -265,38 +256,81 @@ permalink: /publications/CPO
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              Localization Step 2: Pose Refinement
+              Training Objectives (Stretch Loss)
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/pose_refinement.png" width="90%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/stetch_loss.png" width="100%" style="display: block; margin: auto" />
             <p class="content">
-              CPO uses the 3D score map with sampling loss minimization for pose refinement.
-              Sampling loss is defined as the color difference between each 3D point’s color and its projected location’s sampled color.
-              Here, the 3D score map is applied to weigh the color difference of each point.
-              On the right, we show the optimization trajectories of the candidate poses.
-              The candidate pose with the smallest sampling loss is chosen after optimization.              
+              <b>Stretch loss</b> further imposes depth map consistency against stretched panoramas.
+              The loss specifically targets small or large-scale scenes, where we empirically observed depth estimation errors to largely increase compared to other sources of domain shifts.
+              To elaborate, we synthesize panoramas at various stretch rates, and impose depth map consistencies against each stretched panorama.              
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Content section with left-side subtitle -->
+    <!-- content section with left-side subtitle -->
     <section class="section">
       <div class="container is-max-desktop">
         <div class="columns">
           <div class="column is-one-fifth">
             <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
-              2D and 3D Score Map Visualization
+              Evaluation Setup
             </h2>
           </div>
           <div class="column has-text-justified">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/CPO/score_map_vis.png" width="100%" style="display: block; margin: auto" />
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/eval_setup.png" width="80%" style="display: block; margin: auto" />
             <p class="content">
-              Here we show visualizations of 2D, 3D score maps.
-              On the left, new furniture and a moving person are introduced since the 3D scan, which are all attenuated by the 2D score map.
-              On the right, we display the 3D score map, where the map places smaller values on regions near chairs and the blue carpet which are not present in the query image.              
+              We test our calibration method on a wide variety of domain shifts that could occur in robotics or AR/VR applications.
+              Specifically, we consider global lighting changes (image gamma, white balance, low lighting), image noises (gaussian, speckle, salt and pepper), and geometric changes (scene scale change to large/small scenes, camera rotation).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- content section with left-side subtitle -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+              Quantitative Results
+            </h2>
+          </div>
+          <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/quantitative.png" width="80%" style="display: block; margin: auto" />
+            <p class="content">
+              The plot shown here delineates the mean absolute error (MAE) of various adaptation methods tested in the Stanford2D-3D-S and OmniScenes datasets.
+              Our method outperforms the baselines under the aforementioned domain shifts, with more than 10cm decrease in MAE in most cases.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- content section with left-side subtitle -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-one-fifth">
+            <h2 class="subtitle is-4 is-size-3-mobile has-text-weight-medium publication-keywords">
+              Qualitative Results
+            </h2>
+          </div>
+          <div class="column has-text-justified">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/qualitative.png" width="90%" style="display: block; margin: auto" />
+            <p class="content">
+              Here we show qualitative results of depth estimation before and after applying our calibration scheme.
+              Prior to calibration, depth maps are very noisy due to the salt and peppr noise shown on the left.
+              By applying our calibration scheme, the depth maps better align with the ground-truth shown in green.
+
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/pano_depth/ThumbnailAnimatedv4.gif" width="90%" style="display: block; margin: auto" />
+
+              Here's an animation showing the depth estimation results obtained from our calibration scheme.
+              While the initial depth estimation network produces noisy depth estimates, the calibration leads to enhanced depth predictions after a few training iterations.
             </p>
           </div>
         </div>
@@ -311,13 +345,13 @@ permalink: /publications/CPO
         </div>
         <div class="box bibtex-box">
           <pre>
-@InProceedings{Kim_2022_ECCV,
-    author    = {Kim, Junho and Jang, Hojun and Choi, Changwoon and Kim, Young Min},
-    title     = {CPO: Change Robust Panorama to Point Cloud Localization},
-    booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
-    month     = {October},
-    year      = {2022},
-    pages     = {176-192},
+@InProceedings{Kim_2023_ICCV,
+  author    = {Kim, Junho and Lee, Eun Sun and Kim, Young Min},
+  title     = {Calibrating Panoramic Depth Estimation for Practical Localization and Mapping},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  month     = {October},
+  year      = {2023},
+  pages     = {8830-8840}
 }
           </pre>
         </div>
@@ -350,11 +384,11 @@ permalink: /publications/CPO
             <a class="navbar-link">More Research</a>
 
             <div class="navbar-dropdown is-right">
+              <a class="navbar-item" href="https://github.com/82magnolia/panoramic-localization">
+                Panoramic Localization
+              </a>
               <a class="navbar-item" href="https://82magnolia.github.io/event_localization/">
                 Event-Based Visual Localization
-              </a>
-              <a class="navbar-item" href="https://3d.snu.ac.kr/publications/PICCOLO">
-                PICCOLO: Point Cloud-Centric Omnidirectional Localization
               </a>
               <a
                 class="navbar-item"
