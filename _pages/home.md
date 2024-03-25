@@ -14,3 +14,5 @@ The geometric structure stems from the physical space we live in, and we utilize
 To do this, we adapt the state-of-the-art techniques from computer graphics, computer vision, machine learning, and robotics.
 The ultimate goal is to embrace the technology to seamlessly augment the limitation of time, space, or human, and make a better world.
 <br>
+<br>
+#### <strong>We are currently looking for a fully-funded post doc!</strong> (see <a href="./openings/">Openings</a>)

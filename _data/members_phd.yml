@@ -52,7 +52,7 @@
 
 - name: Junho Lee
   photo: junho_lee_1.jpg
-  research_interests: sim-to-real
+  research_interests: robotic grasping, 3D reconstruction
   # info: B.S. expected 2020
   email: twjhlee@snu.ac.kr
   email_link: https://mailhide.io/e/Yv522tDU
@@ -73,7 +73,7 @@
     - B.S. Biosystems Engineering, Seoul National University, 2020
 
 - name: Mingi Lee
-  photo: mingi_lee.jpg
+  photo: mingi_lee_1.jpg
   research_interests: 3D shape generation
   # info: B.S. expected 2021
   email: mingi1019@snu.ac.kr
@@ -126,4 +126,13 @@
   email_link: https://mailhide.io/e/l9K2AJmz
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2022
-    
+   
+- name: Gwangtak Bae
+  photo: gwangtak_bae.jpg
+  research_interests: 3D computer vision
+  # info: B.S. expected 2022
+  email: tak3452@gmail.com
+  email_link: https://mailhide.io/e/4tUm8P1M
+  page: https://www.gwangtakbae.info/
+  educations:
+    - B.S. Electrical Engineering, Korea Advanced Institute of Science and Technology, 2019

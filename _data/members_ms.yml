@@ -5,17 +5,6 @@
 #  page:
 #  educations:
 
-   
-- name: Gwangtak Bae
-  photo: gwangtak_bae.jpg
-  research_interests: 3D computer vision
-  # info: B.S. expected 2022
-  email: tak3452@gmail.com
-  email_link: https://mailhide.io/e/4tUm8P1M
-  page: https://www.gwangtakbae.info/
-  educations:
-    - B.S. Electrical Engineering, Korea Advanced Institute of Science and Technology, 2019
-
 - name: Seungbin Jeong
   photo: seungbin_jeong.jpg
   research_interests: computer graphics, 3D computer vision

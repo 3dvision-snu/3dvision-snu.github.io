@@ -27,7 +27,13 @@ figcaption {
 
 
 /* Top navigation bar */
-
+.navbar{
+	height: 70px; /* Just an example height*/
+}
+.navbar-right{
+	margin-top: 10px;
+	height: 70px;
+}
 
 p.byline {
 	text-align: center;
@@ -44,6 +50,7 @@ pubtit {
 
 
 .container-fluid {
+  
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px; /* or 950px */

@@ -5,7 +5,7 @@ excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
 permalink: /class/
 ---
-# <u>Workshops</u>
+## <u>Workshops</u>
 
 ### Upcoming
 {% for article in site.data.workshops_upcoming %}
@@ -35,7 +35,7 @@ permalink: /class/
 
 
 
-# <u>Classes</u>
+## <u>Classes</u>
 
 ### Current Classes
 {% for class in site.data.classes_current %}

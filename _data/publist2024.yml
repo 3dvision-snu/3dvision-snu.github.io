@@ -23,10 +23,11 @@
   news2:
 
 - title: 'Fully Geometric Panoramic Localization'
-  image: FGPL.png
+  image: FGPL.gif
   description: 
   authors: Junho Kim, Jiwon Jeong, Young Min Kim
   link:
+    page: ./FGPL
     url: 
     display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024
     code: 
