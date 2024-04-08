@@ -1,5 +1,5 @@
 - title: 'Interpreting Chiral Morphogenesis of Gold Using Generative Cellular Automata'
-  image: material_gca.png
+  image: material_gca.jpg
   description: 
   authors: Sang Won Im<sup>*</sup>, Dongsu Zhang<sup>*</sup>, Jeong Hyun Han, Ryeong Myeong Kim, Changwoon Choi, Young Min Kim<sup>*</sup><sup>*</sup>, Ki Tae Nam<sup>*</sup><sup>*</sup>
   link:
@@ -11,12 +11,12 @@
   news2:
 
 - title: 'Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata'
-  image: outdoor_hgca.png
+  image: outdoor_hgca.gif
   description: 
   authors: Dongsu Zhang, Francis Williams, Zan Gojcic, Karsten Kreis, Sanja Fidler, Young Min Kim, Amlan Kar
   link:
     url: 
-    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024, Highlight
     code: 
     video: 
   highlight: 0
