@@ -1,4 +1,4 @@
-- title: 'Interpreting Chiral Morphogenesis of Gold Using Generative Cellular Automata'
+- title: 'Investigating Chiral Morphogenesis of Gold Using Generative Cellular Automata'
   image: material_gca.jpg
   description: 
   authors: Sang Won Im<sup>*</sup>, Dongsu Zhang<sup>*</sup>, Jeong Hyun Han, Ryeong Myeong Kim, Changwoon Choi, Young Min Kim<sup>*</sup><sup>*</sup>, Ki Tae Nam<sup>*</sup><sup>*</sup>
@@ -11,7 +11,7 @@
   news2:
 
 - title: 'Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata'
-  image: outdoor_hgca.gif
+  image: outdoor_hgca_1.gif
   description: 
   authors: Dongsu Zhang, Francis Williams, Zan Gojcic, Karsten Kreis, Sanja Fidler, Young Min Kim, Amlan Kar
   link:
