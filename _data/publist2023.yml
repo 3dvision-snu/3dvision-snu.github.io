@@ -29,6 +29,7 @@
   description: 
   authors: Changwoon Choi<sup>*</sup>, Juhyeon Kim<sup>*</sup>, Young Min Kim
   link:
+    page: https://changwoon.info/publications/IBL-NeRF
     url: https://arxiv.org/abs/2210.08202
     display: Computer Graphics Forum (Pacific Graphics) 2023
     code: https://github.com/changwoonchoi/IBL-NeRF
@@ -117,6 +118,7 @@
   description:
   authors: Changwoon Choi, Sang Min Kim, Young Min Kim
   link:
+    page: https://changwoon.info/publications/EgoNeRF
     url: https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_Balanced_Spherical_Grid_for_Egocentric_View_Synthesis_CVPR_2023_paper.pdf
     display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2023
     code: https://github.com/changwoonchoi/EgoNeRF

@@ -1,3 +1,28 @@
+
+- title: 'ASIMO: Agent-centric Scene representation In Multi-Object manipulation'
+  image: asimo.png
+  description: 
+  authors: Cheol-Hui Min, Young Min Kim
+  link:
+    url: 
+    display: The International Journal of Robotics Research (IJRR), 2024
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: '3Doodle: Compact Abstraction of Objects with 3D Strokes'
+  image: 3doodle.gif
+  description: 
+  authors: Changwoon Choi, Jaeah Lee, Jaesik Park, Young Min Kim
+  link:
+    url: https://arxiv.org/pdf/2402.03690
+    display: SIGGRAPH (ACM Transactions on Graphics) 2024
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'Investigating Chiral Morphogenesis of Gold Using Generative Cellular Automata'
   image: material_gca.jpg
   description: 
