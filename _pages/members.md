@@ -281,9 +281,9 @@ permalink: /members/
 {% for member in site.data.members_alumni_under_graduate %}
 <div class="col-xs-12 clearfix">
 {% if member.page == nil %}
-**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**{{ member.name }}** (~{{member.end}})
 {% else %}
-**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}})
 {% endif %}
 </div>
 {% endfor %}

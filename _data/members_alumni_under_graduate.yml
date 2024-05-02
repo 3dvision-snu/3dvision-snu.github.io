@@ -32,3 +32,40 @@
     - B.S. student, Seoul National University
   end:
     - 2021.03
+
+- name: Gangin Park
+  photo: gangin_park.png
+  research_interests: event-based computer vision
+  # info: B.S. expected 2022
+  email: ssonpull519@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2022 (expected)
+  status:
+    - B.S. student, Seoul National University
+  end:
+    - 2021.04
+
+- name: Jiwon Jeong
+  photo: jiwon_jeong.jpg
+  research_interests: visual localization
+  # info: Ph.D, starts 2020
+  email: liz323@snu.ac.kr
+  #email_link: https://mailhide.io/e/M9z3eUod
+  # page: "#"
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (Expected)
+  status:
+    -  
+  end:
+    - 2023.08
+
+  
+- name: Jaeah Lee
+  photo: jaeah_lee.jpg
+  research_interests: Implicit neural representation, 3D stylization
+  email: hayanz@snu.ac.kr
+  educations:
+    - B.S. Chemistry Education, Seoul National University, 2024 (Expected)
+    - B.S. Computer Science and Engineering, Seoul National University, 2024 (Expected)
+  end:
+    - 2024.01
