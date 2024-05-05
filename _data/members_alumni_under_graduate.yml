@@ -45,6 +45,36 @@
   end:
     - 2021.04
 
+- name: Inbum Park
+  photo: inbum_park.jpg
+  research_interests: 3D computer vision
+  # info: B.S. expected 2022
+  email: inbum0215@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
+  status:
+    - B.S. student, Seoul National University
+  end:
+    - 2021.09
+
+- name: Sangwon Park
+  photo: sangwon_park.jpg
+  research_interests: 3D computer vision, Visual navigation
+  email: paulmoguri@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)"
+  end:
+    - 2022.08
+
+- name: Hyeonwoo Kim
+  page: https://www.sshowbiz.xyz/
+  photo:
+  research_interests:
+  email:
+  educations:
+  end:
+    - 2022.12
+
 - name: Jiwon Jeong
   photo: jiwon_jeong.jpg
   research_interests: visual localization
@@ -58,7 +88,6 @@
     -  
   end:
     - 2023.08
-
   
 - name: Jaeah Lee
   photo: jaeah_lee.jpg

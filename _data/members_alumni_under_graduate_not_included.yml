@@ -14,7 +14,6 @@
   email: teddy_bear@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2025 (Expected)
-    
 
 - name: Gangin Park
   photo: gangin_park.png
@@ -52,18 +51,6 @@
   end:
     - 2021.08
 
-- name: Inbum Park
-  photo: inbum_park.jpg
-  research_interests: 3D computer vision
-  # info: B.S. expected 2022
-  email: inbum0215@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
-  status:
-    - B.S. student, Seoul National University
-  end:
-    - 2021.09
-
 - name: Taegyun Lee
   photo: taegyun_lee.jpg
   research_interests: computer graphics, 3D computer vision
@@ -91,9 +78,3 @@
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)
     
-- name: Sangwon Park
-  photo: sangwon_park.jpg
-  research_interests: 3D computer vision, Visual navigation
-  email: paulmoguri@snu.ac.kr
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2023 (expected)"
