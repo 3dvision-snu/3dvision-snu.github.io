@@ -40,10 +40,11 @@
   description: 
   authors: Dongsu Zhang, Francis Williams, Zan Gojcic, Karsten Kreis, Sanja Fidler, Young Min Kim, Amlan Kar
   link:
-    url: 
+    page: https://research.nvidia.com/labs/toronto-ai/hGCA/
+    url: https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Outdoor_Scene_Extrapolation_with_Hierarchical_Generative_Cellular_Automata_CVPR_2024_paper.html
     display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024, Highlight
-    code: 
-    video: 
+    code: https://github.com/nv-tlabs/hGCA
+    video: https://www.youtube.com/watch?v=96zP8fQFZeM
   highlight: 0
   news2:
 
@@ -53,7 +54,7 @@
   authors: Junho Kim, Jiwon Jeong, Young Min Kim
   link:
     page: ./FGPL
-    url: 
+    url: https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Fully_Geometric_Panoramic_Localization_CVPR_2024_paper.pdf
     display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024
     code: 
     video: https://youtu.be/IAHvWwHuuHU
