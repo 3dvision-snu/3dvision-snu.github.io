@@ -1,4 +1,16 @@
 
+- title: 'I<sup>2</sup>-SLAM: Inverting Imaging Process for Robust Photorealistic Dense SLAM'
+  image: dummy_white.png
+  description: 
+  authors: Gwangtak Bae<sup>*</sup>, Changwoon Choi<sup>*</sup>, Hyeongjun Heo, Sang Min Kim, Young Min Kim
+  link:
+    url: 
+    display: European Conference on Computer Vision (ECCV) 2024
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'ASIMO: Agent-centric Scene representation In Multi-Object manipulation'
   image: asimo.png
   description: 
