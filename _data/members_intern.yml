@@ -7,17 +7,23 @@
 
 - name: Dohyun Kim
   photo: dohyun_kim.jpg
-  research_interests: Robotics, 3D computer vision
+  research_interests: robotics, 3D computer vision
   email: dohyunk02@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2024 (Expected)
 
 - name: Seungbin Kang
   photo: seungbin_kang.jpg
-  research_interests: Robotics, Control
+  research_interests: robotics, control
   email: sbisthebest@snu.ac.kr
   educations:
     - B.S. College of Liberal Studies, Minor in Physics, Seoul National University, 2027 (Expected)
     - B.S. Mechanical Engineering, Seoul National University, 2027 (Expected)
     - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (Expected)
 
+- name: Seonghun Oh
+  photo: seunghun_oh.jpg
+  research_interests: 3D computer vision, computer graphics
+  email: rendell@yonsei.ac.kr
+  educations:
+    - B.S. Electrical and Electronic Engineering, Yonsei University, 2025 (Expected)
