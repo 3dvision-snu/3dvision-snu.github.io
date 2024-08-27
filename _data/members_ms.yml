@@ -20,3 +20,18 @@
   email_link: https://mailhide.io/e/hM8v0pRG
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2023
+
+- name: Sungbin Mun
+  photo: sungbin_mun.jpg
+  research_interests: Vision-based reinforcement learning, 3D computer vision
+  email: brian0429@korea.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Korea University, 2024 (Expected)
+    - B.S. Artificial Intelligence, Korea University, 2024 (Expected)
+
+- name: Younghwan Lee
+  photo: younghwan_lee.jpg
+  research_interests: 3D computer vision, computer animation, robotics
+  email: frredy99@snu.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Seoul National University, 2024

@@ -28,9 +28,10 @@
   description: 
   authors: Changwoon Choi, Jaeah Lee, Jaesik Park, Young Min Kim
   link:
-    url: https://arxiv.org/pdf/2402.03690
+    page: https://changwoonchoi.github.io/3Doodle/
+    url: https://dl.acm.org/doi/10.1145/3658156
     display: SIGGRAPH (ACM Transactions on Graphics) 2024
-    code: 
+    code: https://github.com/changwoonchoi/3Doodle
     video: 
   highlight: 0
   news2:

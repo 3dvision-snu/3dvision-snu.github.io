@@ -5,11 +5,19 @@
 #  page:
 #  educations:
 
-- name: Sungbin Mun
-  photo: sungbin_mun.jpg
-  research_interests: Vision-based reinforcement learning, 3D computer vision
-  email: brian0429@korea.ac.kr
+- name: Dohyun Kim
+  photo: dohyun_kim.jpg
+  research_interests: Robotics, 3D computer vision
+  email: dohyunk02@snu.ac.kr
   educations:
-    - B.S. Mechanical Engineering, Korea University, 2024 (Expected)
-    - B.S. Artificial Intelligence, Korea University, 2024 (Expected)
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2024 (Expected)
+
+- name: Seungbin Kang
+  photo: seungbin_kang.jpg
+  research_interests: Robotics, Control
+  email: sbisthebest@snu.ac.kr
+  educations:
+    - B.S. College of Liberal Studies, Minor in Physics, Seoul National University, 2027 (Expected)
+    - B.S. Mechanical Engineering, Seoul National University, 2027 (Expected)
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (Expected)
 

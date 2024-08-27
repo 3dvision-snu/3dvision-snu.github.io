@@ -1,0 +1,26 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+
+- name: Clément Jambon
+  photo: clement_jambon.jpg
+  research_interests: high-performance neural graphics
+  email: cjambon@student.ethz.ch
+  email_link: 
+  page: https://clementjambon.github.io/
+  educations:
+    - Postgraduate Engineering Degree, École Polytechnique, 2022
+    - M.S. Computer Science, ETH Zürich, 2024 (Expected)
+  status:
+    - 
+  final_edu:
+    - 
+  end:
+    - 

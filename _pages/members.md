@@ -175,6 +175,7 @@ permalink: /members/
 </div>
 {% endif %}
 
+{% if site.data.members_visitor %}
 ## Visitors
 {% assign number_printed = 0 %}
 {% for member in site.data.members_visitor %}
@@ -217,6 +218,7 @@ permalink: /members/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
+{% endif %}
 {% endif %}
 
 ## Interns
@@ -264,6 +266,18 @@ permalink: /members/
 {% endif %}
 <br>
 ## Alumni
+#### **Visitors**
+<div class="row">
+{% for member in site.data.members_alumni_visitor %}
+<div class="col-xs-12 clearfix">
+{% if member.page == nil %}
+**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+{% else %}
+**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+{% endif %}
+</div>
+{% endfor %}
+</div>
 #### **Graduate Students**
 <div class="row">
 {% for member in site.data.members_alumni_graduate %}
