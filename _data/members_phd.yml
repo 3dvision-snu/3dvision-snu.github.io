@@ -42,7 +42,7 @@
 
 - name: Changwoon Choi
   photo: changwoon_choi.jpg
-  research_interests: Implicit Neural Representation
+  research_interests: implicit neural representations
   # info: B.S. expected 2020
   email: changwoon.choi00@gmail.com
   email_link: https://mailhide.io/e/N8n1MN5e
@@ -121,7 +121,7 @@
  
 - name: Hyeongjun Heo
   photo: hyeongjun_heo.png
-  research_interests: 3D computer vision
+  research_interests: implicit neural representations
   email: heo0224@snu.ac.kr
   email_link: https://mailhide.io/e/l9K2AJmz
   educations:
