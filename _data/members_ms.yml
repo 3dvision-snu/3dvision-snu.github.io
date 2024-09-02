@@ -5,22 +5,6 @@
 #  page:
 #  educations:
 
-- name: Seungbin Jeong
-  photo: seungbin_jeong.jpg
-  research_interests: computer graphics, 3D computer vision
-  email: sb9155118@gmail.com
-  email_link: https://mailhide.io/e/ZP3DnHdO
-  educations:
-    - B.S. Statistics, Seoul National University, 2023
-
-- name: Sangmin Kim
-  photo: sangmin_kim.jpg
-  research_interests: 3D computer vision, implicit neural representation
-  email: tkdals9082@snu.ac.kr
-  email_link: https://mailhide.io/e/hM8v0pRG
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2023
-
 - name: Sungbin Mun
   photo: sungbin_mun.jpg
   research_interests: vision-based reinforcement learning, 3D computer vision

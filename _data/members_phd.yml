@@ -32,7 +32,7 @@
 
 - name: Junho Kim
   photo: junho_kim.jpg
-  research_interests: visual localization, event-based computer vision
+  research_interests: visual localization, 3D scene understanding
   email: 82magnolia@snu.ac.kr
   email_link: https://mailhide.io/e/MsRgulxD
   page: https://www.junhokim.xyz/
@@ -136,3 +136,20 @@
   page: https://www.gwangtakbae.info/
   educations:
     - B.S. Electrical Engineering, Korea Advanced Institute of Science and Technology, 2019
+
+- name: Seungbin Jeong
+  photo: seungbin_jeong.jpg
+  research_interests: computer graphics, 3D computer vision
+  email: sb9155118@gmail.com
+  email_link: https://mailhide.io/e/ZP3DnHdO
+  educations:
+    - B.S. Statistics, Seoul National University, 2023
+
+- name: Sangmin Kim
+  photo: sangmin_kim.jpg
+  research_interests: 3D computer vision, implicit neural representation
+  email: tkdals9082@snu.ac.kr
+  email_link: https://mailhide.io/e/hM8v0pRG
+  page: https://sangminkim-99.github.io/
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023
