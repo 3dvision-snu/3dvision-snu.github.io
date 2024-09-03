@@ -24,7 +24,7 @@ permalink: /publications/i2slam
 
     <!-- Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css" />
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/styles.css" />
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/project_page_styles/styles_i2slam.css" />
     <script src="{{ site.url }}{{ site.baseurl }}/js/bulma_toggle.js"></script>
 
     <!-- Font Awesome -->
