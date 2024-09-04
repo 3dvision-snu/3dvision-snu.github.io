@@ -3,7 +3,7 @@ title: "3D Vision Lab"
 layout: projects
 excerpt: "3D Vision Lab at Seoul National University."
 sitemap: false
-permalink: /publications/i2slam
+permalink: /publications/I2SLAM
 ---
 
 <html lang="en-US">
