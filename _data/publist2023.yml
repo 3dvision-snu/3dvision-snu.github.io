@@ -94,9 +94,10 @@
   description:
   authors: Jinseok Bae, Jungdam Won, Donggeun Lim, Cheol-Hui Min and Young Min Kim
   link:
+    page: https://jinseokbae.github.io/pmp
     url: https://dl.acm.org/doi/fullHtml/10.1145/3588432.3591487
     display: SIGGRAPH 2023
-    code: 
+    code: https://github.com/jinseokbae/pmp
     video: https://www.youtube.com/watch?v=WdLGvKdNG-0
   highlight: 0
   news2:
