@@ -1,4 +1,17 @@
 
+- title: 'Multi-agent Exploration with Similarity Score Map and Topological Memory'
+  image: ./dummy_white.png
+  description: 
+  authors: Eun Sun Lee, Young Min Kim
+  link:
+    page: https://eunsunlee.github.io/SimScoreMap/
+    url: https://ieeexplore.ieee.org/document/10700601
+    display: IEEE Robotics and Automation Letters 2024
+    code: https://github.com/eunsunlee/SimilarityScoreMap
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'I<sup>2</sup>-SLAM: Inverting Imaging Process for Robust Photorealistic Dense SLAM'
   image: i2slam.gif
   description: 
