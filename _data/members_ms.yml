@@ -7,11 +7,11 @@
 
 - name: Sungbin Mun
   photo: sungbin_mun.jpg
-  research_interests: vision-based reinforcement learning, 3D computer vision
+  research_interests: vision-based reinforcement learning, 3D computer vision, robotics
   email: brian0429@korea.ac.kr
   educations:
-    - B.S. Mechanical Engineering, Korea University, 2024 (Expected)
-    - B.S. Artificial Intelligence, Korea University, 2024 (Expected)
+    - B.S. Mechanical Engineering, Korea University, 2024
+    - B.S. Artificial Intelligence, Korea University, 2024
 
 - name: Younghwan Lee
   photo: younghwan_lee.jpg

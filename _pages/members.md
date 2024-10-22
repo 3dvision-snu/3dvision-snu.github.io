@@ -266,9 +266,10 @@ permalink: /members/
 {% endif %}
 <br>
 ## Alumni
-#### **Visitors**
+### **Graduate Students**
+#### **Ph.D.**
 <div class="row">
-{% for member in site.data.members_alumni_visitor %}
+{% for member in site.data.members_alumni_phd %}
 <div class="col-xs-12 clearfix">
 {% if member.page == nil %}
 **{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
@@ -278,9 +279,9 @@ permalink: /members/
 </div>
 {% endfor %}
 </div>
-#### **Graduate Students**
+#### **M.S.**
 <div class="row">
-{% for member in site.data.members_alumni_graduate %}
+{% for member in site.data.members_alumni_ms %}
 <div class="col-xs-12 clearfix">
 {% if member.page == nil %}
 **{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
@@ -290,7 +291,7 @@ permalink: /members/
 </div>
 {% endfor %}
 </div>
-#### **Undergraduate Students**
+### **Undergraduate Students**
 <div class="row">
 {% for member in site.data.members_alumni_under_graduate %}
 <div class="col-xs-12 clearfix">
@@ -312,3 +313,15 @@ permalink: /members/
 <!--
 ## Administrative Support
 <a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->
+### **Visitors**
+<div class="row">
+{% for member in site.data.members_alumni_visitor %}
+<div class="col-xs-12 clearfix">
+{% if member.page == nil %}
+**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+{% else %}
+**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+{% endif %}
+</div>
+{% endfor %}
+</div>
