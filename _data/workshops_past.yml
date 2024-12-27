@@ -1,13 +1,16 @@
+ - date: Saturday, November 9th, 2024 (CoRL Workshop)
+   headline: "Learning Robot Fine and Dexterous Manipulation: Perception and Control"
+   page: https://dex-manipulation.github.io/corl2024/
 
  - date: Monday, July 10th, 2023 (RSS Workshop)
-   headline: "<b>Interdisciplinary Exploration of Generalizable Manipulation Policy Learning : Paradigms and Debates</b>"
+   headline: "Interdisciplinary Exploration of Generalizable Manipulation Policy Learning : Paradigms and Debates"
    page: https://ai-workshops.github.io/interdisciplinary-exploration-of-gmpl/
    
  - date: Friday, April 29th, 2022 (ICLR Workshop)
-   headline: "<b>Generalizable Policy Learning in the Physical World</b>"
+   headline: "Generalizable Policy Learning in the Physical World"
    page: https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world
 
  - date: Thursday, January 13th, 2022
-   headline: "<b>TOPICS IN 3D VISION</b>"
+   headline: "Topics in 3D Vision"
    page: /workshop/workshop22
    

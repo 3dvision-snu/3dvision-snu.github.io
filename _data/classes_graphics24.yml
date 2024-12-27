@@ -1,0 +1,88 @@
+#- class_name:
+#  class_page:
+#  educations:
+
+- name: Graphics Programming (2024 Fall)
+  semester: 2024-2
+  CourseDescription: "In this class, we will learn a broad topics related to computer graphics: geometry, rendering, animation, imaging. We will focus on actually implementing fundamental data structure and algorithm repeatedly used over time, and students should be able to write their own graphics program. The class will also cover the state-of-the-art techniques in computer graphics related to shader, VR/AR devices, mobile GPU, modern ray tracing, and deep learning."
+  instructor: 
+      name: Young Min Kim
+      photo: youngmin_kim.jpg
+  TAs:
+    - name: Sang Min Kim
+      photo: sangmin_kim.jpg
+
+    - name: Jinseok Bae
+      photo: jinseok_bae.jpg
+
+  Syllabus:
+      FinalProject:
+        youtubeVideoLink: "https://youtube.com/playlist?list=PL-dFLOJVJhgm6KpNSjUv2yT4jHa8E4ykl"
+        Videos:
+          - studentName: 이재범 최용훈
+            youtubeLinkId: rxCX66juXhY
+          
+          - studentName: 김정환 이인희
+            youtubeLinkId: Jl7YlxSJQ7I
+
+          - studentName: 임종빈 정연석
+            youtubeLinkId: d_WBnhY2Qxs
+
+          - studentName: 임동근 이영환 허형준
+            youtubeLinkId: F1zfIDj1BAk
+
+          - studentName: 노시현 안형서
+            youtubeLinkId: JBHGCYc0z1I
+
+          - studentName: 이준서 최관석 이준기
+            youtubeLinkId: KJjwouoj_dU
+
+          - studentName: 김상민 도승욱
+            youtubeLinkId: 6XJc7JZSvIA
+
+          - studentName: 김정준 이다은
+            youtubeLinkId: WP-R2gsEFnA
+
+          - studentName: 박민준 송우석 이상엽
+            youtubeLinkId: JSYMxanw1f0
+
+          - studentName: 장재원 이형석
+            youtubeLinkId: ihZygqF5TxI
+
+          - studentName: 김남태 이재아
+            youtubeLinkId: P5FhmsP6r2g
+
+          - studentName: 이승민 방호찬
+            youtubeLinkId: lZw5eaBFs_U
+
+          - studentName: 박중현 민준규 배정규
+            youtubeLinkId: l5ZYK37RdLE
+
+          - studentName: 김현수 김우탁
+            youtubeLinkId: QOfMo1jUmHY
+
+          - studentName: 전서윤 전혜성
+            youtubeLinkId: Qo1c8gJkZos
+            
+          - studentName: 한동호 김진명
+            youtubeLinkId: D1W4vV6-aVM
+            
+          - studentName: 이연규
+            youtubeLinkId: oDTVNd7AtTg
+            
+          - studentName: 이정원
+            youtubeLinkId: pxZHU5CJ2ls
+
+        Images:
+          - studentName: 정의준 김민재
+            photo: 
+              - grph1.png
+
+          - studentName: 박준영 홍록기
+            photo:
+              - grph2.png
+
+          - studentName: 심중석
+            photo:
+              - grph3.png
+
