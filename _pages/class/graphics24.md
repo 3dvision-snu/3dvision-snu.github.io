@@ -38,6 +38,10 @@ permalink: /class/graphics24
 
 
 <div class='section'>
+  <h3>&#127881; &#127881; Final Project Winners &#127881; &#127881;</h3>
+  <li><b>1st Place: </b> 임동근 이영환 허형준 / 이승민 방호찬</li>
+  <li><b>2nd Place: </b> 임종빈 정연석 / 이준서 최관석 이준기</li>
+
   <h3>Final Project</h3>
   {% for video in class.Syllabus.FinalProject.Videos %}
   <br><li> {{video.studentName}} </li>
@@ -48,7 +52,7 @@ permalink: /class/graphics24
   <br><li> {{image.studentName}} </li>
     {% for img in image.photo %}
     <div class='class_student'>
-      <img src="{{ site.url }}{{ site.baseurl }}/images/classpic/graphics24/{{ img }}">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/classpic/graphics24/{{ img }}" style='height:auto;width:750px'>
     </div>
     {% endfor %}
   {% endfor %}

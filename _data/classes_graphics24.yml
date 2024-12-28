@@ -19,23 +19,26 @@
       FinalProject:
         youtubeVideoLink: "https://youtube.com/playlist?list=PL-dFLOJVJhgm6KpNSjUv2yT4jHa8E4ykl"
         Videos:
+          - studentName: 임동근 이영환 허형준
+            youtubeLinkId: F1zfIDj1BAk
+
+          - studentName: 이승민 방호찬
+            youtubeLinkId: lZw5eaBFs_U
+
+          - studentName: 임종빈 정연석
+            youtubeLinkId: d_WBnhY2Qxs
+
+          - studentName: 이준서 최관석 이준기
+            youtubeLinkId: KJjwouoj_dU
+
           - studentName: 이재범 최용훈
             youtubeLinkId: rxCX66juXhY
           
           - studentName: 김정환 이인희
             youtubeLinkId: Jl7YlxSJQ7I
 
-          - studentName: 임종빈 정연석
-            youtubeLinkId: d_WBnhY2Qxs
-
-          - studentName: 임동근 이영환 허형준
-            youtubeLinkId: F1zfIDj1BAk
-
           - studentName: 노시현 안형서
             youtubeLinkId: JBHGCYc0z1I
-
-          - studentName: 이준서 최관석 이준기
-            youtubeLinkId: KJjwouoj_dU
 
           - studentName: 김상민 도승욱
             youtubeLinkId: 6XJc7JZSvIA
@@ -51,9 +54,6 @@
 
           - studentName: 김남태 이재아
             youtubeLinkId: P5FhmsP6r2g
-
-          - studentName: 이승민 방호찬
-            youtubeLinkId: lZw5eaBFs_U
 
           - studentName: 박중현 민준규 배정규
             youtubeLinkId: l5ZYK37RdLE
