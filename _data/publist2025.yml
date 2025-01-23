@@ -11,3 +11,16 @@
     video: 
   highlight: 0
   news2:
+
+- title: 'Isometric Regularization for Manifolds of Functional Data'
+  image: IRMF_thumbnail.gif
+  description: 
+  authors: Hyeongjun Heo, Seonghun Oh, Jae Yong Lee, Young Min Kim<sup>*</sup><sup>*</sup>, Yonghyeon Lee<sup>*</sup><sup>*</sup>
+  link:
+    page: 
+    url: 
+    display: International Conference on Learning Representations (ICLR) 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
