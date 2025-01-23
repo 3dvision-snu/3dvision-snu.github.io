@@ -1,17 +1,4 @@
 
-- title: 'ReMP: Reusable Motion Prior for Multi-domain 3D Human Pose Estimation and Motion Inbetweening'
-  image: remp.gif
-  description: 
-  authors: Hojun Jang, Young Min Kim
-  link:
-    page: https://hojunjang17.github.io/ReMP/
-    url: 
-    display: IEEE Winter Conference on Applications of Computer Vision (WACV) 2025
-    code: 
-    video: 
-  highlight: 0
-  news2:
-
 - title: 'Isometric Regularization for Manifolds of Functional Data'
   image: IRMF_thumbnail.gif
   description: 
@@ -20,6 +7,19 @@
     page: 
     url: 
     display: International Conference on Learning Representations (ICLR) 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'ReMP: Reusable Motion Prior for Multi-domain 3D Human Pose Estimation and Motion Inbetweening'
+  image: remp.gif
+  description: 
+  authors: Hojun Jang, Young Min Kim
+  link:
+    page: https://hojunjang17.github.io/ReMP/
+    url: 
+    display: IEEE Winter Conference on Applications of Computer Vision (WACV) 2025
     code: 
     video: 
   highlight: 0
