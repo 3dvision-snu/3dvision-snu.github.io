@@ -44,6 +44,49 @@ permalink: /members/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+## Postdocs
+{% assign number_printed = 0 %}
+{% for member in site.data.members_postdoc %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+<div class="col-sm-6 clearfix">
+[comment]: <> (  {% if member.page == nil %})
+[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+[comment]: <> (  {% else %})
+[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>)
+[comment]: <> (  {% endif %})
+[comment]: <> (  <h4>{{ member.name }}</h4>)
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.page == nil %}
+  <h4>{{ member.name }}</h4>
+  {% else %}
+  <h4> <a href="{{member.page}}"> {{ member.name }} </a> </h4>
+  {% endif %}
+  <div style="display: flow-root;">
+  <i>
+    <!-- <a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br> -->
+    <strong> Email : </strong>
+    <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
+    <strong> Research Interests: </strong> {{member.research_interests}}<br>
+  </i>
+  <ul style="overflow: hidden">
+  {% for educ in member.educations %}
+  <li> {{ educ }} </li>
+  {% endfor %}
+  </ul>
+</div>
+</div>
+{% assign number_printed = number_printed | plus: 1 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+{% endfor %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 ## Ph.D Students
 {% assign number_printed = 0 %}
 {% for member in site.data.members_phd %}

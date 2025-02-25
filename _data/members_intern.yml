@@ -5,9 +5,16 @@
 #  page:
 #  educations:
 
-- name: Dohyun Kim
-  photo: dohyun_kim.jpg
-  research_interests: robotics, 3D computer vision
-  email: dohyunk02@snu.ac.kr
+- name: Cheongmyeong Kim
+  photo: cheongmyeong_kim.jpg
+  research_interests: 3D computer vision, 3D reconstruction
+  email: cmkim010813@gmail.com
   educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2024 (Expected)
+    - B.S. Aerospace Engineering, Seoul National University, 2026 (Expected)
+
+- name: Dohyun Kim
+  photo: seungmin_lee.png
+  research_interests: computer graphics, 3D computer vision
+  email: rsual@snu.ac.kr
+  educations:
+    - B.S. Computer Science and Engineering, Seoul National University, 2026 (Expected)
