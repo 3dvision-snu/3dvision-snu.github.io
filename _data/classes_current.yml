@@ -1,12 +1,5 @@
 #- class_name:
 #  class_page:
 #  educations:
-- name: Linear Algebra for Electrical Systems
-  semester: 2024-2
-
-- name: Theories and Lab of VR/AR (main instructor)
-  semester: 2024-2
-
-- name: Graphics Programming
-  semester: 2024-2
-  page: /class/graphics24
+- name: Machine Learning and Optimization for 3D data
+  semester: 2025-1
