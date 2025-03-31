@@ -1,3 +1,17 @@
+- title: 'Recovering Dynamic 3D Sketches from Videos'
+  image: liv3stroke_cropped.gif
+  description: 
+  authors: Jaeah Lee, Changwoon Choi, Young Min Kim, Jaesik Park
+  link:
+    page: https://jaeah.me/liv3stroke_web/
+    url: https://arxiv.org/abs/2503.20321
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+
 - title: 'Versatile Physics-based Character Control with Hybrid Latent Representation'
   image: eurographics_versatile.jpg
   description: 
