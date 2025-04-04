@@ -1,3 +1,17 @@
+- title: 'Audio-aided Character Control for Inertial Measurement Tracking'
+  image: eurographics_audio_aided.png
+  description: 
+  authors: Hojun Jang, Jinseok Bae, and Young Min Kim
+  link:
+    page:
+    url:
+    display: European Association for Computer Graphics (Eurographics) short paper 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+
 - title: 'Recovering Dynamic 3D Sketches from Videos'
   image: liv3stroke_cropped.gif
   description: 
