@@ -1,3 +1,29 @@
+- title: 'BrepDiff : Single-stage B-rep Diffusion Model'
+  image: brepdiff.jpg
+  description: 
+  authors: Mingi Lee<sup>*</sup>, Dongsu Zhang<sup>*</sup>, Clément Jambon<sup>*</sup>, Young Min Kim
+  link:
+    page:
+    url:
+    display: SIGGRAPH 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'PLT: Part-wise Latent Tokens as Adaptable Motion Priors for Physically Simulated Characters'
+  image: plt_representative_image_v2.jpg
+  description: 
+  authors: Jinseok Bae, Younghwan Lee, Donggeun Lim, Young Min Kim
+  link:
+    page:
+    url:
+    display: SIGGRAPH 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'Goal-Driven Human Motion Synthesis in Diverse Tasks'
   image: cvprw_goaldriven.png
   description: 
