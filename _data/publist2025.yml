@@ -42,7 +42,7 @@
   description: 
   authors: Hojun Jang, Jinseok Bae, Young Min Kim
   link:
-    page:
+    page: https://hojunjang17.github.io/AudioCharacter/
     url:
     display: European Association for Computer Graphics (Eurographics) short paper 2025
     code: 
@@ -70,7 +70,7 @@
   description: 
   authors: Jinseok Bae, Jungdam Won, Donggeun Lim, Inwoo Hwang, Young Min Kim
   link:
-    page:
+    page: https://jinseokbae.github.io/hybrid_latent_prior/
     url: https://onlinelibrary.wiley.com/doi/10.1111/cgf.70018
     display: European Association for Computer Graphics (Eurographics) 2025
     code: 
