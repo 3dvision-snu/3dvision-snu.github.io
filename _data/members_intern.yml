@@ -5,13 +5,6 @@
 #  page:
 #  educations:
 
-- name: Cheongmyeong Kim
-  photo: cheongmyeong_kim.jpg
-  research_interests: 3D computer vision, 3D reconstruction
-  email: cmkim010813@gmail.com
-  educations:
-    - B.S. Aerospace Engineering, Seoul National University, 2026 (Expected)
-
 - name: Seungmin Lee
   photo: seungmin_lee.png
   research_interests: computer graphics, 3D computer vision
@@ -32,3 +25,10 @@
   email: woongchan0317@snu.ac.kr
   educations:
     - B.S. Civil and Environmental Engineering, Seoul National University, 2027 (expected)
+
+- name: Seungjae Ahn
+  photo: seungjae_ahn.png
+  research_interests: 3D simulation
+  email: markrobot@snu.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Seoul National University, 2027 (expected)
