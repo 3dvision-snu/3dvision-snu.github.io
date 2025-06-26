@@ -1,3 +1,81 @@
+- title: 'Humans as a Calibration Pattern: Dynamic 3D Scene Reconstruction from Unsynchronized and Uncalibrated Videos'
+  image: dummy.png
+  description: 
+  authors: Changwoon Choi, Jeongjun Kim, Geonho Cha, Minkwan Kim, Dongyoon Wee, Young Min Kim
+  link:
+    page:
+    url:
+    display: ICCV 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'Motion Synthesis with Sparse and Flexible Keyjoint Control'
+  image: dummy.png
+  description: 
+  authors: Inwoo Hwang, Jinseok Bae, Donggeun Lim, Young Min Kim
+  link:
+    page:
+    url:
+    display: ICCV 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'Event-Driven Storytelling with Multiple Lifelike Humans in a 3D scene'
+  image: dummy.png
+  description: 
+  authors: Donggeun Lim, Jinseok Bae, Inwoo Hwang, Seungmin Lee, Hwanhee Lee, Young Min Kim
+  link:
+    page:
+    url:
+    display: ICCV 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'SceneMI: Motion In-betweening for Modeling Human-Scene Interaction'
+  image: dummy.png
+  description: 
+  authors: Inwoo Hwang, Bing Zhou, Young Min Kim, Jian Wang, Chuan Guo
+  link:
+    page:
+    url:
+    display: ICCV 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'Less is More: Improving Motion Diffusion Models with Sparse Keyframes'
+  image: dummy.png
+  description: 
+  authors: Jinseok Bae, Inwoo Hwang, Young-Yoon Lee, Ziyu Guo, Joseph Liu, Yizhak Ben-Shabat, Young Min Kim, Mubbasir Kapadia
+  link:
+    page:
+    url:
+    display: ICCV 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'Learning 3D Scene Analogies with Neural Contextual Scene Maps'
+  image: dummy.png
+  description: 
+  authors: Junho Kim, Gwangtak Bae, Eun Sun Lee, Young Min Kim
+  link:
+    page:
+    url:
+    display: ICCV 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'BrepDiff: Single-stage B-rep Diffusion Model'
   image: brepdiff.jpg
   description: 
