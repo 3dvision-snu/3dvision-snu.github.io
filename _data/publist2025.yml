@@ -3,8 +3,8 @@
   description: 
   authors: Changwoon Choi, Jeongjun Kim, Geonho Cha, Minkwan Kim, Dongyoon Wee, Young Min Kim
   link:
-    page:
-    url:
+    page: https://changwoonchoi.github.io/HCP
+    url: https://arxiv.org/abs/2412.19089
     display: ICCV 2025
     code: 
     video: 
@@ -16,8 +16,8 @@
   description: 
   authors: Inwoo Hwang, Jinseok Bae, Donggeun Lim, Young Min Kim
   link:
-    page:
-    url:
+    page: https://inwoohwang.me/SFControl/
+    url: https://arxiv.org/abs/2503.15557
     display: ICCV 2025
     code: 
     video: 
@@ -25,7 +25,7 @@
   news2:
 
 - title: 'Event-Driven Storytelling with Multiple Lifelike Humans in a 3D scene'
-  image: dummy.png
+  image: EDS_teasor.gif
   description: 
   authors: Donggeun Lim, Jinseok Bae, Inwoo Hwang, Seungmin Lee, Hwanhee Lee, Young Min Kim
   link:
@@ -42,8 +42,8 @@
   description: 
   authors: Inwoo Hwang, Bing Zhou, Young Min Kim, Jian Wang, Chuan Guo
   link:
-    page:
-    url:
+    page: https://inwoohwang.me/SceneMI/
+    url: https://arxiv.org/abs/2503.16289
     display: ICCV 2025
     code: 
     video: 
@@ -69,7 +69,7 @@
   authors: Junho Kim, Gwangtak Bae, Eun Sun Lee, Young Min Kim
   link:
     page:
-    url:
+    url: https://arxiv.org/abs/2503.15897
     display: ICCV 2025
     code: 
     video: 
