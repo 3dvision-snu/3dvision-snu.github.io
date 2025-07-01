@@ -51,12 +51,12 @@
   news2:
 
 - title: 'Less is More: Improving Motion Diffusion Models with Sparse Keyframes'
-  image: dummy.png
+  image: less_is_more.gif
   description: 
   authors: Jinseok Bae, Inwoo Hwang, Young-Yoon Lee, Ziyu Guo, Joseph Liu, Yizhak Ben-Shabat, Young Min Kim, Mubbasir Kapadia
   link:
-    page:
-    url:
+    page: https://jinseokbae.github.io/less_is_more/
+    url: https://arxiv.org/abs/2503.13859
     display: ICCV 2025
     code: 
     video: 
