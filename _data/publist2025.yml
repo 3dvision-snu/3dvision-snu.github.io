@@ -1,5 +1,5 @@
 - title: 'Humans as a Calibration Pattern: Dynamic 3D Scene Reconstruction from Unsynchronized and Uncalibrated Videos'
-  image: dummy.png
+  image: hcp_compressed.gif
   description: 
   authors: Changwoon Choi, Jeongjun Kim, Geonho Cha, Minkwan Kim, Dongyoon Wee, Young Min Kim
   link:
@@ -12,7 +12,7 @@
   news2:
 
 - title: 'Motion Synthesis with Sparse and Flexible Keyjoint Control'
-  image: dummy.png
+  image: sfcontrol.gif
   description: 
   authors: Inwoo Hwang, Jinseok Bae, Donggeun Lim, Young Min Kim
   link:
@@ -38,7 +38,7 @@
   news2:
 
 - title: 'SceneMI: Motion In-betweening for Modeling Human-Scene Interaction'
-  image: dummy.png
+  image: scenemi.gif
   description: 
   authors: Inwoo Hwang, Bing Zhou, Young Min Kim, Jian Wang, Chuan Guo
   link:
@@ -81,7 +81,7 @@
   description: 
   authors: Mingi Lee<sup>*</sup>, Dongsu Zhang<sup>*</sup>, Clément Jambon<sup>*</sup>, Young Min Kim
   link:
-    page:
+    page: https://brepdiff.github.io/
     url:
     display: SIGGRAPH 2025
     code: 
