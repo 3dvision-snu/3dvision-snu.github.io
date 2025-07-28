@@ -29,8 +29,8 @@
   description: 
   authors: Donggeun Lim, Jinseok Bae, Inwoo Hwang, Seungmin Lee, Hwanhee Lee, Young Min Kim
   link:
-    page:
-    url:
+    page: https://rms0329.github.io/Event-Driven-Storytelling/
+    url: https://arxiv.org/abs/2507.19232
     display: International Conference on Computer Vision (ICCV) 2025
     code: 
     video: 
@@ -68,7 +68,7 @@
   description: 
   authors: Junho Kim, Gwangtak Bae, Eun Sun Lee, Young Min Kim
   link:
-    page:
+    page: https://82magnolia.github.io/3d_scene_analogies/
     url: https://arxiv.org/abs/2503.15897
     display: International Conference on Computer Vision (ICCV) 2025
     code: 
