@@ -94,11 +94,11 @@
   description: 
   authors: Jinseok Bae, Younghwan Lee, Donggeun Lim, Young Min Kim
   link:
-    page:
+    page: https://jinseokbae.github.io/plt
     url: https://dl.acm.org/doi/10.1145/3721238.3730637
     display: SIGGRAPH 2025
-    code: 
-    video: 
+    code: https://github.com/jinseokbae/plt
+    video: https://www.youtube.com/watch?v=gEsvxBneuZE
   highlight: 0
   news2:
 
