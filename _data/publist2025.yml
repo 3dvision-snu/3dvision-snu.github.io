@@ -1,3 +1,16 @@
+- title: 'Privacy-Preserving Visual Localization with Event Cameras'
+  image: evloc_sample_compressed.gif
+  description: 
+  authors: Junho Kim, Young Min Kim, Ramzi Zahreddine, Weston Anthony Welge, Gurunandan Krishnan, Sizhuo Ma<sup>*</sup><sup>*</sup>, Jian Wang<sup>*</sup><sup>*</sup>
+  link:
+    page: https://82magnolia.github.io/event_localization/
+    url: https://arxiv.org/abs/2212.03177
+    display: IEEE Transactions on Image Processing (TIP) 2025
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'Humans as a Calibration Pattern: Dynamic 3D Scene Reconstruction from Unsynchronized and Uncalibrated Videos'
   image: hcp_compressed.gif
   description: 

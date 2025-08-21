@@ -5,18 +5,6 @@
 #  page:
 #  educations:
 
-- name: Eunsun Lee
-  photo: eunsun_lee.jpg
-  research_interests: 3D computer vision
-  # info: Ph.D, starts 2020
-  email: eunsunlee@snu.ac.kr
-  email_link: https://mailhide.io/e/sXuAUMii
-  page: https://eunsunlee.github.io/
-  # page: "#"
-  educations:
-    - M.S. Electrical and Computer Engineering, University of California-Los Angeles, 2018
-    - B.S. Electrical and Computer Engineering, University of Virginia, 2015
-
 - name: Changwoon Choi
   photo: changwoon_choi.jpg
   research_interests: implicit neural representations
@@ -24,16 +12,6 @@
   email: changwoon.choi00@gmail.com
   email_link: https://mailhide.io/e/N8n1MN5e
   page: http://changwoon.info/
-  educations:
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
-
-- name: Junho Lee
-  photo: junho_lee_1.jpg
-  research_interests: robotic grasping, 3D reconstruction
-  # info: B.S. expected 2020
-  email: twjhlee@snu.ac.kr
-  email_link: https://mailhide.io/e/Yv522tDU
-  page: https://twjhlee.github.io/
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2020
 
