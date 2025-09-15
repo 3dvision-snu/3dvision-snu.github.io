@@ -26,9 +26,17 @@
   educations:
     - B.S. Civil and Environmental Engineering, Seoul National University, 2027 (expected)
 
-- name: Seungjae Ahn
-  photo: seungjae_ahn.png
-  research_interests: 3D simulation
-  email: markrobot@snu.ac.kr
+- name: Jinwoo Seo 
+  photo: jinwoo_seo.png
+  research_interests: vision-based robot manipulation 
+  email: jinuseo21@gmail.com
   educations:
-    - B.S. Mechanical Engineering, Seoul National University, 2027 (expected)
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (expected)
+
+- name: JongBum Won
+  photo: jongbum_won.png
+  research_interests: 3D computer vision, augmented reality
+  email: jim8697@snu.ac.kr
+  educations:
+    - B.S. Civil and Environmental Engineering, Seoul National University, 2026 (expected)
+    - B.S. Business Administration in Entrepreneurship, Seoul National University, 2026 (expected)
