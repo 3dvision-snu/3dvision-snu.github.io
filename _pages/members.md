@@ -174,6 +174,7 @@ permalink: /members/
 </div>
 {% endif %}
 
+{% if site.data.members_researcher %}
 ## Researchers
 {% assign number_printed = 0 %}
 {% for member in site.data.members_researcher %}
@@ -216,6 +217,7 @@ permalink: /members/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
+{% endif %}
 {% endif %}
 
 {% if site.data.members_visitor %}
