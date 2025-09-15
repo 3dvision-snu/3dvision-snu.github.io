@@ -167,10 +167,20 @@ pubtit {
 	margin-left: 150px;
 }
 
+.speakers {
+  width: 136px;
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers the images horizontally */
+  float: left;
+}
+
 .speakers img {
 	margin-top: 20px;
+	margin-bottom: 10px;
 	width: 136px;
-	height: 136px;
+	// height: 136px;
+	height: auto;
 	border-radius: 68px;
 	float: left;
 }
