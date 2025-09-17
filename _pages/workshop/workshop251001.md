@@ -30,7 +30,15 @@ permalink: /workshop/workshop251001
   {% for content in workshop.Content %}
     <br>
     {% if content.type == "invited" %}
-    <p style="font-size:16px;color:#16598B;"> <b> {{content.time}} Invited speaker : {{content.speaker.name}} </b> </p>
+    {% if content.speaker %}
+      <p style="font-size:16px;color:#16598B;"> <b> {{content.time}} Invited speaker : {{content.speaker.name}} </b> </p>
+    {% else %}
+      <p style="font-size:16px;color:#16598B;"> <b> {{content.time}} Invited speaker :
+      {% for speaker in content.speakers %}
+        {{speaker.name}}{% if forloop.last == false %}, {% endif %}
+      {% endfor %}
+      </b> </p>
+    {% endif %}
       <!-- <div class='speakers'>
         <img src="{{ site.url }}{{ site.baseurl }}/images/workshoppic/{{ content.speaker.photo }}">
       </div> -->
