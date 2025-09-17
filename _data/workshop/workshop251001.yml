@@ -61,7 +61,7 @@
         name: Harold Soh (NUS)
         photo: harold_soh.jpg
       title: VLMs with Tactile Intelligence
-      abstract: TBA
+      abstract: This talk will present recent work on generative models for embodied intelligence, with a focus on multimodal large models that integrate touch with vision and language. I will share some of our early efforts on tactile integration for manipulation and discuss what these suggest about the role of touch in foundation models. I will also briefly highlight opportunities in grounding generative AI within embodied settings, with examples in traversability prediction for navigation and in constraining generative models to follow user-specified objectives.
       bio: Harold Soh is an Associate Professor of Computer Science at the National University of Singapore, where he leads the Collaborative Learning and Adaptive Robots (CLeAR) lab. His research focuses on AI for trustworthy collaborative robots, with interests in generative modeling and decision-making. Harold’s work has earned awards at IROS and T-AFFC, as well as a R:SS Early Career Spotlight. He has served the HRI community in leadership roles, including co-Program Chair of ACM/IEEE HRI 2024, and is an Associate Editor at IJRR and ACM THRI. He is also a PI at the Smart Systems Institute and co-founder of TacnIQ, a startup on touch-enabled intelligence.
 
     - time: 3:00 PM - 3:30 PM
