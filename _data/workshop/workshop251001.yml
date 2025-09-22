@@ -41,16 +41,16 @@
     - time: 1:00 PM - 1:50 PM
       type: student
       talks:
-        - speaker: Sungsu Hur (SNU)
-          title: TBA
+        - speaker: Junoh Kang (SNU)
+          title: "FIFO-Diffusion: Generating Infinite Videos from Text without Training"
         - speaker: Heewoong Choi (SNU)
-          title: TBA
+          title: "Option-aware Temporally Abstracted Value for Offline Goal-Conditioned Reinforcement Learning"
         - speaker: Hojun Jang (SNU)
-          title: TBA
+          title: "Audio-aided Character Control for Inertial Measurement Tracking"
         - speaker: Hyeonbum Choi (SNU)
-          title: TBA
+          title: "Society of Mind Meets Real-Time Strategy: A Hierarchical Multi-Agent Framework for Strategic Reasoning"
         - speaker: Byeonghui Kim (SNU)
-          title: TBA
+          title: "Multi-Modal Grounded Planning and Efficient Replanning For Learning Embodied Agents with A Few Examples"
 
     - time: 1:50 PM - 2:30 PM
       type: Coffee Break and Poster Session
