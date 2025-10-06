@@ -89,6 +89,7 @@
       email: "youngmin.kim@snu.ac.kr"
 
   Banners:
+    - photo: ipai.png
     - photo: brainkorea.jpg
     - photo: snuengineering.jpg
     - photo: inmc.jpg
