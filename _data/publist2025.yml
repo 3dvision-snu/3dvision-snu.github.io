@@ -7,7 +7,7 @@
     url: https://ieeexplore.ieee.org/document/11175560
     display: IEEE Transactions on Image Processing (TIP) 2025
     code: 
-    video: 
+    video: https://www.youtube.com/watch?v=kk0q690NMXc
   highlight: 0
   news2:
 
@@ -84,8 +84,8 @@
     page: https://82magnolia.github.io/3d_scene_analogies/
     url: https://arxiv.org/abs/2503.15897
     display: International Conference on Computer Vision (ICCV) 2025
-    code: 
-    video: 
+    code: https://github.com/82magnolia/3d_scene_analogies/
+    video: https://www.youtube.com/watch?v=7JlIV2TPRv8
   highlight: 0
   news2:
 
