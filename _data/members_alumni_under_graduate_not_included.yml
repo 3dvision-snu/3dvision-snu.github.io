@@ -86,3 +86,19 @@
     - B.S. College of Liberal Studies, Minor in Physics, Seoul National University, 2027 (Expected)
     - B.S. Mechanical Engineering, Seoul National University, 2027 (Expected)
     - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (Expected)
+
+- name: Seungjae Ahn
+  photo: seungjae_ahn.png
+  research_interests: 3D simulation
+  email: markrobot@snu.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Seoul National University, 2027 (expected)
+  end:
+    - 2025.08
+
+- name: Hyunsoo Lee
+  photo: hyunsoo_lee.png
+  research_interests: 3D computer vision
+  email: philip21@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (expected)
