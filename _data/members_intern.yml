@@ -5,13 +5,6 @@
 #  page:
 #  educations:
 
-- name: Seungmin Lee
-  photo: seungmin_lee.png
-  research_interests: computer graphics, 3D computer vision
-  email: rsual@snu.ac.kr
-  educations:
-    - B.S. Computer Science and Engineering, Seoul National University, 2026 (Expected)
-
 - name: Jinwoo Seo 
   photo: jinwoo_seo.png
   research_interests: vision-based robot manipulation 
@@ -21,7 +14,7 @@
 
 - name: Seungyeon Woo
   photo: seungyeon_woo.png
-  research_interests: 3D computer vision, Robotics
+  research_interests: 3D computer vision, robotics
   email: yeon0857@snu.ac.kr
   educations:
     - B.S. Mechanical Engineering, Seoul National University, 2027 (expected)
@@ -32,3 +25,17 @@
   email: yjun13568@snu.ac.kr
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2026 (expected)
+
+- name: Joonha Lee
+  photo: joonha_lee_cg.png
+  research_interests: Computer graphics, 3D computer vision
+  email: joonhaeric@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (expected)
+
+- name: Joonha Lee
+  photo: joonha_lee_robot.jpg
+  research_interests: 3D computer vision, robotic grasping
+  email: iamjhlee2001@snu.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Seoul National University, 2026(Expected)
