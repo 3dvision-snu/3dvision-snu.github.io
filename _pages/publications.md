@@ -10,7 +10,7 @@ permalink: /publications/
 ## Publications
 <br>
 <br>
-<h3><span style="color:black">  2025 </span></h3>
+<h3><span style="color:black">  2026 </span></h3>
 {% for publi in site.data.publist2026 %}
 <div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
