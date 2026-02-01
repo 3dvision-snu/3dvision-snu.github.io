@@ -1,10 +1,23 @@
+- title: 'Point2Act: Efficient 3D Distillation of Multimodal LLMs for Zero-Shot Context-Aware Grasping'
+  image: dummy_white.png
+  description: 
+  authors: 	Sang Min Kim, Hyeongjun Heo, Junho Kim, Yonghyeon Lee, Young Min Kim
+  link:
+    page: https://sangminkim-99.github.io/point2act/
+    url: https://arxiv.org/abs/2508.03099
+    display: IEEE International Conference on Robotics and Automation (ICRA) 2026
+    code: 
+    video: 
+  highlight: 0
+  news2:
+
 - title: '3D-aware Disentangled Representation for Compositional Reinforcement Learning'
   image: dummy_white.png
   description: 
   authors: Sungbin Mun, Younghwan Lee, Cheol-Hui Min, Mineui Hong, Young Min Kim
   link:
     page: 
-    url: 
+    url: https://openreview.net/forum?id=GE0IFoDx8a
     display: International Conference on Learning Representations (ICLR) 2026
     code: 
     video: 
