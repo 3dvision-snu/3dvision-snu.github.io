@@ -1,5 +1,5 @@
 - title: 'Point2Act: Efficient 3D Distillation of Multimodal LLMs for Zero-Shot Context-Aware Grasping'
-  image: dummy_white.png
+  image: point2act.gif
   description: 
   authors: 	Sang Min Kim, Hyeongjun Heo, Junho Kim, Yonghyeon Lee, Young Min Kim
   link:
@@ -12,7 +12,7 @@
   news2:
 
 - title: '3D-aware Disentangled Representation for Compositional Reinforcement Learning'
-  image: dummy_white.png
+  image: 3D-aware-Disentangled.png
   description: 
   authors: Sungbin Mun, Younghwan Lee, Cheol-Hui Min, Mineui Hong, Young Min Kim
   link:
