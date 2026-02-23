@@ -1,3 +1,16 @@
+- title: 'RoEL: Robust Event-based 3D Line Reconstruction'
+  image: roel_thumbnail.png
+  description: 
+  authors: 	Gwangtak Bae, Jaeho Shin, Seunggu Kang, Junho Kim, Ayoung Kim, Young Min Kim
+  link:
+    page: https://gwangtak.github.io/roel
+    url: https://arxiv.org/abs/2602.18258
+    display: IEEE Transactions on Robotics (T-RO) 2026
+    code: https://gwangtakbae.info/roel/
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'Point2Act: Efficient 3D Distillation of Multimodal LLMs for Zero-Shot Context-Aware Grasping'
   image: point2act.gif
   description: 
@@ -12,11 +25,11 @@
   news2:
 
 - title: '3D-aware Disentangled Representation for Compositional Reinforcement Learning'
-  image: 3d-aware-disentangled.gif
+  image: 3d-aware-disentangled.png
   description: 
   authors: Sungbin Mun, Younghwan Lee, Cheol-Hui Min, Mineui Hong, Young Min Kim
   link:
-    page: https://sungbinmun.github.io/3DiR_ICLR2026/index.html
+    page: 
     url: https://openreview.net/forum?id=GE0IFoDx8a
     display: International Conference on Learning Representations (ICLR) 2026
     code: 
