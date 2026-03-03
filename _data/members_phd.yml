@@ -98,7 +98,7 @@
 - name: Seungbin Jeong
   photo: seungbin_jeong.jpg
   research_interests: computer graphics, 3D computer vision
-  email: sb9155118@gmail.com
+  email: jsb0518@snu.ac.kr
   email_link: https://mailhide.io/e/ZP3DnHdO
   educations:
     - B.S. Statistics, Seoul National University, 2023
@@ -111,3 +111,26 @@
   page: https://sangminkim-99.github.io/
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2023
+
+- name: Sungbin Mun
+  photo: sungbin_mun.png
+  research_interests: vision-based reinforcement learning, 3D computer vision, robotics
+  email: brian0429@snu.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Korea University, 2024
+    - B.S. Artificial Intelligence, Korea University, 2024
+
+- name: Younghwan Lee
+  photo: younghwan_lee.jpg
+  research_interests: 3D computer vision, computer animation, robotics
+  email: frredy99@snu.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Seoul National University, 2024
+
+- name: Yeonghyeon Kim
+  photo: yeonghyeon_kim.jpg
+  research_interests: 3D computer vision, Physical AI
+  email: antenna5366@snu.ac.kr
+  educations:
+    - M.S. Future Vehicle, KAIST, 2021
+    - B.S. Biosystems Engineering, Seoul National University, 2019

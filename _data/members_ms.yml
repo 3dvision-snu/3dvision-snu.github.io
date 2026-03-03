@@ -5,21 +5,6 @@
 #  page:
 #  educations:
 
-- name: Sungbin Mun
-  photo: sungbin_mun.png
-  research_interests: vision-based reinforcement learning, 3D computer vision, robotics
-  email: brian0429@snu.ac.kr
-  educations:
-    - B.S. Mechanical Engineering, Korea University, 2024
-    - B.S. Artificial Intelligence, Korea University, 2024
-
-- name: Younghwan Lee
-  photo: younghwan_lee.jpg
-  research_interests: 3D computer vision, computer animation, robotics
-  email: frredy99@snu.ac.kr
-  educations:
-    - B.S. Mechanical Engineering, Seoul National University, 2024
-
 - name: Seunggu Kang
   photo: seunggu_kang.png
   research_interests: 3D computer vision
@@ -31,6 +16,7 @@
   photo: seungmin_lee.png
   research_interests: computer graphics, 3D computer vision
   email: rsual@snu.ac.kr
+  page: http://veldic.github.io/
   educations:
     - B.S. Computer Science and Engineering, Seoul National University, 2026
 
