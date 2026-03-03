@@ -53,7 +53,7 @@ permalink: /class/
 
 
 ### Past Classes
-{% assign classes = (site.data.classes_past | sort: 'semester') | reverse %}
+{% assign classes = site.data.classes_past | sort: 'semester' | reverse %}
 {% for class in classes %}
 <!-- <div class="row"> -->
 <div class="col-sm-12 clearfix">
