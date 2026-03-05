@@ -1,3 +1,29 @@
+- title: 'Image-Guided Geometric Stylization of 3D Meshes'
+  image: geostyle_teaser.png
+  description: 
+  authors: 	Changwoon Choi, Hyunsoo Lee, Clément Jambon, Yael Vinker, Young Min Kim
+  link:
+    page: 
+    url: 
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2026
+    code:
+    video: 
+  highlight: 0
+  news2:
+
+- title: 'ExCellGen: Fast, Controllable, Photorealistic 3D Scene Generation from a Single Real-World Exemplar'
+  image: dummy_white.png
+  description: 
+  authors: 	Clément Jambon, Changwoon Choi, Dongsu Zhang, Olga Sorkine-Hornung, Young Min Kim
+  link:
+    page: 
+    url: https://arxiv.org/abs/2412.16253
+    display: Computational Visual Media (CVM) 2026, Journal Track
+    code:
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'RoEL: Robust Event-based 3D Line Reconstruction'
   image: roel_thumbnail.png
   description: 
