@@ -1,3 +1,16 @@
+- title: 'LTGS: Long-Term Gaussian Scene Chronology from Sparse View Updates'
+  image: ltgs_thumbnail.png
+  description: 
+  authors: 	Minkwan Kim, Junho Kim, Seungmin Lee, Young Min Kim
+  link:
+    page: 
+    url: https://arxiv.org/abs/2510.09881
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings 2026
+    code:
+    video: 
+  highlight: 0
+  news2:
+
 - title: 'Image-Guided Geometric Stylization of 3D Meshes'
   image: geostyle_teaser.png
   description: 
