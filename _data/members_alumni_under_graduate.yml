@@ -106,4 +106,22 @@
   educations:
     - B.S. Electrical and Electronic Engineering, Yonsei University, 2025 (Expected)
   end:
-    - "2024.10"
+    - 2024.10
+
+- name: Jeongjun Kim
+  photo:
+  research_interests: 3D computer vision
+  email: kjj7930@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2025 (Expected)
+  end:
+    - 2024.12
+
+- name: Hyunsoo Lee
+  photo: hyunsoo_lee.png
+  research_interests: 3D computer vision
+  email: philip21@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (expected)
+  end:
+    - 2025.12
