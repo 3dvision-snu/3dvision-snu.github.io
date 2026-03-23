@@ -25,14 +25,14 @@
   news2:
 
 - title: 'ExCellGen: Fast, Controllable, Photorealistic 3D Scene Generation from a Single Real-World Exemplar'
-  image: dummy_white.png
+  image: excellgen.gif
   description: 
   authors: 	Clément Jambon, Changwoon Choi, Dongsu Zhang, Olga Sorkine-Hornung, Young Min Kim
   link:
-    page: 
+    page: https://excellgen.github.io/
     url: https://arxiv.org/abs/2412.16253
     display: Computational Visual Media (CVM) 2026, Journal Track
-    code:
+    code: https://github.com/clementjambon/excellgen
     video: 
   highlight: 0
   news2:
