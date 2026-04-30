@@ -14,12 +14,12 @@ We strive to the emerging field of 3D vision where we understand the 3D world ar
 
 ### Research projects include: <br>
 #### 1) 3D for perception (computer vision) <br>
-> <small> <span style="color:dimgrey">3D information is widely used for perception, and recent trends on 3D perception utilize the state-of-the-art techniques from computer vision and machine learning. We utilize neural networks of generative models, metric learning, and/or reinforcement learning to boost the performance. </span> </small> <br>
-![]({{ site.url }}{{ site.baseurl }}/images/respic/perception_211011.png){: style="width: 100%; border: 10px"}<br>
+> <small> <span class="text-dimgrey">3D information is widely used for perception, and recent trends on 3D perception utilize the state-of-the-art techniques from computer vision and machine learning. We utilize neural networks of generative models, metric learning, and/or reinforcement learning to boost the performance. </span> </small> <br>
+![]({{ site.url }}{{ site.baseurl }}/images/respic/perception_211011.png){: .img-full-bordered}<br>
 
 #### 2) 3D for visualization (graphics, AR/VR) <br>
-> <small> <span style="color:dimgrey"> 3D models are crucial for seamless AR/VR applications and realistic rendering. The key technical components include localization, pose estimation, texture and material acquisition, and lighting estimation.</span> </small> <br>
-![]({{ site.url }}{{ site.baseurl }}/images/respic/visualization_211011.png){: style="width: 100%; border: 10px"}<br>
+> <small> <span class="text-dimgrey"> 3D models are crucial for seamless AR/VR applications and realistic rendering. The key technical components include localization, pose estimation, texture and material acquisition, and lighting estimation.</span> </small> <br>
+![]({{ site.url }}{{ site.baseurl }}/images/respic/visualization_211011.png){: .img-full-bordered}<br>
 
 [comment]: <> (<p align="center">)
 
@@ -28,11 +28,11 @@ We strive to the emerging field of 3D vision where we understand the 3D world ar
 [comment]: <> (</p>)
 
 #### 3) 3D for Interaction (robotics, animation) <br>
-> <small> <span style="color:dimgrey"> The real-world 3D models are utilized for manipulation, navigation, or other robotic applications. Also, various physical interactions with 3D scenes are tightly coupled with the actions of humans or robots in addition to the physical properties of individual objects. Our focus is to build algorithms to control robot in un-constrained set-up and generate natural interaction to reflect the real-world scenarios.</span> </small> <br>
-![]({{ site.url }}{{ site.baseurl }}/images/respic/interaction_211011.png){: style="width: 100%; border: 10px"}<br>
+> <small> <span class="text-dimgrey"> The real-world 3D models are utilized for manipulation, navigation, or other robotic applications. Also, various physical interactions with 3D scenes are tightly coupled with the actions of humans or robots in addition to the physical properties of individual objects. Our focus is to build algorithms to control robot in un-constrained set-up and generate natural interaction to reflect the real-world scenarios.</span> </small> <br>
+![]({{ site.url }}{{ site.baseurl }}/images/respic/interaction_211011.png){: .img-full-bordered}<br>
 
 
-[comment]: <> (![]&#40;{{ site.url }}{{ site.baseurl }}/images/respic/perception_211011.png&#41;{: style="width: 100%; border: 10px"}<br>)
+[comment]: <> (![]&#40;{{ site.url }}{{ site.baseurl }}/images/respic/perception_211011.png&#41;{: .img-full-bordered}<br>)
 
 [comment]: <> (**Light-Weight Update of Large- Scale 3D Scenes**<br>)
 

@@ -3,6 +3,17 @@
     
 @import "bootstrap";
 
+.bg-black          { background-color: black; }
+.footer-text       { font-size: 0.8em; color: darkgrey; }
+.text-black        { color: black; }
+.text-grey         { color: grey; }
+.text-dimgrey      { color: dimgrey; }
+.pub-item          { display: inline-block; width: 100%; margin: 20px 0 20px 0; }
+.img-float-left    { float: left; }
+.flow-root         { display: flow-root; }
+.list-no-overflow  { overflow: hidden; }
+.img-full-bordered { width: 100%; border: 10px; }
+
 html {
 	height: 100%;
 }

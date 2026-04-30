@@ -16,19 +16,19 @@ permalink: /members/
 {% endif %}
 <div class="col-sm-8 clearfix">
   {% if member.page == nil %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />
   {% else %}
-  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" /></a>
   {% endif %}
   <h4>{{ member.name }}</h4>
-  <div style="display: flow-root;">
+  <div class="flow-root">
   <i>
     <strong> {{ member.info }}<br></strong>
     <!-- <a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br> -->
     <strong> Email : </strong>
     <a href = "mailto: {{member.email}}"> {{member.email}} </a>
   </i>
-  <ul style="overflow: hidden">
+  <ul class="list-no-overflow">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
@@ -53,25 +53,25 @@ permalink: /members/
 {% endif %}
 <div class="col-sm-6 clearfix">
 [comment]: <> (  {% if member.page == nil %})
-[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />)
 [comment]: <> (  {% else %})
-[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>)
+[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" /></a>)
 [comment]: <> (  {% endif %})
 [comment]: <> (  <h4>{{ member.name }}</h4>)
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />
   {% if member.page == nil %}
   <h4>{{ member.name }}</h4>
   {% else %}
   <h4> <a href="{{member.page}}"> {{ member.name }} </a> </h4>
   {% endif %}
-  <div style="display: flow-root;">
+  <div class="flow-root">
   <i>
     <!-- <a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br> -->
     <strong> Email : </strong>
     <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}<br>
   </i>
-  <ul style="overflow: hidden">
+  <ul class="list-no-overflow">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
@@ -96,25 +96,25 @@ permalink: /members/
 {% endif %}
 <div class="col-sm-6 clearfix">
 [comment]: <> (  {% if member.page == nil %})
-[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />)
 [comment]: <> (  {% else %})
-[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>)
+[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" /></a>)
 [comment]: <> (  {% endif %})
 [comment]: <> (  <h4>{{ member.name }}</h4>)
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />
   {% if member.page == nil %}
   <h4>{{ member.name }}</h4>
   {% else %}
   <h4> <a href="{{member.page}}"> {{ member.name }} </a> </h4>
   {% endif %}
-  <div style="display: flow-root;">
+  <div class="flow-root">
   <i>
     <!-- <a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br> -->
     <strong> Email : </strong>
     <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}<br>
   </i>
-  <ul style="overflow: hidden">
+  <ul class="list-no-overflow">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
@@ -139,25 +139,25 @@ permalink: /members/
 {% endif %}
 <div class="col-sm-6 clearfix">
 [comment]: <> (  {% if member.page == nil %})
-[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />)
 [comment]: <> (  {% else %})
-[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>)
+[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" /></a>)
 [comment]: <> (  {% endif %})
 [comment]: <> (  <h4>{{ member.name }}</h4>)
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />
   {% if member.page == nil %}
   <h4>{{ member.name }}</h4>
   {% else %}
   <h4> <a href="{{member.page}}"> {{ member.name }} </a> </h4>
   {% endif %}
-  <div style="display: flow-root;">
+  <div class="flow-root">
   <i>
     <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
     <strong> Email : </strong>
     <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
-  <ul style="overflow: hidden">
+  <ul class="list-no-overflow">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
@@ -184,25 +184,25 @@ permalink: /members/
 {% endif %}
 <div class="col-sm-6 clearfix">
 [comment]: <> (  {% if member.page == nil %})
-[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />)
 [comment]: <> (  {% else %})
-[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>)
+[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" /></a>)
 [comment]: <> (  {% endif %})
 [comment]: <> (  <h4>{{ member.name }}</h4>)
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />
   {% if member.page == nil %}
   <h4>{{ member.name }}</h4>
   {% else %}
   <h4> <a href="{{member.page}}"> {{ member.name }} </a> </h4>
   {% endif %}
-  <div style="display: flow-root;">
+  <div class="flow-root">
   <i>
     <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
     <strong> Email : </strong>
     <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
-  <ul style="overflow: hidden">
+  <ul class="list-no-overflow">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
@@ -230,25 +230,25 @@ permalink: /members/
 {% endif %}
 <div class="col-sm-6 clearfix">
 [comment]: <> (  {% if member.page == nil %})
-[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />)
 [comment]: <> (  {% else %})
-[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>)
+[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" /></a>)
 [comment]: <> (  {% endif %})
 [comment]: <> (  <h4>{{ member.name }}</h4>)
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />
   {% if member.page == nil %}
   <h4>{{ member.name }}</h4>
   {% else %}
   <h4> <a href="{{member.page}}"> {{ member.name }} </a> </h4>
   {% endif %}
-  <div style="display: flow-root;">
+  <div class="flow-root">
   <i>
     <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
     <strong> Email : </strong>
     <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
-  <ul style="overflow: hidden">
+  <ul class="list-no-overflow">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
@@ -275,25 +275,25 @@ permalink: /members/
 {% endif %}
 <div class="col-sm-6 clearfix">
 [comment]: <> (  {% if member.page == nil %})
-[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+[comment]: <> (  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />)
 [comment]: <> (  {% else %})
-[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>)
+[comment]: <> (  <a href="{{member.page}}"><img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" /></a>)
 [comment]: <> (  {% endif %})
 [comment]: <> (  <h4>{{ member.name }}</h4>)
-  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/memberspic/{{ member.photo }}" class="img-responsive img-float-left" width="25%" />
   {% if member.page == nil %}
   <h4>{{ member.name }}</h4>
   {% else %}
   <h4> <a href="{{member.page}}"> {{ member.name }} </a> </h4>
   {% endif %}
-  <div style="display: flow-root;">
+  <div class="flow-root">
   <i>
     <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
     <strong> Email : </strong>
     <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
     <strong> Research Interests: </strong> {{member.research_interests}}
   </i>
-  <ul style="overflow: hidden">
+  <ul class="list-no-overflow">
   {% for educ in member.educations %}
   <li> {{ educ }} </li>
   {% endfor %}
@@ -317,9 +317,9 @@ permalink: /members/
 {% for member in site.data.members_alumni_phd %}
 <div class="col-xs-12 clearfix">
 {% if member.page == nil %}
-**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**{{ member.name }}** (~{{member.end}}) <span class="text-grey">Now {{member.status}}</span>
 {% else %}
-**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span class="text-grey">Now {{member.status}}</span>
 {% endif %}
 </div>
 {% endfor %}
@@ -329,9 +329,9 @@ permalink: /members/
 {% for member in site.data.members_alumni_ms %}
 <div class="col-xs-12 clearfix">
 {% if member.page == nil %}
-**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**{{ member.name }}** (~{{member.end}}) <span class="text-grey">Now {{member.status}}</span>
 {% else %}
-**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span class="text-grey">Now {{member.status}}</span>
 {% endif %}
 </div>
 {% endfor %}
@@ -363,9 +363,9 @@ permalink: /members/
 {% for member in site.data.members_alumni_visitor %}
 <div class="col-xs-12 clearfix">
 {% if member.page == nil %}
-**{{ member.name }}** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**{{ member.name }}** (~{{member.end}}) <span class="text-grey">Now {{member.status}}</span>
 {% else %}
-**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span style="color:grey">Now {{member.status}}</span>
+**<a href="{{member.page}}"> {{ member.name }} </a>** (~{{member.end}}) <span class="text-grey">Now {{member.status}}</span>
 {% endif %}
 </div>
 {% endfor %}

@@ -10,9 +10,9 @@ permalink: /publications/
 ## Publications
 <br>
 <br>
-<h3><span style="color:black">  2026 </span></h3>
+<h3><span class="text-black">  2026 </span></h3>
 {% for publi in site.data.publist2026 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -74,9 +74,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  2025 </span></h3>
+<h3><span class="text-black">  2025 </span></h3>
 {% for publi in site.data.publist2025 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -138,9 +138,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  2024 </span></h3>
+<h3><span class="text-black">  2024 </span></h3>
 {% for publi in site.data.publist2024 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -202,9 +202,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  2023 </span></h3>
+<h3><span class="text-black">  2023 </span></h3>
 {% for publi in site.data.publist2023 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -266,9 +266,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  2022 </span></h3>
+<h3><span class="text-black">  2022 </span></h3>
 {% for publi in site.data.publist2022 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -330,9 +330,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  2021 </span></h3>
+<h3><span class="text-black">  2021 </span></h3>
 {% for publi in site.data.publist2021 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -396,9 +396,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  2020 </span></h3>
+<h3><span class="text-black">  2020 </span></h3>
 {% for publi in site.data.publist2020 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -460,9 +460,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  2019 </span></h3>
+<h3><span class="text-black">  2019 </span></h3>
 {% for publi in site.data.publist2019 %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
@@ -488,9 +488,9 @@ permalink: /publications/
 {% endfor %}
 
 <br>
-<h3><span style="color:black">  before 2019 </span></h3>
+<h3><span class="text-black">  before 2019 </span></h3>
 {% for publi in site.data.publist2019prev %}
-<div class="pub" style="display: inline-block; width: 100%; margin: 20px 0 20px 0"> 
+<div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />

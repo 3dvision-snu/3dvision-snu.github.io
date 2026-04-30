@@ -18,7 +18,7 @@ permalink: /gallery/
 <div class="col-sm-6 clearfix">
 <figure>
 <span>{{ pic.title }}</span>
-<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/{{ pic.image }}" class="img-responsive" width="100%" style="float: left"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/mainpic/{{ pic.image }}" class="img-responsive img-float-left" width="100%"/>
 </figure>
 </div>
 
