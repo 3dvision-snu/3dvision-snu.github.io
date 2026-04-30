@@ -244,7 +244,7 @@ permalink: /publications/MoDA
               >
               to download N-ImageNet. Note the full dataset size will be around 400 GB, so prepare a sufficient amount
               of disk space before downloading! Please leave an email to
-              <a href="mailto:82magnolia@snu.ac.kr">Junho Kim</a> if you are in urgent need of N-ImageNet and the file
+              Junho Kim if you are in urgent need of N-ImageNet and the file
               share links are not working.
             </p>
             <p>
