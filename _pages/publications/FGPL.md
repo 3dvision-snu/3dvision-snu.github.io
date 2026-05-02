@@ -26,7 +26,7 @@ permalink: /publications/FGPL
     <script src="{{ site.url }}{{ site.baseurl }}/js/bulma_toggle.js"></script>
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/5fd1dd8417.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" integrity="sha384-nRgPTkuX86pH8yjPJUAFuASXQSSl2/bBUiNV47vSYpKFxHJhbcrGnmlYpYJMeD7a" crossorigin="anonymous" />
 
     <!-- Academicons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
