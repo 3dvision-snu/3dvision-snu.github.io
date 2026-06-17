@@ -1,3 +1,16 @@
+- title: 'AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models'
+  image: anycamvla.png
+  description:
+  authors: Hyeongjun Heo, Seungyeon Woo, Sang Min Kim, Junho Kim, Junho Lee, Yonghyeon Lee, Young Min Kim
+  link:
+    page: https://heo0224.github.io/AnyCamVLA/
+    url: https://arxiv.org/abs/2603.05868
+    display: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026
+    code:
+    video:
+  highlight: 0
+  news2:
+
 - title: 'LTGS: Long-Term Gaussian Scene Chronology from Sparse View Updates'
   image: ltgs_thumbnail.png
   description: 
@@ -78,11 +91,11 @@
 
 - title: 'Geometry-Aware Scene Configurations for Novel View Synthesis'
   image: geometry-aware-thumbnail.gif
-  description: 
+  description:
   authors: Minkwan Kim, Changwoon Choi, Young Min Kim
   link:
     page: https://mkjjang3598.github.io/Geo-Scene-Config/
-    url: https://arxiv.org/abs/2510.09880
+    url: https://ieeexplore.ieee.org/document/11506399
     display: IEEE Transactions on Visualization and Computer Graphics (TVCG) 2026
     code: 
     video: https://youtu.be/U5001zsHz6w

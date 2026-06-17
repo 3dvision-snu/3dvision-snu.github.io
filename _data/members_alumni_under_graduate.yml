@@ -125,3 +125,12 @@
     - B.S. Electrical and Computer Engineering, Seoul National University, 2027 (expected)
   end:
     - 2025.12
+
+- name: Seungyeon Woo
+  photo: seungyeon_woo.png
+  research_interests: 3D computer vision, robotics
+  email: yeon0857@snu.ac.kr
+  educations:
+    - B.S. Mechanical Engineering, Seoul National University, 2027 (expected)
+  end:
+    - 2026.02
