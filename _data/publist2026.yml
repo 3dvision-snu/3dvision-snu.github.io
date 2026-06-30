@@ -1,3 +1,29 @@
+- title: 'ScaleMoGen: Autoregressive Next-Scale Prediction for Human Motion Generation'
+  image: scalemogen_teaser.gif
+  description:
+  authors: Inwoo Hwang<sup>*</sup>, Hojun Jang<sup>*</sup>, Bing Zhou, Jian Wang, Young Min Kim<sup>**</sup>, Chuan Guo<sup>**</sup>
+  link:
+    page: https://inwoohwang.me/ScaleMoGen/
+    url: https://arxiv.org/abs/2605.11704
+    display: European Conference on Computer Vision (ECCV) 2026
+    code:
+    video:
+  highlight: 0
+  news2:
+
+- title: 'Accelerated Likelihood Maximization for Diffusion-based Versatile Content Generation'
+  image: ALM_thumbnail.gif
+  description:
+  authors: Hyunsoo Lee, Inwoo Hwang, Young Min Kim
+  link:
+    page: https://hleephilip.github.io/ALM/
+    url: https://hleephilip.github.io/ALM/assets/ALM_preprint.pdf
+    display: European Conference on Computer Vision (ECCV) 2026
+    code:
+    video:
+  highlight: 0
+  news2:
+
 - title: 'AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models'
   image: anycamvla.png
   description:
