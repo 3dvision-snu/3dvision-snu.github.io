@@ -1,0 +1,49 @@
+- name: Graphics Programming (2026 Spring)
+  semester: 2026-1
+  CourseDescription: "In this class, we will learn a broad topics related to computer graphics: geometry, rendering, animation, imaging. We will focus on actually implementing fundamental data structure and algorithm repeatedly used over time, and students should be able to write their own graphics program. The class will also cover the state-of-the-art techniques in computer graphics related to shader, VR/AR devices, mobile GPU, modern ray tracing, and deep learning."
+  instructor:
+      name: Young Min Kim
+      photo: youngmin_kim.jpg
+  TAs:
+    - name: 허형준
+      photo: hyeongjun_heo.png
+
+    - name: 이승민
+      photo: seungmin_lee.png
+
+  Syllabus:
+      FinalProject:
+        youtubeVideoLink: "https://www.youtube.com/channel/UCXvaJleBq9Y-xWHGpIUmWHQ"
+        Videos:
+          - studentName: Team3 김용석 김영현 문성빈 이준하
+            youtubeLinkId: MVwAhIlaTO4
+
+          - studentName: Team1 김동욱 박재현
+            youtubeLinkId: 2heyDfYWs_c
+
+          - studentName: Team4 류선재 오민혁
+            youtubeLinkId: 0rm4oJJ1MhQ
+
+          - studentName: Team5 양석훈 김태선 조강현
+            youtubeLinkId: h7QpvLjVScI
+
+          - studentName: Team6 김세희 양준호 한주환 이정환
+            youtubeLinkId: Qg0LYbz3cpM
+
+          - studentName: Team7 박정현 박준하
+            youtubeLinkId: ZOdmz58HbN4
+
+          - studentName: Team8 서원정 임건호
+            youtubeLinkId: VflcOp6NtkQ
+
+          - studentName: Team9 박소현 조효찬 최익준
+            youtubeLinkId: BjPc-fk4tew
+
+          - studentName: Team10 노치윤 정승훈
+            youtubeLinkId: bsDmbK_4Qn0
+
+          - studentName: Team12 김민수 황동하
+            youtubeLinkId: 8L6SQwO5J0w
+
+          - studentName: Team13 김수홍 이상화 황민호
+            youtubeLinkId: TZYeaijh8Jc

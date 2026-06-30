@@ -2,6 +2,10 @@
 #  class_page:
 #  educations:
 
+- name: Graphics Programming
+  semester: 2026-1
+  page: /class/graphics26
+
 - name: Machine Learning and Optimization for 3D data
   semester: 2025-2
 
