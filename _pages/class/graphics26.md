@@ -42,9 +42,17 @@ permalink: /class/graphics26
   <li><b>1st Place: </b> Team3 김용석 김영현 문성빈 이준하</li>
 
   <h3>Final Project</h3>
-  {% for video in class.Syllabus.FinalProject.Videos %}
-  <br><li> {{video.studentName}} </li>
-  <iframe width="750" height="450" src="https://www.youtube.com/embed/{{video.youtubeLinkId}}"  frameborder="0" allowfullscreen></iframe>
+  {% for project in class.Syllabus.FinalProject.Projects %}
+  <br><li> {{project.studentName}} </li>
+  {% if project.youtubeLinkId %}
+  <iframe width="750" height="450" src="https://www.youtube.com/embed/{{project.youtubeLinkId}}" frameborder="0" allowfullscreen></iframe>
+  {% elsif project.photo %}
+    {% for img in project.photo %}
+    <div class='class_student'>
+      <img src="{{ site.url }}{{ site.baseurl }}/images/classpic/graphics26/{{ img }}" style='height:auto;width:750px'>
+    </div>
+    {% endfor %}
+  {% endif %}
   {% endfor %}
 
 </div>

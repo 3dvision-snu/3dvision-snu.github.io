@@ -14,7 +14,7 @@
   Syllabus:
       FinalProject:
         youtubeVideoLink: "https://www.youtube.com/channel/UCXvaJleBq9Y-xWHGpIUmWHQ"
-        Videos:
+        Projects:
           - studentName: Team3 김용석 김영현 문성빈 이준하
             youtubeLinkId: MVwAhIlaTO4
 
@@ -41,6 +41,10 @@
 
           - studentName: Team10 노치윤 정승훈
             youtubeLinkId: bsDmbK_4Qn0
+
+          - studentName: Team11 구준영 김성훈 신동현
+            photo:
+              - Disney BSDF.png
 
           - studentName: Team12 김민수 황동하
             youtubeLinkId: 8L6SQwO5J0w
