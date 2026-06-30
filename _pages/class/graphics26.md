@@ -40,6 +40,7 @@ permalink: /class/graphics26
 <div class='section'>
   <h3>&#127881; &#127881; Final Project Winners &#127881; &#127881;</h3>
   <li><b>1st Place: </b> Team3 김용석 김영현 문성빈 이준하</li>
+  <li><b>2nd Place: </b> Team6 김세희 양준호 한주환 이정환 / Team10 노치윤 정승훈 / Team13 김수홍 이상화 황민호</li>
 
   <h3>Final Project</h3>
   {% for project in class.Syllabus.FinalProject.Projects %}
