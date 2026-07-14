@@ -112,6 +112,13 @@
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2023
 
+- name: Yonghee Lee
+  photo: yonghee_lee.jpg
+  research_interests: Learning based Manipulation, Physical AI
+  email: henry9804@snu.ac.kr
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023
+
 - name: Sungbin Mun
   page: https://sungbinmun-github-io.vercel.app/
   photo: sungbin_mun.png
@@ -137,7 +144,7 @@
     - B.S. Biosystems Engineering, Seoul National University, 2019
 
 - name: Chaiyong Mun
-  photo: chaiyong_mun.png
+  photo: chaiyong_mun.jpg
   research_interests: robot manipulation, multimodal robot learning
   email: chaiyong98@snu.ac.kr
   page: https://chaiyong0401.github.io/
