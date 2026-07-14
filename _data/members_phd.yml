@@ -135,3 +135,11 @@
   educations:
     - M.S. Future Vehicle, KAIST, 2021
     - B.S. Biosystems Engineering, Seoul National University, 2019
+
+- name: Chaiyong Mun
+  photo: chaiyong_mun.png
+  research_interests: robot manipulation, multimodal robot learning
+  email: chaiyong98@snu.ac.kr
+  page: https://chaiyong0401.github.io/
+  educations:
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2023
