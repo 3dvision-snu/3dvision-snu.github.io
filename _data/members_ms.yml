@@ -26,3 +26,10 @@
   email: diyongseok@gmail.com
   educations:
     - B.S. Mechanical Engineering, Seoul National University, 2026
+
+- name: Marc Duboc
+  photo: marc_duboc.jpg
+  research_interests: 3D computer vision, robotics, embedded systems
+  email: marc.duboc@imt-atlantique.net
+  educations:
+    - Engineering Degree, IMT Atlantique, 2026
