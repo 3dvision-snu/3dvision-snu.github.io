@@ -14,6 +14,7 @@ permalink: /publications/
 {% for publi in site.data.publist2026 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -70,6 +71,7 @@ permalink: /publications/
   {% endif %}
 
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 
@@ -78,6 +80,7 @@ permalink: /publications/
 {% for publi in site.data.publist2025 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -134,6 +137,7 @@ permalink: /publications/
   {% endif %}
 
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 
@@ -142,6 +146,7 @@ permalink: /publications/
 {% for publi in site.data.publist2024 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -198,6 +203,7 @@ permalink: /publications/
   {% endif %}
 
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 
@@ -206,6 +212,7 @@ permalink: /publications/
 {% for publi in site.data.publist2023 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -262,6 +269,7 @@ permalink: /publications/
   {% endif %}
 
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 
@@ -270,6 +278,7 @@ permalink: /publications/
 {% for publi in site.data.publist2022 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -326,6 +335,7 @@ permalink: /publications/
   {% endif %}
 
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 
@@ -334,6 +344,7 @@ permalink: /publications/
 {% for publi in site.data.publist2021 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -392,6 +403,7 @@ permalink: /publications/
   {% endif %}
 
 
+  </div>
 </div>
 {% endfor %}
 
@@ -400,6 +412,7 @@ permalink: /publications/
 {% for publi in site.data.publist2020 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -456,6 +469,7 @@ permalink: /publications/
   {% endif %}
 
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 
@@ -464,6 +478,7 @@ permalink: /publications/
 {% for publi in site.data.publist2019 %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -484,6 +499,7 @@ permalink: /publications/
   <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
   {% endif %}
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 
@@ -492,6 +508,7 @@ permalink: /publications/
 {% for publi in site.data.publist2019prev %}
 <div class="pub pub-item"> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}"/>
+  <div class="pub-text">
   <pubtit>{{ publi.title }}</pubtit>
   <em>{{ publi.authors }} </em><br />
   <strong>{{ publi.link.display }}</strong><br/>
@@ -512,6 +529,7 @@ permalink: /publications/
   <strong><a href="{{ publi.link.url }}">[pdf]</a></strong>
   {% endif %}
   {% endif %}
+  </div>
 </div>
 {% endfor %}
 

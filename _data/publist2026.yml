@@ -1,3 +1,29 @@
+- title: 'Continuous-time 4D Reconstruction via Event-guided Latent Feature Interpolation'
+  image: dummy_white.png
+  description:
+  authors: Gwangtak Bae, Seunggu Kang, Junho Kim, Eun Sun Lee, Changwoon Choi, Young Min Kim
+  link:
+    page:
+    url:
+    display: British Machine Vision Conference (BMVC) 2026
+    code:
+    video:
+  highlight: 0
+  news2:
+
+- title: 'Adaptive Reference Refinement for Physics-based Motion Retargeting'
+  image: arr_thumbnail.png
+  description:
+  authors: Seungbin Jeong, Young Min Kim
+  link:
+    page:
+    url:
+    display: Computer Graphics Forum (Pacific Graphics) 2026
+    code:
+    video:
+  highlight: 0
+  news2:
+
 - title: 'ScaleMoGen: Autoregressive Next-Scale Prediction for Human Motion Generation'
   image: scalemogen_teaser.gif
   description:
