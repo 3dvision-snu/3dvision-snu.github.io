@@ -8,7 +8,8 @@
 .text-black        { color: black; }
 .text-grey         { color: grey; }
 .text-dimgrey      { color: dimgrey; }
-.pub-item          { display: inline-block; width: 100%; margin: 20px 0 20px 0; }
+.pub-item          { display: flex; align-items: flex-start; width: 100%; margin: 0 0 40px 0; }
+.pub-text          { flex: 1; min-width: 0; }
 .img-float-left    { float: left; }
 .flow-root         { display: flow-root; }
 .list-no-overflow  { overflow: hidden; }
@@ -89,9 +90,12 @@ pubtit {
 
 /* Memners & Publications */
 #gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#gridid .pub img { width: 20%; float: left; margin: 16px 22px 6px 0; border-radius:5%; box-shadow: none;}
+#gridid .pub-item > p:first-child { width: 20%; height: 140px; flex-shrink: 0; margin: 16px 22px 6px 0; }
+#gridid .pub img { width: 100%; height: 100%; object-fit: contain; margin: 0; border-radius:5%; box-shadow: none; display: block; }
 @media only screen and (max-width: $screen-sm-min) {
-	#gridid .pub img { width: 80%; position: relative; left: 10%; float: none; margin: 10px 0 10px 0; }
+	#gridid .pub-item { display: block; }
+	#gridid .pub-item > p:first-child { width: 80%; height: auto; position: relative; left: 10%; margin: 10px 0 10px 0; }
+	#gridid .pub img { height: auto; }
 }
 #homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
