@@ -90,7 +90,7 @@ pubtit {
 
 /* Memners & Publications */
 #gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#gridid .pub-item > p:first-child { width: 20%; height: 140px; flex-shrink: 0; margin: 16px 22px 6px 0; }
+#gridid .pub-item > p:first-child { width: 20%; height: 140px; flex-shrink: 0; margin: 0 22px 6px 0; }
 #gridid .pub img { width: 100%; height: 100%; object-fit: contain; margin: 0; border-radius:5%; box-shadow: none; display: block; }
 @media only screen and (max-width: $screen-sm-min) {
 	#gridid .pub-item { display: block; }
