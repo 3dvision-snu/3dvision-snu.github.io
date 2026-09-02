@@ -44,6 +44,7 @@ permalink: /members/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+{% if site.data.members_postdoc %}
 ## Postdocs
 {% assign number_printed = 0 %}
 {% for member in site.data.members_postdoc %}
@@ -86,6 +87,7 @@ permalink: /members/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
+{% endif %}
 {% endif %}
 ## Ph.D Students
 {% assign number_printed = 0 %}

@@ -8,6 +8,38 @@
 #  education3:
 #  education4:
 
+- name: Junho Kim
+  photo: junho_kim.jpg
+  research_interests: visual localization, 3D scene understanding
+  email: 82magnolia@snu.ac.kr
+  email_link: https://mailhide.io/e/MsRgulxD
+  page: https://www.junhokim.xyz/
+  educations:
+    - Ph.D. Electrical and Computer Engineering, Seoul National University, 2025
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+  final_edu:
+    - Ph.D.
+  end:
+    - 2026.08
+  status:
+    - Postdoc at Cornell Tech
+
+- name: Junho Lee
+  photo: junho_lee_1.jpg
+  research_interests: robotic grasping, 3D reconstruction
+  email: twjhlee@snu.ac.kr
+  email_link: https://mailhide.io/e/Yv522tDU
+  page: https://twjhlee.github.io/
+  educations:
+    - Ph.D. Electrical and Computer Engineering, Seoul National University, 2025
+    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
+  final_edu:
+    - Ph.D.
+  end:
+    - 2026.08
+  status:
+    - Postdoc at ICT TU Wien
+
 - name: Eunsun Lee
   photo: eunsun_lee.jpg
   research_interests: 3D computer vision

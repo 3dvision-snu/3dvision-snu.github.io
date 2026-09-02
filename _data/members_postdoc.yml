@@ -5,25 +5,3 @@
 #  page:
 #  educations:
 
-- name: Junho Kim
-  photo: junho_kim.jpg
-  research_interests: visual localization, 3D scene understanding
-  email: 82magnolia@snu.ac.kr
-  email_link: https://mailhide.io/e/MsRgulxD
-  page: https://www.junhokim.xyz/
-  # page: "#"
-  educations:
-    - Ph.D. Electrical and Computer Engineering, Seoul National University, 2025
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
-
-
-- name: Junho Lee
-  photo: junho_lee_1.jpg
-  research_interests: robotic grasping, 3D reconstruction
-  # info: B.S. expected 2020
-  email: twjhlee@snu.ac.kr
-  email_link: https://mailhide.io/e/Yv522tDU
-  page: https://twjhlee.github.io/
-  educations:
-    - Ph.D. Electrical and Computer Engineering, Seoul National University, 2025
-    - B.S. Electrical and Computer Engineering, Seoul National University, 2020
