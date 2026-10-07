@@ -1,3 +1,16 @@
+- title: 'INGRID: Interactive Geometry and Instance Identification for Occluded Scenes'
+  image: INGRID.png
+  description:
+  authors: Junho Lee, Sang Min Kim, Yonghyeon Lee, Young Min Kim
+  link:
+    page: https://twjhlee.github.io/projects/INGRID
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7465382
+    display: Computers & Graphics (CAD/Graphics 2026)
+    code:
+    video: https://www.youtube.com/watch?v=zDi0jirDK80&feature=youtu.be
+  highlight: 0
+  news2:
+
 - title: 'Continuous-time 4D Reconstruction via Event-guided Latent Feature Interpolation'
   image: 4D_Recon.png
   description:
