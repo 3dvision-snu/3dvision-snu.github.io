@@ -1,3 +1,16 @@
+- title: 'EgoForce: Robust Online Egocentric Motion Reconstruction via Diffusion Forcing'
+  image: egoforce_teaser.gif
+  description:
+  authors: Inwoo Hwang, Donggeun Lim, Hojun Jang, Young Min Kim
+  link:
+    page: https://inwoohwang.me/EgoForce/
+    url: https://arxiv.org/abs/2605.13041
+    display: The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS) 2026
+    code:
+    video:
+  highlight: 0
+  news2:
+
 - title: 'INGRID: Interactive Geometry and Instance Identification for Occluded Scenes'
   image: INGRID.png
   description:
