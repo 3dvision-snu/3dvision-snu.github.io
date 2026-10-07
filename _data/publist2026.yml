@@ -12,11 +12,11 @@
   news2:
 
 - title: 'Adaptive Reference Refinement for Physics-based Motion Retargeting'
-  image: arr_thumbnail.png
+  image: adaptive-reference-refinement.gif
   description:
   authors: Seungbin Jeong, Young Min Kim
   link:
-    page:
+    page: https://seungbinjeong.github.io/adaptive-reference-refinement/
     url:
     display: Computer Graphics Forum (Pacific Graphics) 2026
     code:
