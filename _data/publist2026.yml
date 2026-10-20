@@ -1,3 +1,16 @@
+- title: 'StepControl: Long-Horizon Human Motion Generation from Foot-Contact Schedules'
+  image: StepControl.gif
+  description:
+  authors: Hojun Jang, Jinseok Bae, Donggeun Lim, Taesun Kim, Seungbin Jeong, Younghwan Lee, Yong Seok Kim, Young Min Kim
+  link:
+    page: https://hojunjang17.github.io/StepControl/
+    url:
+    display: IEEE Winter Conference on Applications of Computer Vision (WACV) 2027
+    code:
+    video:
+  highlight: 0
+  news2:
+
 - title: 'EgoForce: Robust Online Egocentric Motion Reconstruction via Diffusion Forcing'
   image: egoforce_teaser.gif
   description:
@@ -17,7 +30,7 @@
   authors: Junho Lee, Sang Min Kim, Yonghyeon Lee, Young Min Kim
   link:
     page: https://twjhlee.github.io/projects/INGRID
-    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7465382
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0097849326002475
     display: Computers & Graphics (CAD/Graphics 2026)
     code:
     video: https://www.youtube.com/watch?v=zDi0jirDK80&feature=youtu.be
