@@ -281,8 +281,7 @@ pubtit {
 		  &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 0px rgba(102, 102, 153, 0.5); }
 		  &:nth-of-type(7):checked ~ .carousel__thumbnails li:nth-of-type(7) { box-shadow: 0px 0px 0px 0px rgba(102, 102, 153, 0.5); }
 		  &:nth-of-type(8):checked ~ .carousel__thumbnails li:nth-of-type(8) { box-shadow: 0px 0px 0px 0px rgba(102, 102, 153, 0.5); }
-		  &:nth-of-type(8):checked ~ .carousel__thumbnails li:nth-of-type(9) { box-shadow: 0px 0px 0px 0px rgba(102, 102, 153, 0.5); }
-	}
+		  &:nth-of-type(9):checked ~ .carousel__thumbnails li:nth-of-type(9) { box-shadow: 0px 0px 0px 0px rgba(102, 102, 153, 0.5); }	}
   }
   
   .carousel__slides {
