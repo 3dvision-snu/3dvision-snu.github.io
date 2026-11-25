@@ -292,8 +292,8 @@ permalink: /members/
   <i>
     <!--<a href="{{member.email_link}}" onclick="popup=window.open({{member.email_link}},'mailhidepopup','width=580,height=635'); return false;"> <strong> Email </strong> </a> <br>-->
     <strong> Email : </strong>
-    <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>
-    <strong> Research Interests: </strong> {{member.research_interests}}
+    <a href = "mailto: {{member.email}}"> {{member.email}} </a><br>{% if member.research_interests %}
+    <strong> Research Interests: </strong> {{member.research_interests}}{% endif %}
   </i>
   <ul class="list-no-overflow">
   {% for educ in member.educations %}

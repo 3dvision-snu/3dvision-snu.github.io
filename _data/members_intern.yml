@@ -26,3 +26,16 @@
   educations:
     - B.S. Electrical and Computer Engineering, Seoul National University, 2028 (expected)
 
+- name: Sihoon Leeu
+  photo: sihoon_leeu.png
+  page: https://sihoonleeu.github.io/
+  research_interests: Learning based Manipulation
+  email: zeonsihoon@gmail.com
+  educations:
+    - B.S. Mechanical Engineering, Sungkyunkwan University, 2027 (expected)
+
+- name: Changsung Jang
+  photo: changsung_jang.jpg
+  email: ericjang2002@snu.ac.kr
+  educations:
+    - B.S. Industrial Engineering, Seoul National University, 2028 (expected)
